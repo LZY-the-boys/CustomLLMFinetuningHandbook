@@ -1,0 +1,30 @@
+
+
+
+GPT4 dataset:
+
+- GPTeacher - General Instruct, Roleplay v1, Roleplay v2, and Code Instruct Datasets, by Teknium
+- WizardLM (v1, evol_instruct 70k), by WizardLM Team/nlpxucan
+- Airoboros GPT-4 (v1.0), by JonDurbin
+- Camel-AI's domain expert datasets, by the Camel-AI Team
+- CodeAlpaca, by Sahil2801
+- GPT4-LLM and Unnatural Instructions, by Microsoft
+---------------------------------------------------------------------------------------------------
+- OpenOrca / OpenOrca2 / SlimOrca
+- ShareGPT4
+- sharegpt-zh
+- OpenPlaytus-20k
+- ehartford/dolphin
+- ultrachat
+
+
+Natural Dataset:
+
+- trainset of gsm8k / MATH / bbq / MMLU / other qa (openbookqa,sciq,...)
+- dolly / oasst 
+- https://huggingface.co/datasets/HuggingFaceH4/no_robots
+
+
+Custom Dataset:
+
+- hust dataset
