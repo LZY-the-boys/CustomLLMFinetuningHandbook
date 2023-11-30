@@ -3,7 +3,7 @@ from tqdm import tqdm
 import time
 key = None,
 
-
+import openai
 
 if key is None:
     raise Exception('You have to input your openai API key!') 

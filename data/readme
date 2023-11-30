@@ -3,6 +3,8 @@
 
 GPT4 dataset:
 
+instruct format:
+
 - GPTeacher - General Instruct, Roleplay v1, Roleplay v2, and Code Instruct Datasets, by Teknium
 - WizardLM (v1, evol_instruct 70k), by WizardLM Team/nlpxucan
 - Airoboros GPT-4 (v1.0), by JonDurbin
@@ -12,11 +14,23 @@ GPT4 dataset:
 ---------------------------------------------------------------------------------------------------
 - OpenOrca / OpenOrca2 / SlimOrca
 - ShareGPT4
-- sharegpt-zh
 - OpenPlaytus-20k
 - ehartford/dolphin
 - ultrachat
 
+chat format:
+- WizardLM/WizardLM_evol_instruct_V2_196k
+- Open-Orca/SlimOrca-Dedup
+- openchat/openchat_sharegpt4_dataset
+- sharegpt-zh
+- HuggingFaceH4/ultrachat_200k
+- jondurbin/airoboros-3.1
+- Capybara 1 2 3
+- GOAT
+- Glaive
+- MetaMathQA
+- OpenAssistant
+(https://huggingface.co/openchat/openchat_3.5)
 
 Natural Dataset:
 
