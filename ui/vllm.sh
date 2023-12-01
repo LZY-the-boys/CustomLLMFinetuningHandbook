@@ -22,3 +22,8 @@ curl http://localhost:8000/v1/chat/completions \
 {"role": "user", "content": "Write a Perl script that processes a log file and counts the occurrences of different HTTP status codes. The script should accept the log file path as a command-line argument and print the results to the console in descending order of frequency."}
 ]
 }'| echo -e "$(cat)\n" >> tmp.json
+
+# web ui
+# TODO: simple gradio version
+
+# current web-ui version: https://github.com/enricoros/big-agi
