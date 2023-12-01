@@ -45,5 +45,6 @@ vllm deploy: https://github.com/LZY-the-boys/vllm
 - don't support bitsandbytes
 
 language & vision  UI: https://github.com/enricoros/big-agi
+- ~~https://github.com/imoneoi/openchat-ui~~
 
-~~https://github.com/billmei/every-chatgpt-gui~~
+other: https://github.com/billmei/every-chatgpt-gui
