@@ -1,15 +1,24 @@
-CUDA_VISIBLE_DEVICES=0 \
-python -m vllm.entrypoints.openai.api_server \
+# 1. install vllm first: 
+# git clone https://github.com/LZY-the-boys/vllm
+# pip install -e .
+
+source activate vllm
+
+CUDA_VISIBLE_DEVICES=4,5 \
+python openai_api_server.py \
 --model lu-vae/qwen-openhermes-merged \
---trust-remote-code
+--served-model-name Qwen-openhermes \
+--trust-remote-code \
+--tensor-parallel-size 2 
 # default start at  http://0.0.0.0:8000
 
+# directly curl 
 curl http://localhost:8000/v1/chat/completions \
 -H "Content-Type: application/json" \
 -d '{
 "model": "lu-vae/qwen-openhermes-merged",
 "messages": [
-{"role": "system", "content": "You are a helpful assistant."},
-{"role": "user", "content": "Who won the world series in 2020?"}
+{"role": "system", "content": ""},
+{"role": "user", "content": "Write a Perl script that processes a log file and counts the occurrences of different HTTP status codes. The script should accept the log file path as a command-line argument and print the results to the console in descending order of frequency."}
 ]
-}'
+}'| echo -e "$(cat)\n" >> tmp.json
