@@ -39,8 +39,11 @@ Leaderboard: TODO
 
 ## deploy UI
 
-vllm deploy: https://github.com/vllm-project/vllm/ https://github.com/chu-tianxiang/vllm-gptq 
+vllm deploy: https://github.com/LZY-the-boys/vllm
+- support gptq and awq
+- unknown exllama2 https://github.com/turboderp/exllamav2
+- don't support bitsandbytes
 
-exllama2: https://github.com/turboderp/exllamav2
+language & vision  UI: https://github.com/enricoros/big-agi
 
-language & vision  UI: https://github.com/billmei/every-chatgpt-gui
+~~https://github.com/billmei/every-chatgpt-gui~~
