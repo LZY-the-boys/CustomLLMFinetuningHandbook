@@ -1,0 +1,7 @@
+defopt
+shortuuid
+colorama
+openai==0.28
+mdtex2html
+gradio==3.42
+pydantic==1.10.13

@@ -65,6 +65,7 @@ DEFAULT_LOGGING_CONFIG: Dict[str, Any] = {
     },
     "root": {"handlers": ["color_console", "file"], "level": os.getenv("LOG_LEVEL", "INFO") },
     "loggers": {
+        "httpx": {"handlers": ["console"], "level": "WARNING" },
         "axolotl": {
             "handlers": ["color_console", "file"],
             "level": os.getenv("LOG_LEVEL", "DEBUG") if int(os.getenv("LOCAL_RANK", "0")) in [-1,0] else "WARNING",
