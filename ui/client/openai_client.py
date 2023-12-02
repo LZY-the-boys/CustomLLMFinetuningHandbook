@@ -32,28 +32,40 @@ def chat_compeletion_openai(
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "Tell me a joke."},
     ],
-    stream=False,
 ):
-
     for _ in range(API_MAX_RETRY):
         # try:
         response = openai.ChatCompletion.create(
-            model=model,messages=messages,stream=stream
+            model=model,messages=messages
         )
-        if stream:
-            output=''
-            for r in response:
-                delta = r["choices"][0]["delta"]
-                if 'content' not in delta:
-                    continue
-                output += delta['content']
-                yield output
-        else:
-            output = response["choices"][0]["message"]["content"]
+        output = response["choices"][0]["message"]["content"]
         break
         # except openai.OpenAIError as e:
         #     print(type(e), e)
         #     time.sleep(API_RETRY_SLEEP)
+
+    return output
+
+# automatically convert to generator
+def chat_compeletion_openai_stream(
+    model ="facebook/opt-125m", 
+    messages = [
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Tell me a joke."},
+    ],
+):
+    # try:
+    response = openai.ChatCompletion.create(
+        model=model,messages=messages,stream=True
+    )
+    
+    output=''
+    for r in response:
+        delta = r["choices"][0]["delta"]
+        if 'content' not in delta:
+            continue
+        output += delta['content']
+        yield output
 
     return output
 
@@ -62,13 +74,15 @@ def alpaca_eval(
 ):
     import datasets
     eval_set = datasets.load_dataset("tatsu-lab/alpaca_eval", "alpaca_eval")["eval"]
-    out_path = f'{EVAL_DIR}/data/alpaca_eval/{model}.jsonl'
+    out_path = f'{EVAL_DIR}/data/alpaca_eval/{model.replace("/","_")}.jsonl'
     ans = []
     for example in eval_set:
+        LOG.info(example["instruction"])
         example["output"] = chat_compeletion_openai(
             model,
             messages = [{"role": "user", "content":example["instruction"]}],
         )
+        LOG.info(example["output"])
         ans.append(example)
     utils.to_jsonl(ans, out_path)
 
@@ -78,28 +92,32 @@ def mt_bench(
 ):
 
     question_file = f"{EVAL_DIR}/data/mt_bench/question.jsonl"
-    answer_file = f"{EVAL_DIR}/data/mt_bench/model_answer/{model}.jsonl"
+    answer_file = f"{EVAL_DIR}/data/mt_bench/model_answer/{model.replace('/','_')}.jsonl"
 
-    questions = utils.from_jsonl(question_file)
+    datas = utils.from_jsonl(question_file)
     ans = []
-    for question in questions:
+    for data in datas:
         choices = []
         for i in range(num_choices):
             messages,turns = [],[]
-            for question in questions:
+            for question in data['turns']:
                 messages.append({
-                    'role': question,
+                    'role': 'user',
+                    'content': question,
                 })
+                LOG.info(question)
                 output = chat_compeletion_openai(
                     model, messages,
                 )
                 messages.append({
-                    'assistant': output,
+                    'role': 'assistant',
+                    'content': output,
                 })
                 turns.append(output)
+                LOG.info(output)
             choices.append({'index': i, 'turns': turns})
         ans.append({
-            "question_id": question["question_id"],
+            "question_id": data["question_id"],
             "answer_id": shortuuid.uuid(),
             "model_id": model,
             "choices": choices,
@@ -235,10 +253,9 @@ def cli_demo(
                 messages.append({'role': 'assistant', 'content': his[1]})
             messages.append({'role': 'user', 'content': query})
 
-            for response in chat_compeletion_openai(
+            for response in chat_compeletion_openai_stream(
                 model,
                 messages,
-                stream=True,
             ):
                 _clear_screen()
                 print(f"\nUser: {query}")

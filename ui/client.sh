@@ -3,4 +3,4 @@ export PYTHONPATH=.
 
 python client/openai_client.py \
 --model lu-vae/qwen-sharegpt4-merged \
---func cli_demo 
+--func alpaca_eval

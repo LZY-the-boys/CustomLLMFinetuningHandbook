@@ -152,21 +152,39 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
     # big-agi: ChatCompletionRequest(model='Qwen-openhermes', messages=[{'role': 'system', 'content': 'below is a instuction\n'}, {'role': 'user', 'content': xxx}, {}], temperature=0.5, top_p=1.0, n=1, max_tokens=512, stop=[], stream=True, presence_penalty=0.0, frequency_penalty=0.0, logit_bias=None, user=None, best_of=None, top_k=-1, ignore_eos=False, use_beam_search=False, stop_token_ids=[], skip_special_tokens=True, spaces_between_special_tokens=True
     # TODO: big-agi 会带入error localai: Internal Server Error (500)
 
+    # conf = {
+    #     'conv_conf':{
+    #         'system_template': "{system_message}\n\n",
+    #         'system_message': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.',
+    #         'utterance_template': '{role}: {message}\n\n',
+    #         'query_template': '{role}: ',
+    #         'roles': {
+    #             'user': "### Instruction",
+    #             'assistant': "### Response"
+    #         },
+    #         'utterances': [],
+    #         'offset': 0,
+    #     },
+    #     'sampling_conf': {
+    #         'stop': ["Instruction:", "Response:", "</s>", "<|endoftext|>"]
+    #     }
+    # }
+
     conf = {
         'conv_conf':{
             'system_template': "{system_message}\n\n",
-            'system_message': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.',
+            'system_message': 'A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user\'s questions.',
             'utterance_template': '{role}: {message}\n\n',
             'query_template': '{role}: ',
             'roles': {
-                'user': "### Instruction",
-                'assistant': "### Response"
+                'user': "USER",
+                'assistant': "ASSISTANT"
             },
             'utterances': [],
             'offset': 0,
         },
         'sampling_conf': {
-            'stop': ["Instruction:", "Response:", "</s>", "<|endoftext|>"]
+            'stop': ["USER:", "ASSISTANT:", "</s>", "<|endoftext|>"]
         }
     }
 
