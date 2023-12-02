@@ -26,8 +26,7 @@ from vllm.sampling_params import SamplingParams
 from vllm.transformers_utils.tokenizer import get_tokenizer
 from vllm.utils import random_uuid
 import torch
-import dataclasses
-from dataclasses import dataclass, field
+from conversation import Conversation
 
 TIMEOUT_KEEP_ALIVE = 5  # seconds
 
@@ -36,13 +35,11 @@ served_model = None
 app = fastapi.FastAPI()
 engine = None
 
-
 def create_error_response(status_code: HTTPStatus, message: str) -> JSONResponse:
     return JSONResponse(
         ErrorResponse(message=message, type="invalid_request_error").dict(),
         status_code=status_code.value
     )
-
 
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(_, exc):
@@ -58,72 +55,10 @@ async def check_model(request) -> Optional[JSONResponse]:
     )
     return ret
 
-
-@dataclasses.dataclass
-class Conversation:
-    # simplier and more flexible
-    system_template: str = "{system_message}\n\n"
-    utterance_template: str = '{role}: {message}\n\n'
-    query_template: str = '{role}: '
-    #
-    system_message: str = ""
-    roles: Dict[str, str] = field(default_factory=lambda: {"user": "USER", "assistant": "ASSISTANT"})
-    # All messages. Each item is (role, message).
-    utterances: List[str] = ()
-    # The number of few shot examples
-    offset: int = 0
-
-    def get_prompt(self) -> str:
-        ret = self.system_template.format(system_message=self.system_message)
-        for utter in self.utterances:
-            ret += utter
-        return ret
-
-    def append_message(self, role, message, is_query=False):
-        if is_query:
-            self.utterances.append(self.query_template.format(role=role, message=message))
-        else:
-            self.utterances.append(self.utterance_template.format(role=role, message=message))
-
-    def to_gradio_chatbot(self):
-        """Convert the conversation to gradio chatbot format."""
-        ret = []
-        for i, (role, msg) in enumerate(self.utterances[self.offset:]):
-            if i % 2 == 0:
-                ret.append([msg, None])
-            else:
-                ret[-1][-1] = msg
-        return ret
-
-    def to_openai_api_messages(self):
-        """Convert the conversation to OpenAI chat completion format."""
-        ret = [{"role": "system", "content": self.system_message}]
-
-        for i, (_, msg) in enumerate(self.utterances[self.offset:]):
-            if i % 2 == 0:
-                ret.append({"role": "user", "content": msg})
-            else:
-                if msg is not None:
-                    ret.append({"role": "assistant", "content": msg})
-        return ret
-
-
 async def get_gen_prompt(request, conv_conf) -> str:
 
     conv = Conversation(**conv_conf)
-    # avoid fastchat API
-    for message in request.messages:
-        msg_role = message["role"]
-        if msg_role == "system":
-            if message["content"] != '':
-                conv.system_message = message["content"]
-        elif msg_role in ["user", "assistant"]:
-            conv.append_message(conv.roles[msg_role], message["content"])
-        else:
-            raise ValueError(f"Unknown role: {msg_role}")
-
-    # Add a blank message for the assistant.
-    conv.append_message(conv.roles['assistant'], '', is_query=True)
+    conv.from_openai(request)
     prompt = conv.get_prompt()
     return prompt
 
@@ -222,6 +157,7 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
             'system_template': "{system_message}\n\n",
             'system_message': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.',
             'utterance_template': '{role}: {message}\n\n',
+            'query_template': '{role}: ',
             'roles': {
                 'user': "### Instruction",
                 'assistant': "### Response"

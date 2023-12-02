@@ -27,8 +27,8 @@ done
 
 function eval(){
 loras=(
-$OUT_ROOT/qwen-sharegpt4
-# $OUT_ROOT/qwen-sharegpt_zh
+# $OUT_ROOT/qwen-sharegpt4
+$OUT_ROOT/qwen-sharegpt_zh
 # $OUT_ROOT/qwen-ultrachat_200k
 # $OUT_ROOT/qwen-SlimOrca-Dedup
 )

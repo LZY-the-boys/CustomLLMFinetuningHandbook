@@ -1,4 +1,12 @@
 
+### Design
+
+To ensure the compatibility with most web ui, we use `openai_api` style API and `fastAPI` http server.
+
+To enhance the generation efficiency, we use `vllm` deployment.
+
+
+
 ### Usage
 
 1. install vllm first: 

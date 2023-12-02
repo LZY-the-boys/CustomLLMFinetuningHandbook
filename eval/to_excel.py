@@ -39,7 +39,7 @@ def drop(data):
 def main(
     *, 
     path: str = '/home/LeiFeng/lzy/CCIIP-GPT/eval', 
-    tasks: list[str]=['mmlu', 'drop', 'truthfulqa_mc', 'arc_challenge', 'hellaswag', 'winogrande'], # 'gsm8k'
+    tasks: list[str]=['mmlu', 'drop', 'truthfulqa_mc', 'arc_challenge', 'hellaswag', 'winogrande', 'gsm8k'], # 'gsm8k'
 ):
     
     dicts = {}
