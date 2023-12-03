@@ -33,7 +33,7 @@ $OUT_ROOT/qwen-sharegpt_zh
 # $OUT_ROOT/qwen-SlimOrca-Dedup
 )
 for file in "${loras[@]}"; do
-    tasks+=("CUDA_VISIBLE_DEVICES=4,5,6,7 peft=$file model=Qwen/Qwen-14B out_dir=$(pwd)/$(basename $file) bash $LZY_HOME/lm-evaluation-harness-leaderboard/eval.sh")
+    tasks+=("CUDA_VISIBLE_DEVICES=4,5,6 peft=$file model=Qwen/Qwen-14B out_dir=$(pwd)/$(basename $file) bash $LZY_HOME/lm-evaluation-harness-leaderboard/eval.sh")
 done
 }
 
