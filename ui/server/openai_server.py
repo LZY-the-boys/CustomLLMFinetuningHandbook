@@ -29,9 +29,11 @@ import torch
 from logging_config import configure_logging
 from conversation import Conversation
 import logging
+import utils
 
 configure_logging()
 LOG = logging.getLogger(__name__)
+model_register = utils.from_json('server/model_register.json')
 
 TIMEOUT_KEEP_ALIVE = 5  # seconds
 
@@ -175,23 +177,31 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
     #     }
     # }
 
-    conf = {
-        'conv_conf':{
-            'system_template': "{system_message}\n\n",
-            'system_message': 'A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user\'s questions.',
-            'utterance_template': '{role}: {message}\n\n',
-            'query_template': '{role}: ',
-            'roles': {
-                'user': "USER",
-                'assistant': "ASSISTANT"
-            },
-            'utterances': [],
-            'offset': 0,
-        },
-        'sampling_conf': {
-            'stop': ["USER:", "ASSISTANT:", "</s>", "<|endoftext|>"]
-        }
-    }
+    # conf = {
+    #     'conv_conf':{
+    #         'system_template': "{system_message}\n\n",
+    #         'system_message': 'A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user\'s questions.',
+    #         'utterance_template': '{role}: {message}\n\n',
+    #         'query_template': '{role}: ',
+    #         'roles': {
+    #             'user': "USER",
+    #             'assistant': "ASSISTANT"
+    #         },
+    #         'utterances': [],
+    #         'offset': 0,
+    #     },
+    #     'sampling_conf': {
+    #         'stop': ["USER:", "ASSISTANT:", "</s>", "<|endoftext|>"]
+    #     }
+    # }
+    try:
+        conf = model_register[request.model]
+    except:
+        ret = create_error_response(
+            HTTPStatus.NOT_FOUND,
+            f"The model `{request.model}` does not exist.",
+        )
+        return ret
 
     # error_check_ret = await check_model(request)
     error_check_ret = None

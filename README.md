@@ -39,6 +39,8 @@ Leaderboard: TODO
 
 ## deploy UI
 
+achitecture: ![ui/deploy](ui/deploy.png)
+
 vllm deploy: https://github.com/LZY-the-boys/vllm
 - support gptq and awq
 - unknown exllama2 https://github.com/turboderp/exllamav2
@@ -46,5 +48,6 @@ vllm deploy: https://github.com/LZY-the-boys/vllm
 
 language & vision  UI: https://github.com/enricoros/big-agi
 - ~~https://github.com/imoneoi/openchat-ui~~
+- https://github.com/huggingface/chat-ui
 
 other: https://github.com/billmei/every-chatgpt-gui

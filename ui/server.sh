@@ -1,8 +1,12 @@
 # install vllm first: 
 # git clone https://github.com/LZY-the-boys/vllm
 # pip install -e .
+eval "$(conda shell.bash hook)"
 
-source activate lla
+name=lu-vae/qwen-sharegpt4
+name=lu-vae/$model
+
+source activate lla # or vllm
 export PYTHONPATH=.
 
 # conda activate lla
@@ -16,8 +20,8 @@ export PYTHONPATH=.
 LOG_FILE='./gpt.cciiplab.com.log' \
 CUDA_VISIBLE_DEVICES=2,3 \
 python server/openai_server.py \
---model lu-vae/qwen-sharegpt4-merged \
---served-model-name lu-vae/qwen-sharegpt4-merged \
+--model $name-merged \
+--served-model-name $name-merged \
 --trust-remote-code \
 --tensor-parallel-size 2 
 # default start at  http://0.0.0.0:8000

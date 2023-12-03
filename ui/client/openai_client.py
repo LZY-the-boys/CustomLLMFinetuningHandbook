@@ -6,6 +6,7 @@ import time
 import shortuuid
 import os
 import argparse
+import tqdm
 import os
 import platform
 import shutil
@@ -76,7 +77,14 @@ def alpaca_eval(
     eval_set = datasets.load_dataset("tatsu-lab/alpaca_eval", "alpaca_eval")["eval"]
     out_path = f'{EVAL_DIR}/data/alpaca_eval/{model.replace("/","_")}.jsonl'
     ans = []
-    for example in eval_set:
+
+    if os.path.exists(out_path):
+        ans = utils.from_jsonl(out_path)
+        runed = len(ans)
+        eval_set = eval_set.select(range(runed,len(eval_set)))
+        print(f'>>> skip {runed} instance')
+    
+    for example in tqdm.tqdm(eval_set):
         LOG.info(example["instruction"])
         example["output"] = chat_compeletion_openai(
             model,
