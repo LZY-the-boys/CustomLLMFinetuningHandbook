@@ -1,11 +1,10 @@
-# Copyright (c) Alibaba Cloud.
-#
-# This source code is licensed under the license found in the
-# LICENSE file in the root directory of this source tree.
-
-"""A simple web interactive chat demo based on gradio."""
 import gradio as gr
 import mdtex2html
+import re
+
+def clean_response(text):
+    # 移除结尾的 '</s', 'USER', '<endoftext>'
+    return re.sub(r'</s$|USER$|<endoftext$', '', text)
 
 def postprocess(self, y):
     if y is None:
@@ -61,9 +60,14 @@ def main(
     server_name: str="127.0.0.1",
 ):
 
-    from client.openai_client import chat_compeletion_openai_stream, LOG
+    from openai_client import chat_compeletion_openai_stream, LOG
 
-    def predict(_query, _chatbot, _task_history):
+    def predict(_query, _chatbot, _task_history, temperature,max_tokens,topp,topk,presence_penalty,frequency_penalty):
+
+        if topk == 0:
+            topk = -1
+        if topp == 0:
+            topp = 1
 
         LOG.info(f"History: {_task_history}")
         LOG.info(f"User: {_parse_text(_query)}")
@@ -79,13 +83,19 @@ def main(
         for response in chat_compeletion_openai_stream(
             model,
             messages,
+            temperature=temperature,
+            max_tokens=max_tokens, 
+            top_p=topp,
+            top_k=topk,
+            presence_penalty=presence_penalty,
+            frequency_penalty=frequency_penalty
         ):
-            _chatbot[-1] = (_parse_text(_query), _parse_text(response))
+            _chatbot[-1] = (_parse_text(_query), _parse_text(clean_response(response)))
             yield _chatbot
-            full_response = _parse_text(response)
+            full_response = response
 
         _task_history.append((_query, full_response))
-        LOG.info(f"CCIIP-GPT: {_parse_text(full_response)}")
+        LOG.info(f"CCIIP-GPT: {clean_response(full_response)}")
 
     def regenerate(_chatbot, _task_history):
         if not _task_history:
@@ -115,7 +125,25 @@ def main(
             submit_btn = gr.Button("🚀 Submit (发送)")
             regen_btn = gr.Button("🤔️ Regenerate (重试)")
 
-        submit_btn.click(predict, [query, chatbot, task_history], [chatbot], show_progress=True)
+        with gr.Column():
+            with gr.Accordion("⚙️ Advanced Settings (进阶设置)", open=False):
+                temperature = gr.components.Slider(minimum=0, maximum=1, value=0.7, label="Temperature (=0 greedy; otherwise do sample)")
+                max_tokens = gr.components.Slider(
+                    minimum=1, maximum=2000, step=1, value=1024, label="Max Tokens"
+                )
+                topp = gr.components.Slider(minimum=0, maximum=1, value=1.0, label="Top p (do sample)")
+                topk = gr.components.Slider(minimum=-1, maximum=100, step=1, value=-1, label="Top k (do sample)")
+
+                presence_penalty = gr.components.Slider(
+                    minimum=-2.0, maximum=2.0, step=0.1, value=0.0, label="Presence Penalty"
+                )
+                frequency_penalty = gr.components.Slider(
+                    minimum=-2.0, maximum=2.0, step=0.1, value=0.0, label="Frequency Penalty"
+                )
+            # n = gr.components.Slider(minimum=1, maximum=10, step=1, value=4, label="Beams Number") + best_of
+
+        # submit_btn.click(predict, [query, chatbot, task_history], [chatbot], show_progress=True)
+        submit_btn.click(predict, [query, chatbot, task_history,temperature,max_tokens,topp,topk,presence_penalty,frequency_penalty], [chatbot], show_progress=True)
         submit_btn.click(reset_user_input, [], [query])
         empty_btn.click(reset_state, [chatbot, task_history], outputs=[chatbot], show_progress=True)
         regen_btn.click(regenerate, [chatbot, task_history], [chatbot], show_progress=True)

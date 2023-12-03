@@ -3,8 +3,10 @@
 # pip install -e .
 eval "$(conda shell.bash hook)"
 
-name=lu-vae/qwen-sharegpt4
+model=qwen-sharegpt4
 name=lu-vae/$model
+
+# ln -s /model/qwen-sharegpt4-merged lu-vae/qwen-sharegpt4-merged
 
 source activate lla # or vllm
 export PYTHONPATH=.
@@ -16,6 +18,9 @@ export PYTHONPATH=.
 # --model-path Qwen/Qwen-14B \
 # --peft-paths $OUT_ROOT/$model
 # cd -
+
+# mkdir /home/lzy/CCIIP-GPT/ui/lu-vae/
+# ln -s /model/qwen-sharegpt4-merged /home/lzy/CCIIP-GPT/ui/lu-vae/qwen-sharegpt4-merged
 
 LOG_FILE='./gpt.cciiplab.com.log' \
 CUDA_VISIBLE_DEVICES=2,3 \

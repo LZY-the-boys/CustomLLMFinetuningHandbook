@@ -32,12 +32,12 @@ import logging
 import utils
 
 configure_logging()
-LOG = logging.getLogger(__name__)
+LOG = logging.getLogger(__file__)
 model_register = utils.from_json('server/model_register.json')
 
 TIMEOUT_KEEP_ALIVE = 5  # seconds
 
-logger = init_logger(__name__)
+logger = LOG
 served_model = None
 app = fastapi.FastAPI()
 engine = None
@@ -63,7 +63,7 @@ async def check_model(request) -> Optional[JSONResponse]:
     return ret
 
 async def get_gen_prompt(request, conv_conf) -> str:
-
+    # bug: conv_conf is inplace change!
     conv = Conversation(**conv_conf)
     conv.from_openai(request)
     prompt = conv.get_prompt()
@@ -155,97 +155,66 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
         - function_call (Users should implement this by themselves)
         - logit_bias (to be supported by vLLM engine)
     """
-
-    # big-agi: ChatCompletionRequest(model='Qwen-openhermes', messages=[{'role': 'system', 'content': 'below is a instuction\n'}, {'role': 'user', 'content': xxx}, {}], temperature=0.5, top_p=1.0, n=1, max_tokens=512, stop=[], stream=True, presence_penalty=0.0, frequency_penalty=0.0, logit_bias=None, user=None, best_of=None, top_k=-1, ignore_eos=False, use_beam_search=False, stop_token_ids=[], skip_special_tokens=True, spaces_between_special_tokens=True
-    # TODO: big-agi 会带入error localai: Internal Server Error (500)
-
-    # conf = {
-    #     'conv_conf':{
-    #         'system_template': "{system_message}\n\n",
-    #         'system_message': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.',
-    #         'utterance_template': '{role}: {message}\n\n',
-    #         'query_template': '{role}: ',
-    #         'roles': {
-    #             'user': "### Instruction",
-    #             'assistant': "### Response"
-    #         },
-    #         'utterances': [],
-    #         'offset': 0,
-    #     },
-    #     'sampling_conf': {
-    #         'stop': ["Instruction:", "Response:", "</s>", "<|endoftext|>"]
-    #     }
-    # }
-
-    # conf = {
-    #     'conv_conf':{
-    #         'system_template': "{system_message}\n\n",
-    #         'system_message': 'A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user\'s questions.',
-    #         'utterance_template': '{role}: {message}\n\n',
-    #         'query_template': '{role}: ',
-    #         'roles': {
-    #             'user': "USER",
-    #             'assistant': "ASSISTANT"
-    #         },
-    #         'utterances': [],
-    #         'offset': 0,
-    #     },
-    #     'sampling_conf': {
-    #         'stop': ["USER:", "ASSISTANT:", "</s>", "<|endoftext|>"]
-    #     }
-    # }
     try:
-        conf = model_register[request.model]
-    except:
-        ret = create_error_response(
-            HTTPStatus.NOT_FOUND,
-            f"The model `{request.model}` does not exist.",
+        try:
+            conf = model_register[request.model]
+        except:
+            ret = create_error_response(
+                HTTPStatus.NOT_FOUND,
+                f"The model `{request.model}` does not exist.",
+            )
+            return ret
+
+        # error_check_ret = await check_model(request)
+        error_check_ret = None
+        if error_check_ret is not None:
+            return error_check_ret
+
+        if request.logit_bias is not None and len(request.logit_bias) > 0:
+            # TODO: support logit_bias in vLLM engine.
+            return create_error_response(HTTPStatus.BAD_REQUEST, "logit_bias is not currently supported")
+
+        prompt = await get_gen_prompt(request, conf['conv_conf'])
+        LOG.info({'request':request, 'prompt':prompt})
+
+        token_ids, error_check_ret = await check_length(request, prompt=prompt)
+        if error_check_ret is not None:
+            return error_check_ret
+
+        model_name = request.model
+        request_id = f"cmpl-{random_uuid()}"
+        created_time = int(time.monotonic())
+
+        spaces_between_special_tokens = request.spaces_between_special_tokens
+        sampling_conf = conf['sampling_conf']
+        sampling_params = SamplingParams(
+            n=request.n,
+            presence_penalty=request.presence_penalty,
+            frequency_penalty=request.frequency_penalty,
+            temperature=request.temperature,
+            top_p=request.top_p,
+            stop=sampling_conf['stop'] if len(request.stop)==0 else request.stop,
+            stop_token_ids=request.stop_token_ids,
+            max_tokens=request.max_tokens,
+            best_of=request.best_of,
+            top_k=request.top_k,
+            ignore_eos=request.ignore_eos,
+            use_beam_search=request.use_beam_search,
+            skip_special_tokens=request.skip_special_tokens,
+            spaces_between_special_tokens=spaces_between_special_tokens,
         )
-        return ret
+        # except ValueError as e:
+        # return create_error_response(HTTPStatus.BAD_REQUEST, str(e))
 
-    # error_check_ret = await check_model(request)
-    error_check_ret = None
-    if error_check_ret is not None:
-        return error_check_ret
-
-    if request.logit_bias is not None and len(request.logit_bias) > 0:
-        # TODO: support logit_bias in vLLM engine.
-        return create_error_response(HTTPStatus.BAD_REQUEST, "logit_bias is not currently supported")
-
-    prompt = await get_gen_prompt(request, conf['conv_conf'])
-    print(prompt)
-
-    token_ids, error_check_ret = await check_length(request, prompt=prompt)
-    if error_check_ret is not None:
-        return error_check_ret
-
-    model_name = request.model
-    request_id = f"cmpl-{random_uuid()}"
-    created_time = int(time.monotonic())
-
-    spaces_between_special_tokens = request.spaces_between_special_tokens
-    sampling_conf = conf['sampling_conf']
-    sampling_params = SamplingParams(
-        n=request.n,
-        presence_penalty=request.presence_penalty,
-        frequency_penalty=request.frequency_penalty,
-        temperature=request.temperature,
-        top_p=request.top_p,
-        stop=sampling_conf['stop'] if len(request.stop)==0 else request.stop,
-        stop_token_ids=request.stop_token_ids,
-        max_tokens=request.max_tokens,
-        best_of=request.best_of,
-        top_k=request.top_k,
-        ignore_eos=request.ignore_eos,
-        use_beam_search=request.use_beam_search,
-        skip_special_tokens=request.skip_special_tokens,
-        spaces_between_special_tokens=spaces_between_special_tokens,
-    )
-    # except ValueError as e:
-    # return create_error_response(HTTPStatus.BAD_REQUEST, str(e))
-
-    result_generator = engine.generate(prompt, sampling_params, request_id, token_ids)
-
+        result_generator = engine.generate(prompt, sampling_params, request_id, token_ids)
+    except:
+        import sys,pdb,bdb
+        type, value, tb = sys.exc_info()
+        if type == bdb.BdbQuit:
+            exit()
+        print(type,value)
+        pdb.post_mortem(tb)
+    
     def create_stream_response_json(
         index: int,
         text: str,
@@ -317,7 +286,8 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
 
     # Streaming response
     if request.stream:
-        return StreamingResponse(completion_stream_generator(), media_type="text/event-stream")
+        response = StreamingResponse(completion_stream_generator(), media_type="text/event-stream")
+        return response
 
     # Non-streaming response
     final_res: RequestOutput = None
