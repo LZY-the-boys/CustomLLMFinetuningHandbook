@@ -26,7 +26,12 @@ from vllm.sampling_params import SamplingParams
 from vllm.transformers_utils.tokenizer import get_tokenizer
 from vllm.utils import random_uuid
 import torch
+from logging_config import configure_logging
 from conversation import Conversation
+import logging
+
+configure_logging()
+LOG = logging.getLogger(__name__)
 
 TIMEOUT_KEEP_ALIVE = 5  # seconds
 
@@ -363,7 +368,7 @@ async def create_completion(request: CompletionRequest, raw_request: Request):
           suffix)
         - logit_bias (to be supported by vLLM engine)
     """
-
+    LOG.info({'request': request, 'raw_request': raw_request})
     error_check_ret = await check_model(request)
     if error_check_ret is not None:
         return error_check_ret
