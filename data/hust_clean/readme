@@ -1,1 +1,7 @@
 The data has been upload to wechat group
+
+QA_all.json => all QA pairs
+then based on key words, classify them all into three categories:
+ - weiw.json
+ - hust_QA.json
+ - other_QA.json
