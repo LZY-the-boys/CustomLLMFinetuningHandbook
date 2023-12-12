@@ -8,7 +8,8 @@
             "roles": {
                 "user": "### Instruction",
                 "assistant": "### Response"
-            }
+            },
+            "utterances": []
         },
         "sampling_conf": {
             "stop": ["Instruction:", "Response:", "</s>", "<|endoftext|>"]
@@ -23,7 +24,8 @@
             "roles": {
                 "user": "USER",
                 "assistant": "ASSISTANT"
-            }
+            },
+            "utterances": []
         },
         "sampling_conf": {
             "stop": ["USER:", "ASSISTANT:", "</s>", "<|endoftext|>"]
@@ -38,7 +40,8 @@
             "roles": {
                 "user": "",
                 "assistant": ""
-            }
+            },
+            "utterances": []
         },
         "sampling_conf": {
             "stop": ["</s>", "<|endoftext|>"]
