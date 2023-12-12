@@ -39,6 +39,8 @@ Leaderboard: TODO
 
 ## deploy UI
 
+NOTE: currently need to change `sequence_len` in config.json to 8192 to support long conversation
+
 achitecture: ![ui/deploy](ui/deploy.png)
 
 vllm deploy: https://github.com/LZY-the-boys/vllm

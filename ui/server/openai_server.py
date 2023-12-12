@@ -172,6 +172,7 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
 
         if request.logit_bias is not None and len(request.logit_bias) > 0:
             # TODO: support logit_bias in vLLM engine.
+            LOG.error("logit_bias is not currently supported")
             return create_error_response(HTTPStatus.BAD_REQUEST, "logit_bias is not currently supported")
 
         prompt = await get_gen_prompt(request, conf['conv_conf'])
@@ -179,6 +180,7 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
 
         token_ids, error_check_ret = await check_length(request, prompt=prompt)
         if error_check_ret is not None:
+            LOG.error("length is too long")
             return error_check_ret
 
         model_name = request.model
@@ -362,6 +364,7 @@ async def create_completion(request: CompletionRequest, raw_request: Request):
 
     if request.logit_bias is not None and len(request.logit_bias) > 0:
         # TODO: support logit_bias in vLLM engine.
+        LOG.error("logit_bias is not currently supported")
         return create_error_response(HTTPStatus.BAD_REQUEST, "logit_bias is not currently supported")
 
     model_name = request.model
@@ -663,7 +666,9 @@ if __name__ == "__main__":
     engine_args = AsyncEngineArgs.from_cli_args(args)
     engine = AsyncLLMEngine.from_engine_args(engine_args)
     engine_model_config = asyncio.run(engine.get_model_config())
-    max_model_len = engine_model_config.max_model_len
+    engine_model_config.max_model_len = 8192
+    # max_model_len = engine_model_config.max_model_len
+    max_model_len = 8192
 
     # A separate tokenizer to map token IDs to strings.
     tokenizer = get_tokenizer(
