@@ -26,14 +26,18 @@ from vllm.sampling_params import SamplingParams
 from vllm.transformers_utils.tokenizer import get_tokenizer
 from vllm.utils import random_uuid
 import torch
+from logging_config import configure_logging
 from conversation import Conversation
+import logging
 import utils
 
+configure_logging()
+LOG = logging.getLogger(__file__)
 model_register = utils.from_json('server/model_register.json')
 
 TIMEOUT_KEEP_ALIVE = 5  # seconds
 
-logger = init_logger(__name__)
+logger = LOG
 served_model = None
 app = fastapi.FastAPI()
 engine = None
@@ -209,7 +213,7 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
         return create_error_response(HTTPStatus.BAD_REQUEST, "logit_bias is not currently supported")
 
     prompt = await get_gen_prompt(request, conf['conv_conf'])
-    print(prompt)
+    LOG.info({'request':request, 'prompt':prompt})
 
     token_ids, error_check_ret = await check_length(request, prompt=prompt)
     if error_check_ret is not None:
@@ -313,7 +317,8 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
 
     # Streaming response
     if request.stream:
-        return StreamingResponse(completion_stream_generator(), media_type="text/event-stream")
+        response = StreamingResponse(completion_stream_generator(), media_type="text/event-stream")
+        return response
 
     # Non-streaming response
     final_res: RequestOutput = None
@@ -374,7 +379,7 @@ async def create_completion(request: CompletionRequest, raw_request: Request):
           suffix)
         - logit_bias (to be supported by vLLM engine)
     """
-
+    LOG.info({'request': request, 'raw_request': raw_request})
     error_check_ret = await check_model(request)
     if error_check_ret is not None:
         return error_check_ret

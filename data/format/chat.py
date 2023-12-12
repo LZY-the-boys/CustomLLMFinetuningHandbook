@@ -1,7 +1,7 @@
 import datasets
 import utils
-import os
 import tqdm
+from datasets import concatenate_datasets, load_dataset
 
 delete_keywords = ["语言模型", "抱歉", "我无法", "没有能力", "Sorry", "sorry", "apologize", "language model"]
 # question 里边的chatgpt不需要处理
@@ -94,10 +94,53 @@ def load_sharegpt_zh():
                 ans.append(ret)
     utils.to_jsonl(ans,'/data/dataset/sharegpt_zh.json')
 
+def load_gsm8k_zh():
+    # common_zh_70k.jsonl
+    # computer_zh_26k.jsonl
+    # computer_cn_26k_continue.jsonl “继续”字眼的过滤版本
+    # unknow_zh_38k.jsonl
+    # unknow_zh_38k_continue.jsonl
+    import multiprocess, os
+    raw_datasets = load_dataset('gsm8k', name='main')["train"]
+    data = raw_datasets.map(
+        lambda x: {
+            "conversation": [{'human': x['question'], "assistant": x['answer']}]
+        },
+        remove_columns=raw_datasets.features,
+        num_proc=os.cpu_count(),
+    )
+
+    def map_fn(item):
+        y = []
+        for i in item['conversation']:
+            if any(key in i['human'] for key in delete_keywords):
+                return None
+            if any(key in i['assistant'] for key in delete_keywords):
+                return None           
+            y.append({
+                'from': 'human',
+                'value': i['human'],
+            })
+            y.append({
+                'from': 'gpt',
+                'value': i['assistant'],
+            })
+        return {'conversations': y}
+
+    process_num = os.cpu_count() // 2
+    ans = []
+    with multiprocess.Pool() as pool:
+        for ret in (tqdm.tqdm(
+            pool.imap(map_fn, data), 
+            total=len(data), desc=f'MAP({process_num})'
+        )):
+            if ret:
+                ans.append(ret)
+    utils.to_jsonl(ans,'/data/dataset/gsm8k_zh.json')
 
 if __name__ == "__main__":
     try:
-        load_sharegpt_zh()
+        load_gsm8k_zh()
     except:
         import sys,pdb,bdb
         type, value, tb = sys.exc_info()

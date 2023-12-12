@@ -13,7 +13,7 @@ class Conversation:
     roles: Dict[str, str] = field(default_factory=lambda: {"user": "USER", "assistant": "ASSISTANT"})
     # All messages. Each item is (role, message).
     # equal to fschat `messages`
-    utterances: List[str] = ()
+    utterances: List[str] = field(default_factory=[])
     # The number of few shot examples + 1
     # because of the system prompt
     offset: int = 0
