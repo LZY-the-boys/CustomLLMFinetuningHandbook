@@ -54,10 +54,12 @@ def chat_compeletion_openai_stream(
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "Tell me a joke."},
     ],
+    **kwargs,
 ):
     # try:
     response = openai.ChatCompletion.create(
-        model=model,messages=messages,stream=True
+        model=model,messages=messages,stream=True,
+        **kwargs,
     )
     
     output=''

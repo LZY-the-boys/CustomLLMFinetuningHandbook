@@ -1,0 +1,4338 @@
+[
+    {
+        "prompt": "什么是华中科技大学认知计算与智能信息处理实验室（CCIIP）？",
+        "response": "华中科技大学认知计算与智能信息处理实验室（CCIIP）是依托于计算机学院的实验室，主要从事认知科学与智能信息处理的交叉与结合研究，包括自然语言处理、图像处理、机器学习等研究方向。实验室具备实力雄厚的师资力量和丰富的研究经费，与国内外著名高校和研究机构有紧密合作。"
+    },
+    {
+        "prompt": "CCIIP实验室主要从事哪些研究方向？",
+        "response": "CCIIP实验室主要研究方向包括信息检索、文本数据挖掘、自然语言处理、图像处理、机器学习、人工智能、推荐系统及社交媒体分析等领域。"
+    },
+    {
+        "prompt": "CCIIP实验室在哪些领域取得了突出成就？",
+        "response": "CCIIP实验室在自然语言处理、图像处理以及推荐系统等领域取得了突出成就。实验室的研究成果得到了国际会议和期刊的广泛认可和发布。"
+    },
+    {
+        "prompt": "CCIIP实验室有哪些校园活动？",
+        "response": "CCIIP实验室举办了多样化的校园活动，其中包括学术报告会、研讨会和学术讲座等。这些活动为实验室的师生提供了交流学习的平台，丰富了他们的科研和学术经验。"
+    },
+    {
+        "prompt": "如何联系华中科技大学认知计算与智能信息处理实验室？",
+        "response": "您可以通过发送电子邮件至weiw@hust.edu.cn与华中科技大学认知计算与智能信息处理实验室进行联系。他们的办公室位于湖北省武汉市华中科技大学计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍是哪所大学的教授？",
+        "response": "魏巍是华中科技大学的教授。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向包括人工智能、自然语言处理、信息检索、数据挖掘、多模计算、推荐系统等。"
+    },
+    {
+        "prompt": "魏巍的个人简介是怎样的？",
+        "response": "魏巍是华中科技大学的教授，海归博士后，博士生导师。他于2012年在华中科技大学计算机学院获得博士学位。他的研究方向包括人工智能、自然语言处理、信息检索、数据挖掘、多模计算、推荐系统等。魏巍在多个领域取得了卓越的研究成果，并荣获多个荣誉和奖项。他是计算机学会自然语言处理专委会执委，也是中国计算机学会、中国中文信息学会、ACM学会的会员。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "CCIIP实验室有多少位同学获得2023年度研究生国家奖学金？",
+        "response": "CCIIP实验室研究生占据2个名额，分别为22级研究生李文迪（2 CCF A）和20级直博生赵森(3 CCF A)成功入选获奖名单。"
+    },
+    {
+        "prompt": "CCIIP实验室的研究生国家奖学金获得者是哪些同学？",
+        "response": "CCIIP实验室的研究生国家奖学金获得者是22级研究生李文迪和20级直博生赵森。"
+    },
+    {
+        "prompt": "CCIIP实验室学生获得的研究生国家奖学金有哪些级别？",
+        "response": "CCIIP实验室学生获得的研究生国家奖学金级别包括2 CCF A和3 CCF A。"
+    },
+    {
+        "prompt": "CCIIP实验室学生获得的研究生国家奖学金奖金金额是多少？",
+        "response": "CCIIP实验室学生获得的研究生国家奖学金奖金金额是贰万元整（￥20，000.00）。"
+    },
+    {
+        "prompt": "被哪个国际会议录用的论文'Miracle: Towards Personalized Dialogue Generation with Latent-Space Multiple Personal Attribute Control'是关于什么内容的？",
+        "response": "华科大认知计算与智能信息处理实验室2022级研究生鲁镇仪同学的论文被第61届自然语言处理领域顶级国际会议ACL 2023录用。该论文的内容是关于个性化对话生成系统的研究。"
+    },
+    {
+        "prompt": "论文'Miracle: Towards Personalized Dialogue Generation with Latent-Space Multiple Personal Attribute Control'的作者是谁？",
+        "response": "该论文的作者是Zhenyi Lu, Wei Wei*, Xiaoye Qu, Xian-Ling Mao, Dangyang Chen, Jixiong Chen。"
+    },
+    {
+        "prompt": "鲁镇仪同学的导师是谁？",
+        "response": "鲁镇仪同学的导师是魏巍。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室的研究方向有哪些？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室主要从事认知科学与智能信息处理的交叉与结合研究，包括基于人工智能技术的自然语言处理与图像处理的理论与方法，算法设计与复杂性分析、形式化方法与具体应用研究等。主要研究方向包括信息检索、文本数据挖掘、自然语言处理、图像处理、机器学习、人工智能、推荐系统及社交媒体分析等。"
+    },
+    {
+        "prompt": "华中科技大学的计算机学院有哪些研究实验室？",
+        "response": "华中科技大学的计算机学院包含有认知计算与智能信息处理实验室以及其他研究实验室。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室的师资力量有多强？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室拥有实力雄厚的师资力量，充满活力的科研团队。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室参与了哪些国家科研项目？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室参与了多项国家科研项目，包括国家自然科学基金项目，国家自然科学基金专项基金，湖北省自然科学基金，国防基金等。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室与哪些IT企业有合作关系？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室与IT企业保持着密切合作，建立了华科-平安产险人工智能联合实验室、华科-容联人工智能联合实验室等。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室的学术发表成果有多少篇？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室发表国内外期刊论文及国际学术会议论文200余篇（含CCF A类论文近50篇）。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室的目标是成为什么样的研发团队和人才培养基地？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室的目标是成为国际一流的研发团队和人才培养基地，秉承“明德、厚学、求是、创新”的华科大精神，倡导“天行健，君子以自强不息；地势坤，君子以厚德载物”的原则，不断开拓进取，勇攀科学高峰。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室位于哪个楼？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室位于华中科技大学计算机科学与技术学院（南一楼中612室）。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室的联系人是谁？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室的联系人是魏老师。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室的联系电话是多少？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室的联系电话是18827440253。"
+    },
+    {
+        "prompt": "魏巍是谁？",
+        "response": "魏巍是华中科技大学计算机学院认知计算与智能信息处理实验室主任，教授，海归博士后，博士生导师。"
+    },
+    {
+        "prompt": "魏巍的职位是什么？",
+        "response": "魏巍是华中科技大学计算机学院认知计算与智能信息处理实验室主任。"
+    },
+    {
+        "prompt": "魏巍的研究方向有哪些？",
+        "response": "魏巍的主要研究方向包括人工智能、自然语言处理、信息检索与推荐、多模计算、数据挖掘等。"
+    },
+    {
+        "prompt": "魏巍在哪些学术期刊担任审稿人？",
+        "response": "魏巍常年担任IEEE TKDE、IEEE TC、ACM TIST、ACM TOIS、IEEE TASLP、IEEE TMM、ACM TKDD、IEEE/ACM TASLP、ACM TALRLIP、Information Science、Pattern Recognition、中国计算机学报等重要学术期刊的审稿人。"
+    },
+    {
+        "prompt": "魏巍在哪些国际学术会议担任程序委员会委员？",
+        "response": "魏巍常年担任IJCAI、AAAI、ACL、SIGKDD、SIGIR、ENMLP、EACL、ECAI、NAACL、CIKM、NLPCC、COLING、AACL等国际学术会议的程序委员会委员。"
+    },
+    {
+        "prompt": "魏巍发表的论文数量是多少？",
+        "response": "魏巍已发表国际高水平学术会议及期刊论文90余篇（其中CCF A近50篇）。"
+    },
+    {
+        "prompt": "魏巍主持的研究项目有哪些？",
+        "response": "魏巍目前主持国家自然科学基金项目2项（面上/青年），国家“十三五”项目1项（Co-PI），国防重点/面上项目多项，湖北省自然科学基金项目1项，千万级重大企业横向项目1项，CCF-蚂蚁基金及企业横向多项，项目经费2200余万元。"
+    },
+    {
+        "prompt": "魏巍的个人主页有哪些版本？",
+        "response": "魏巍的个人主页有中文版和英文版，中文版主页地址是http://faculty.hust.edu.cn/weiw/zh_CN/index.htm，英文版主页地址是https://www.eric-weiwei.com/"
+    },
+    {
+        "prompt": "魏巍的联系方式是什么？",
+        "response": "魏巍的联系方式是电话18827440253，邮箱weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "魏巍指导的学生在哪个比赛中获得全球冠军？",
+        "response": "魏巍指导的学生在2023年NLPCC大赛的“对话方面级情感分析”赛道中获得全球冠军。"
+    },
+    {
+        "prompt": "魏巍在哪个赛道中获得全国一等奖？",
+        "response": "魏巍在2023年第十八届“挑战杯”中的“智能数字人（数字分身）生成技术研究”赛道中获得全国一等奖。"
+    },
+    {
+        "prompt": "魏巍的办公室地址在哪里？",
+        "response": "魏巍的办公室地址在湖北省武汉市华中科技大学计算机科学与技术学院（南一楼中612室）。"
+    },
+    {
+        "prompt": "魏巍的个人主页提供了哪些信息？",
+        "response": "魏巍的个人主页提供了他的学术成果、研究方向、科研项目、联系方式等信息。"
+    },
+    {
+        "prompt": "魏巍的研究项目资金多少？",
+        "response": "魏巍的研究项目资金总额超过2200万元。"
+    },
+    {
+        "prompt": "魏巍的电子邮件是什么？",
+        "response": "魏巍的电子邮件是weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室的软件著作权有哪些？",
+        "response": "华中科技大学认知计算与智能信息处理实验室拥有多项软件著作权，其中包括基于用户重复行为模式挖掘的短序列推荐方法、基于自注意力机制的情感对话生成方法与装置、基于网络表示学习的垃圾评论用户群组检测方法、基于位置感知自注意力机制的序列标注模型与标注方法以及面向开放式社区问答对自动化文摘系统。"
+    },
+    {
+        "prompt": "2021年12月24日获得的软件著作权有哪些？",
+        "response": "在2021年12月24日，华中科技大学认知计算与智能信息处理实验室获得了两项软件著作权，分别是基于自注意力机制的情感对话生成方法与装置以及基于网络表示学习的垃圾评论用户群组检测方法。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室主要研究哪些方向？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室主要从事人工智能（自然语言处理/图像处理）、数据挖掘、信息检索、机器学习与社交计算等方面的研究工作。"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室招生对象是什么样的学生？",
+        "response": "认知计算与智能信息处理实验室欢迎各校高年级本科生/硕士生（特别是对研究感兴趣、编程能力较强、思维活跃、英语读写能力较好的同学）保送和报考本实验室。"
+    },
+    {
+        "prompt": "实验室招生政策是怎样的？",
+        "response": "具体招生政策请参考华中科技大学计算机学院认知计算与智能信息处理实验室的官方网站。"
+    },
+    {
+        "prompt": "实验室的联系人是谁？",
+        "response": "实验室的联系人是魏老师。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室目前在研的项目有哪些？",
+        "response": "华中科技大学认知计算与智能信息处理实验室目前在研的项目有：面向复杂对话场景建模的开放域可控人机对话系统关键技术研究，国家自然科学基金；华科-平安产险人工智能联合实验室；基于专家经验的可控对话系统，CCF-蚂蚁基金。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室地址是什么？",
+        "response": "华中科技大学认知计算与智能信息处理实验室地址位于湖北省武汉市华中科技大学计算机科学与技术学院（南一楼中612室）。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室的联系人是谁？",
+        "response": "华中科技大学认知计算与智能信息处理实验室的联系人是魏老师。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室的联系人电话是多少？",
+        "response": "华中科技大学认知计算与智能信息处理实验室的联系人电话是18827440253。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室的联系人邮箱是什么？",
+        "response": "华中科技大学认知计算与智能信息处理实验室邮箱是weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "CCIIP实验室参与的国际人工智能大会是第几届？",
+        "response": "CCIIP实验室参与的国际人工智能大会是第32届。"
+    },
+    {
+        "prompt": "CCIIP实验室在国际人工智能大会上做了哪两个研究工作的报告？",
+        "response": "CCIIP实验室在国际人工智能大会上做了两个研究工作的报告，分别是\\\"Towards Hierarchical Policy Learning for Conversational Recommendation with Hypergraph-based Reinforcement Learning\\\"和\\\"An Empirical Study on the Language Modal in Visual Question Answering\\\"。"
+    },
+    {
+        "prompt": "CCIIP实验室在国际人工智能大会上获得了哪些成果？",
+        "response": "CCIIP实验室在国际人工智能大会上获得了多个成果，具体细节没有提到。"
+    },
+    {
+        "prompt": "CCIIP实验室带领的哪些学生参加了国际人工智能大会？",
+        "response": "CCIIP实验室带领20级博士生赵森和21级博士生彭道万参加了国际人工智能大会。"
+    },
+    {
+        "prompt": "CCIIP实验室的主任是谁？",
+        "response": "CCIIP实验室的主任是魏巍教授。"
+    },
+    {
+        "prompt": "CCIIP实验室参与国际人工智能大会的目的是什么？",
+        "response": "CCIIP实验室参与国际人工智能大会的目的没有提到。"
+    },
+    {
+        "prompt": "CCIIP实验室在国际人工智能大会上分享的两篇研究工作分别是什么？",
+        "response": "CCIIP实验室在国际人工智能大会上分享了两篇研究工作，分别是\\\"Towards Hierarchical Policy Learning for Conversational Recommendation with Hypergraph-based Reinforcement Learning\\\"和\\\"An Empirical Study on the Language Modal in Visual Question Answering\\\"。"
+    },
+    {
+        "prompt": "CCIIP实验室在与会期间收获了什么？",
+        "response": "CCIIP实验室在与会期间收获了新知识，积累了大量有效经验，具体细节没有提到。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室的实验室名称是什么？",
+        "response": "华中科技大学认知计算与智能信息处理实验室的实验室名称是Cognitive Computing and Intelligent Information Processing (CCIIP) Laboratory"
+    },
+    {
+        "prompt": "CCIIP实验室的2021级硕士生和2020级博士生分别获得了哪个奖项？",
+        "response": "CCIIP实验室的2021级硕士生邹定和2020级博士生赵森分别获得了研究生国家奖学金"
+    },
+    {
+        "prompt": "哪位华科大认知计算与智能信息处理实验室的研究生被第61届自然语言处理领域顶级国际会议EMNLP录用？",
+        "response": "华科大认知计算与智能信息处理实验室的研究生鲁镇仪被第61届自然语言处理领域顶级国际会议EMNLP录用"
+    },
+    {
+        "prompt": "CCIIP实验室的师生参与了哪个国际人工智能大会？",
+        "response": "CCIIP实验室的师生参与了国际人工智能大会（IJCAI 2023）"
+    },
+    {
+        "prompt": "华中科技大学与中国平安财产保险股份有限公司共建的联合实验室是什么？",
+        "response": "华中科技大学与中国平安财产保险股份有限公司共建的联合实验室是CCIIP实验室"
+    },
+    {
+        "prompt": "CCIIP实验室的哪些同学参与了阿里巴巴和网易的暑期实习？",
+        "response": "CCIIP实验室的2020级博士生赵森及21级硕士生邹定、温笑非参与了阿里巴巴、网易的暑期实习"
+    },
+    {
+        "prompt": "CCIIP实验室的2023届硕士研究生顺利毕业的祝贺是为了谁？",
+        "response": "CCIIP实验室的2023届硕士研究生顺利毕业的祝贺是为了毕业的学生们"
+    },
+    {
+        "prompt": "CCF A类国际学术期刊IEEE TKDE录用了CCIIP实验室的哪位学生的论文？",
+        "response": "CCF A类国际学术期刊IEEE TKDE录用了CCIIP实验室的2021级硕士生邹定和2020级博士生赵森的论文"
+    },
+    {
+        "prompt": "CCIIP实验室的哪位研究生在ACL 2023会议中发表了论文？",
+        "response": "CCIIP实验室的2022级研究生李文迪在ACL 2023会议中发表了论文"
+    },
+    {
+        "prompt": "哪位华科大认知计算与智能信息处理实验室的研究生的论文被第46届信息检索领域顶级国际会议SIGIR录用？",
+        "response": "华科大认知计算与智能信息处理实验室的研究生赵森的论文被第46届信息检索领域顶级国际会议SIGIR录用"
+    },
+    {
+        "prompt": "华科大认知计算与智能信息处理实验室的哪位研究生的论文被人工智能领域顶级国际会议AAAI录用？",
+        "response": "华科大认知计算与智能信息处理实验室的研究生梁硕的论文被人工智能领域顶级国际会议AAAI录用"
+    },
+    {
+        "prompt": "CCIIP实验室的哪位学生获得了2022年度研究生国家奖学金？",
+        "response": "CCIIP实验室的学生李文迪获得了2022年度研究生国家奖学金"
+    },
+    {
+        "prompt": "华科大认知计算与智能信息处理实验室的哪位研究生在EMNLP 2022会议中发表了论文？",
+        "response": "华科大认知计算与智能信息处理实验室的研究生张睿晗在EMNLP 2022会议中发表了论文"
+    },
+    {
+        "prompt": "计算机学院官网的网址是什么？",
+        "response": "实验室cciip-» 计算机学院官网\\n1 http://cs.hust.edu.cn/"
+    },
+    {
+        "prompt": "魏巍教授的研究方向是什么？",
+        "response": "研究方向:自然语言处理、信息检索与推荐、数据挖掘"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室的主要研究方向是什么？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室主要从事认知科学与智能信息处理的交叉与结合研究，包括自然语言处理、图像处理、机器学习、人工智能等方向。"
+    },
+    {
+        "prompt": "有哪些华中科技大学的实验室师生在国际会议上发表了论文？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室师生邹定和赵森同学在国际会议上发表了论文。"
+    },
+    {
+        "prompt": "2023年华中科技大学计算机学院研究生国家奖学金的获得者有谁？",
+        "response": "2023年华中科技大学计算机学院研究生国家奖学金的获得者有CCIIP实验室的李文迪和赵森两位同学。"
+    },
+    {
+        "prompt": "魏巍教授是华中科技大学认知计算与智能信息处理实验室的主任吗？",
+        "response": "是的，魏巍教授是华中科技大学认知计算与智能信息处理实验室的主任。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室有哪些合作伙伴？",
+        "response": "华中科技大学的认知计算与智能信息处理实验室与国内外著名高校和研究机构有紧密合作。"
+    },
+    {
+        "prompt": "CCIIP实验室主任魏巍教授的联系方式是什么？",
+        "response": "实验室主任魏巍教授的联系方式是18827440253，邮箱是weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "CCIIP实验室的研究经费来源有哪些？",
+        "response": "实验室的研究经费来源包括校内外项目经费和合作伙伴的资助等。"
+    },
+    {
+        "prompt": "计算机学院官网是什么？",
+        "response": "实验室cciip-» 计算机学院官网\\n1 http://cs.hust.edu.cn/"
+    },
+    {
+        "prompt": "实验室cciip的重点研究领域有哪些？",
+        "response": "实验室cciip的重点研究领域包括集群与网格计算。"
+    },
+    {
+        "prompt": "最近有哪些学术报告在实验室cciip举行？",
+        "response": "最近在实验室cciip举行了周永銮学术报告、何丙胜 & 李钦宾学术报告、尹一通学术报告、马雄峰学术报告、王啸学术报告、王雪超学术报告。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院依托哪个实验室进行研究？",
+        "response": "华中科技大学计算机学院依托认知计算与智能信息处理实验室进行研究。"
+    },
+    {
+        "prompt": "请介绍一下华中科技大学认知计算与智能信息处理实验室的研究方向。",
+        "response": "华中科技大学认知计算与智能信息处理实验室主要研究认知科学与智能信息处理的交叉与结合，包括自然语言处理与图像处理的理论与方法、算法设计与复杂性分析、形式化方法与具体应用研究等。其研究方向还包括信息检索、文本数据挖掘、机器学习、推荐系统及社交媒体分析等。"
+    },
+    {
+        "prompt": "CCIIP实验室的全称是什么？",
+        "response": "CCIIP实验室的全称是认知计算与智能信息处理实验室。"
+    },
+    {
+        "prompt": "CCIIP实验室有哪位学生获得了2023年研究生国家奖学金？",
+        "response": "CCIIP实验室的李文迪和赵森两位同学获得了2023年研究生国家奖学金。"
+    },
+    {
+        "prompt": "华科大认知计算与智能信息处理实验室有哪篇论文在ACL 2023上被录用？",
+        "response": "华科大认知计算与智能信息处理实验室的2022级硕士生鲁镇仪的论文“MIRACLE: Towards Personalized Natural Language Explanation Generation with Neural Coverage\"被录用在ACL 2023上。"
+    },
+    {
+        "prompt": "CCIIP实验室的师生参与了哪个国际人工智能大会？",
+        "response": "CCIIP实验室的师生参与了第32届国际人工智能联合会议（The 32nd International Joint Conference on Artificial Intelligence, IJCAI-23)。"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室的主要研究方向包括哪些领域？",
+        "response": "认知计算与智能信息处理实验室的主要研究方向包括自然语言处理、图像处理、机器学习、推荐系统及社交媒体分析等领域。"
+    },
+    {
+        "prompt": "CCIIP实验室是与哪些高校和研究机构有紧密合作的？",
+        "response": "CCIIP实验室与国内外的著名高校和研究机构有紧密合作。"
+    },
+    {
+        "prompt": "CCIIP实验室的联系邮箱是什么？",
+        "response": "CCIIP实验室的联系邮箱是weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "魏巍是哪所大学的教授？",
+        "response": "魏巍是华中科技大学的教授。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍获得了哪些荣誉？",
+        "response": "魏巍获得了华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”等荣誉。"
+    },
+    {
+        "prompt": "魏巍是计算机科学与技术学院的哪级导师？",
+        "response": "魏巍是计算机科学与技术学院的博士生导师与硕士生导师。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学主要从事什么工作？",
+        "response": "魏巍在华中科技大学主要从事教授和博士生导师的工作。"
+    },
+    {
+        "prompt": "魏巍的学历和学位是什么？",
+        "response": "魏巍的学历是研究生（博士）毕业，学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍毕业于哪所大学？",
+        "response": "魏巍毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍获得了什么奖教金？",
+        "response": "魏巍获得了华为奖教金。"
+    },
+    {
+        "prompt": "魏巍是华为云与计算先锋教师的哪一年？",
+        "response": "魏巍是2021年的华为云与计算先锋教师。"
+    },
+    {
+        "prompt": "魏巍曾获得ICKG 2020的什么奖项？",
+        "response": "魏巍曾获得ICKG 2020的Best Student Paper Award奖项。"
+    },
+    {
+        "prompt": "魏巍参与了第十批“3551光谷人才计划”的哪一年？",
+        "response": "魏巍参与了第十批“3551光谷人才计划”的2017年。"
+    },
+    {
+        "prompt": "魏巍的科学研究方向是什么？",
+        "response": "魏巍的科学研究方向是计算机软件与理论。"
+    },
+    {
+        "prompt": "魏巍是计算机软件与理论专业的博导吗？",
+        "response": "是的，魏巍是计算机软件与理论专业的博导。"
+    },
+    {
+        "prompt": "魏巍是同专业硕导吗？",
+        "response": "是的，魏巍是同专业硕导。"
+    },
+    {
+        "prompt": "魏巍在计算机科学与技术领域取得了哪些成就？",
+        "response": "魏巍在计算机科学与技术领域取得了研究方向的成就，并获得了荣誉和奖项。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学的职称是什么？",
+        "response": "魏巍在华中科技大学的职称是教授。"
+    },
+    {
+        "prompt": "魏巍在职单位是哪个学院？",
+        "response": "魏巍在职单位是计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍是男性还是女性？",
+        "response": "魏巍是男性。"
+    },
+    {
+        "prompt": "魏巍所在的学科是什么？",
+        "response": "魏巍所在的学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍的个人信息中提到了哪几位同专业博导？",
+        "response": "魏巍的个人信息中提到了朱虹、周全、郑渤龙、于东晓、文明、王虹飞、王浩宇、石宣化、石柯、吕志鹏、刘方明、凌贺飞、李剑军、李国徽、廖小飞、金燕、华强胜、何琨、韩兰胜、甘棕松、丁晓锋和蔡超等几位同专业博导。"
+    },
+    {
+        "prompt": "魏巍是什么学科的硕导？",
+        "response": "魏巍是计算机软件与理论学科的硕导。"
+    },
+    {
+        "prompt": "魏巍在哪个学校毕业？",
+        "response": "魏巍在华中科技大学毕业。"
+    },
+    {
+        "prompt": "魏巍获得了哪些荣誉？",
+        "response": "魏巍获得了华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的教授吗？",
+        "response": "是的，魏巍是华中科技大学的教授。"
+    },
+    {
+        "prompt": "魏巍的个人信息中提到了哪些学历和学位？",
+        "response": "魏巍的个人信息中提到了研究生(博士)毕业的学历和工学博士学位。"
+    },
+    {
+        "prompt": "魏巍的在职信息是什么？",
+        "response": "魏巍的在职信息是在职。"
+    },
+    {
+        "prompt": "魏巍所在的计算机科学与技术学院在哪个单位？",
+        "response": "魏巍所在的计算机科学与技术学院是在华中科技大学。"
+    },
+    {
+        "prompt": "魏巍是博士生导师吗？",
+        "response": "是的，魏巍是博士生导师。"
+    },
+    {
+        "prompt": "魏巍是硕士生导师吗？",
+        "response": "是的，魏巍是硕士生导师。"
+    },
+    {
+        "prompt": "魏巍是男性还是女性？",
+        "response": "魏巍是男性。"
+    },
+    {
+        "prompt": "魏巍曾经获得过哪些校级荣誉？",
+        "response": "魏巍曾经获得过华中科技大学校级优秀班主任和华中科技大学教师教学竞赛二等奖等校级荣誉。"
+    },
+    {
+        "prompt": "魏巍是华为“智能基座”-华为云与计算先锋教师吗？",
+        "response": "是的，魏巍是华为“智能基座”-华为云与计算先锋教师。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向是计算机软件与理论和计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍是第十批“3551光谷人才计划”的人才吗？",
+        "response": "是的，魏巍是第十批“3551光谷人才计划”的人才。"
+    },
+    {
+        "prompt": "魏巍曾获得过ICKG 2020 Best Student Paper Award吗？",
+        "response": "是的，魏巍曾获得过ICKG 2020 Best Student Paper Award。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学校级优秀班主任吗？",
+        "response": "是的，魏巍是华中科技大学校级优秀班主任。"
+    },
+    {
+        "prompt": "魏巍在教师教学竞赛中获得了什么奖项？",
+        "response": "魏巍在教师教学竞赛中获得了二等奖。"
+    },
+    {
+        "prompt": "魏巍是什么学历？",
+        "response": "魏巍的学历是研究生(博士)毕业，获得工学博士学位。"
+    },
+    {
+        "prompt": "魏巍的研究方向有哪些？",
+        "response": "魏巍的研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、多模计算、推荐系统等。"
+    },
+    {
+        "prompt": "魏巍在哪些单位工作过？",
+        "response": "魏巍曾在华中科技大学计算机学院、新加坡管理大学信息学院、新加坡南洋理工大学信息工程学院、新加坡国立大学计算机学院和微软亚洲研究院信息检索与挖掘组工作过。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍曾获得华为“智能基座”-华为云与计算先锋教师荣誉、华中科技大学校级优秀班主任荣誉、华为奖教金、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "魏巍的团队研究什么内容？",
+        "response": "魏巍所在的团队主要从事认知科学与智能信息处理的交叉与结合研究，包括基于人工智能技术的自然语言处理与图像处理的理论与方法，算法设计与复杂性分析、形式化方法与具体应用研究等。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学计算机学院的什么职位？",
+        "response": "魏巍是华中科技大学计算机学院的教授，也是博士生导师。"
+    },
+    {
+        "prompt": "魏巍在哪些学会担任职务？",
+        "response": "魏巍担任中国计算机学会高级会员、中国计算机学会自然语言处理专委会委员、中国中文信息学会青年工作委员会委员、中国人工智能学会青年工作委员会委员等学会职务。"
+    },
+    {
+        "prompt": "魏巍是做什么专业的？",
+        "response": "魏巍的学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学是什么岗位？",
+        "response": "魏巍在华中科技大学担任教授、博士生导师、硕士生导师的岗位。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么？",
+        "response": "魏巍是男性，在职，所在单位是计算机科学与技术学院，学历是研究生(博士)毕业，学位是工学博士学位，毕业院校是华中科技大学，学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍在哪个学院工作？",
+        "response": "魏巍在华中科技大学计算机科学与技术学院工作。"
+    },
+    {
+        "prompt": "魏巍的学历是什么？",
+        "response": "魏巍的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍的学位是什么？",
+        "response": "魏巍的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍毕业于哪个学校？",
+        "response": "魏巍毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍的学科是什么？",
+        "response": "魏巍的学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍获得了哪些荣誉？",
+        "response": "魏巍曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”、ICKG 2020 Best Student Paper Award和第十批“3551光谷人才计划”等荣誉。"
+    },
+    {
+        "prompt": "魏巍在2021年获得了什么奖项？",
+        "response": "魏巍在2021年获得了华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任和“华为奖教金”的奖项。"
+    },
+    {
+        "prompt": "魏巍的论文成果有哪些？",
+        "response": "魏巍的论文成果包括STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction和Unsupervised Hashing with Semantic Concept Mining等。"
+    },
+    {
+        "prompt": "魏巍的中文主页在哪里？",
+        "response": "魏巍的中文主页地址在http://faculty.hust.edu.cn//weiw/zh_CN/lwcg/869532/content/102907.htm#lwcg。"
+    },
+    {
+        "prompt": "魏巍的科学研究方向是什么？",
+        "response": "魏巍的科学研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍的论文发表时间是什么？",
+        "response": "魏巍的论文发表时间是2023-02-09。"
+    },
+    {
+        "prompt": "魏巍发表的论文在哪个会议上？",
+        "response": "魏巍发表的论文在37thAAAI Conference on Artificial Intelligence (AAAI'23)会议上。"
+    },
+    {
+        "prompt": "魏巍的论文发表地点在哪里？",
+        "response": "魏巍的论文发表地点在华盛顿特区会议中心，位于美国。"
+    },
+    {
+        "prompt": "魏巍参加的会议是什么？",
+        "response": "魏巍参加的会议是37thAAAI Conference on Artificial Intelligence (AAAI'23)和ACM SIGMOD/PODS International Conference on Management Data (SIGMOD 2023)。"
+    },
+    {
+        "prompt": "魏巍的论文发表在哪些会议上？",
+        "response": "魏巍的论文发表在37thAAAI Conference on Artificial Intelligence (AAAI'23)和ACM SIGMOD/PODS International Conference on Management Data (SIGMOD 2023)上。"
+    },
+    {
+        "prompt": "魏巍的联系地址是哪里？",
+        "response": "魏巍的联系地址是湖北省武汉市洪山区珞喻路1037号。"
+    },
+    {
+        "prompt": "魏巍所在学校的邮政编码是多少？",
+        "response": "魏巍所在学校的邮政编码是430074。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授，是同专业的博导和硕导。他是男性，持有工学博士学位，毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学哪个学院的教授？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的博导还是硕导？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授，同时也是同专业的博导和硕导。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍曾获得过多项荣誉，其中包括：2021年华为“智能基座”-华为云与计算先锋教师、2021年华中科技大学校级优秀班主任、2021年“华为奖教金”获得者、2020年ICKG 2020最佳学生论文奖、2017年第十批“3551光谷人才计划”、2017年华中科技大学校级优秀班主任、2016年华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么？",
+        "response": "魏巍的个人信息包括：教授、博士生导师、硕士生导师，性别为男，所在单位为计算机科学与技术学院，学历为研究生(博士)毕业，学位为工学博士学位，毕业院校是华中科技大学，学科为计算机软件与理论计算机应用技术。魏巍还获得过一些荣誉，包括华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍的教育背景是什么？",
+        "response": "魏巍的教育背景是研究生(博士)毕业，学位为工学博士学位，毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍所在的单位是哪个学院？",
+        "response": "魏巍所在的单位是计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍的学科是什么？",
+        "response": "魏巍的学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍获得过的荣誉包括：华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍在什么奖项中获得过二等奖？",
+        "response": "魏巍在华中科技大学教师教学竞赛中获得过二等奖。"
+    },
+    {
+        "prompt": "魏巍的论文成果有哪些？",
+        "response": "魏巍的论文成果包括：《ROLE: Rotated Lorentzian Graph Embedding Model for Asymmetric Proximity》、《Unsupervised Hashing with Semantic Concept Mining》和《Heterogeneous Graph Neural Network with Multi-view Representation Learning》。"
+    },
+    {
+        "prompt": "魏巍的论文《ROLE: Rotated Lorentzian Graph Embedding Model for Asymmetric Proximity》发表于哪个期刊？",
+        "response": "魏巍的论文《ROLE: Rotated Lorentzian Graph Embedding Model for Asymmetric Proximity》发表于IEEE Transactions on Knowledge and Data Engineering (TKDE)期刊。"
+    },
+    {
+        "prompt": "魏巍的论文《Heterogeneous Graph Neural Network with Multi-view Representation Learning》发表在哪个期刊上？",
+        "response": "魏巍的论文《Heterogeneous Graph Neural Network with Multi-view Representation Learning》发表在IEEE Transactions on Knowledge and Data Engineering (TKDE)期刊上。"
+    },
+    {
+        "prompt": "魏巍的论文《Unsupervised Hashing with Semantic Concept Mining》发表在哪个会议上？",
+        "response": "魏巍的论文《Unsupervised Hashing with Semantic Concept Mining》发表在ACM SIGMOD/PODS International Conference on Management Data (SIGMOD 2023)会议上。"
+    },
+    {
+        "prompt": "魏巍教授的个人信息是什么？",
+        "response": "魏巍教授的个人信息如下：性别：男，在职信息：在职，所在单位：计算机科学与技术学院，学历：研究生(博士)毕业，学位：工学博士学位，毕业院校：华中科技大学，学科：计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍教授的职称是什么？",
+        "response": "魏巍教授的职称是教授。"
+    },
+    {
+        "prompt": "魏巍教授是华中科技大学哪个学院的成员？",
+        "response": "魏巍教授是华中科技大学计算机科学与技术学院的成员。"
+    },
+    {
+        "prompt": "魏巍教授的学历和学位是什么？",
+        "response": "魏巍教授的学历是研究生(博士)毕业，学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍教授毕业于哪所大学？",
+        "response": "魏巍教授毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍教授的学科领域是什么？",
+        "response": "魏巍教授的学科领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍教授曾获得哪些荣誉？",
+        "response": "魏巍教授曾获得2021年华为“智能基座”-华为云与计算先锋教师、2021年华中科技大学校级优秀班主任、2021年“华为奖教金”获得者、2020年ICKG 2020 Best Student Paper Award、2017年第十批“3551光谷人才计划”、2017年华中科技大学校级优秀班主任、2016年华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍教授在2021年获得了哪几项荣誉？",
+        "response": "魏巍教授在2021年获得了华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任和“华为奖教金”三项荣誉。"
+    },
+    {
+        "prompt": "魏巍教授的研究成果有哪些论文？",
+        "response": "魏巍教授的研究成果包括以下论文：1. Heterogeneous Graph Neural Network with Multi-view Representation Learning, Zezhi Shao, Yongjun Xu, Wei Wei*, Fei Wang*, Zhao Zhang, Feida Zhu, IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023, to appear. [CCF A]"
+    },
+    {
+        "prompt": "魏巍教授最新的论文发表在哪本期刊上？",
+        "response": "魏巍教授最新的论文发表在IEEE Transactions on Knowledge and Data Engineering (TKDE)这本期刊上。"
+    },
+    {
+        "prompt": "魏巍教授的论文发表时间是什么时候？",
+        "response": "魏巍教授的论文发表时间是2023-02-09。"
+    },
+    {
+        "prompt": "魏巍教授的研究领域是什么？",
+        "response": "魏巍教授的研究领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍教授的论文被有多少人点击过？",
+        "response": "魏巍教授的论文点击量暂无数据。"
+    },
+    {
+        "prompt": "魏巍教授的上一篇论文是什么？",
+        "response": "魏巍教授的上一篇论文是ROLE: Rotated Lorentzian Graph Embedding Model for Asymmetric Proximity, Shanshan Feng, Lisi Chen, Kaiqi Zhao, Wei Wei*, Xuemeng Song, Shuo Shang, Panos Kalnis, Ling Shao*, IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023, to appear. [CCF A]。"
+    },
+    {
+        "prompt": "魏巍教授的下一篇论文是什么？",
+        "response": "魏巍教授的下一篇论文是H-Diffu: Hyperbolic Representations for Information Diffusion Prediction, Shanshan Feng, Kaiqi Zhao, Lanting Fan, Kaiyu Feng, Wei Wei, Xutao Li, Ling Shang, IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023, to appear. [CCF A]。"
+    },
+    {
+        "prompt": "魏巍教授所在的学校地址是哪里？",
+        "response": "魏巍教授所在的学校地址是湖北省武汉市洪山区珞喻路1037号，邮政编码：430074。"
+    },
+    {
+        "prompt": "魏巍教授的论文发表在哪个期刊上？",
+        "response": "魏巍教授的论文发表在IEEE Transactions on Knowledge and Data Engineering (TKDE)这个期刊上。"
+    },
+    {
+        "prompt": "魏巍教授的论文被引用了多少次？",
+        "response": "魏巍教授的论文引用次数暂无数据。"
+    },
+    {
+        "prompt": "魏巍教授的论文研究的是什么领域？",
+        "response": "魏巍教授的论文研究的领域包括计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍教授的论文在哪个领域有重要意义？",
+        "response": "魏巍教授的论文在计算机软件与理论计算机应用技术领域具有重要意义。"
+    },
+    {
+        "prompt": "魏巍教授是华中科技大学计算机科学与技术学院的博士生导师和硕士生导师吗？",
+        "response": "是的，魏巍教授是华中科技大学计算机科学与技术学院的博士生导师和硕士生导师。"
+    },
+    {
+        "prompt": "魏巍教授获得过哪些荣誉？",
+        "response": "魏巍教授曾获得过许多荣誉，包括2021年华为“智能基座”-华为云与计算先锋教师、2021年华中科技大学校级优秀班主任、2021年“华为奖教金”获得者、2020年ICKG 2020 Best Student Paper Award、2017年第十批“3551光谷人才计划”、2017年华中科技大学校级优秀班主任、2016年华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍教授的学历和学位是什么？",
+        "response": "魏巍教授的学历是研究生(博士)毕业，学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍教授的毕业院校是哪所大学？",
+        "response": "魏巍教授的毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍教授的专业领域是什么？",
+        "response": "魏巍教授的专业领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍教授发表了哪些论文成果？",
+        "response": "魏巍教授发表了多篇论文成果，包括《H-Diffu: Hyperbolic Representations for Information Diffusion Prediction》、《Heterogeneous Graph Neural Network with Multi-view Representation Learning》、《Unsupervised Cross-modal Hashing via Semantic Text Mining》等。"
+    },
+    {
+        "prompt": "魏巍教授在2023年发表了哪些论文？",
+        "response": "截至目前，魏巍教授在2023年发表的论文包括《H-Diffu: Hyperbolic Representations for Information Diffusion Prediction》、《Heterogeneous Graph Neural Network with Multi-view Representation Learning》、《Unsupervised Cross-modal Hashing via Semantic Text Mining》等。"
+    },
+    {
+        "prompt": "魏巍教授发表的论文有哪些被CCF评为A类论文？",
+        "response": "根据提供的信息未能找到魏巍教授发表的论文中被CCF评为A类的具体信息。"
+    },
+    {
+        "prompt": "魏巍教授发表的论文有哪些被CCF评为B类论文？",
+        "response": "根据提供的信息未能找到魏巍教授发表的论文中被CCF评为B类的具体信息。"
+    },
+    {
+        "prompt": "魏巍教授是华中科技大学校级的优秀班主任吗？",
+        "response": "是的，魏巍教授是华中科技大学校级的优秀班主任。"
+    },
+    {
+        "prompt": "魏巍是哪所大学的教授?",
+        "response": "魏巍是华中科技大学的教授。"
+    },
+    {
+        "prompt": "魏巍的研究领域是什么?",
+        "response": "魏巍的研究领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍的学位是什么?",
+        "response": "魏巍的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍获得的荣誉有哪些?",
+        "response": "魏巍获得的荣誉有：华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”、华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍的论文成果有哪些?",
+        "response": "魏巍的论文成果有：Unsupervised Cross-modal Hashing via Semantic Text Mining, Rong-Cheng Tu, Xian-Ling Mao, Qinghong Lin, Wenjin Ji, Weize Qin, Wei Wei, Heyan Huang, IEEE Transactions on Multimedia (TMM), 2023, to appear. [CCF B]；Depth-aware and Semantic Guided Relational Attention Network for Visual Question Answering，Yuhang Liu, Wei Wei*，Daowan Peng, Xian-Ling Mao, Zhiyong He, Pan Zhou, IEEE Transactions on Multimedia (TMM), 2022, to appear. [CCF B]。"
+    },
+    {
+        "prompt": "魏巍在什么学院任职?",
+        "response": "魏巍在华中科技大学的计算机科学与技术学院任职。"
+    },
+    {
+        "prompt": "魏巍是男性还是女性?",
+        "response": "魏巍是男性。"
+    },
+    {
+        "prompt": "魏巍是博导还是硕导?",
+        "response": "魏巍是博导和硕导。"
+    },
+    {
+        "prompt": "魏巍曾在哪所大学毕业?",
+        "response": "魏巍曾在华中科技大学毕业。"
+    },
+    {
+        "prompt": "魏巍荣获的华为奖教金有什么特别之处?",
+        "response": "关于魏巍荣获的华为奖教金的特别之处没有提到相关信息。"
+    },
+    {
+        "prompt": "魏巍获得的华中科技大学校级优秀班主任是哪一年?",
+        "response": "魏巍获得的华中科技大学校级优秀班主任是2021年。"
+    },
+    {
+        "prompt": "魏巍在2016年华中科技大学教师教学竞赛中获得了什么奖项?",
+        "response": "魏巍在2016年华中科技大学教师教学竞赛中获得了二等奖。"
+    },
+    {
+        "prompt": "魏巍的研究成果发表在哪些重要期刊上?",
+        "response": "魏巍的研究成果发表在IEEE Transactions on Multimedia (TMM)期刊上。"
+    },
+    {
+        "prompt": "魏巍的论文成果在什么时间发表?",
+        "response": "魏巍的论文成果发表时间分别为2023年和2022年。"
+    },
+    {
+        "prompt": "魏巍在科学研究方面有哪些突出贡献?",
+        "response": "没有提到魏巍在科学研究方面的突出贡献。"
+    },
+    {
+        "prompt": "魏巍的个人主页地址在哪里?",
+        "response": "魏巍的个人主页地址没有提到相关信息。"
+    },
+    {
+        "prompt": "魏巍的个人主页上有哪些信息?",
+        "response": "关于魏巍的个人主页上没有提到相关信息。"
+    },
+    {
+        "prompt": "魏巍的论文成果中哪篇被评为CCF A类?",
+        "response": "魏巍的论文成果中没有提到有被评为CCF A类的论文。"
+    },
+    {
+        "prompt": "魏巍参与的哪篇论文被评为CCF B类?",
+        "response": "魏巍参与的论文成果中有一篇被评为CCF B类，题目是Unsupervised Cross-modal Hashing via Semantic Text Mining。"
+    },
+    {
+        "prompt": "魏巍的研究成果在学术界有什么影响?",
+        "response": "没有提到魏巍的研究成果在学术界有什么影响。"
+    },
+    {
+        "prompt": "魏巍是哪个学科的教授？",
+        "response": "魏巍是计算机软件与理论计算机应用技术学科的教授。"
+    },
+    {
+        "prompt": "魏巍的学历是什么？",
+        "response": "魏巍的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍的毕业院校是哪个？",
+        "response": "魏巍的毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍获得过的荣誉有：华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍的论文成果有哪些？",
+        "response": "魏巍的论文成果有：Depth-aware and Semantic Guided Relational Attention Network for Visual Question Answering，Unsupervised Cross-modal Hashing via Semantic Text Mining和Sequential Topic Selection Model with Latent Variable for Topic-Grounded Dialogue。"
+    },
+    {
+        "prompt": "魏巍在哪个单位工作？",
+        "response": "魏巍在计算机科学与技术学院工作。"
+    },
+    {
+        "prompt": "魏巍是什么学位？",
+        "response": "魏巍是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍是男性还是女性？",
+        "response": "魏巍是男性。"
+    },
+    {
+        "prompt": "魏巍在研究什么方向？",
+        "response": "魏巍在研究计算机软件与理论计算机应用技术方向。"
+    },
+    {
+        "prompt": "魏巍获得过华中科技大学校级优秀班主任奖项几次？",
+        "response": "魏巍获得过华中科技大学校级优秀班主任奖项至少两次。"
+    },
+    {
+        "prompt": "魏巍获得过第十批“3551光谷人才计划”奖项是在哪一年？",
+        "response": "魏巍获得过第十批“3551光谷人才计划”奖项是在2017年。"
+    },
+    {
+        "prompt": "魏巍的论文发表在哪个期刊上？",
+        "response": "魏巍的论文发表在IEEE Transactions on Multimedia (TMM)期刊上。"
+    },
+    {
+        "prompt": "魏巍的论文发表时间是什么时候？",
+        "response": "魏巍的论文发表时间是2022年和2023年。"
+    },
+    {
+        "prompt": "魏巍在华为获得了哪个奖项？",
+        "response": "魏巍在华为获得了“智能基座”-华为云与计算先锋教师奖项。"
+    },
+    {
+        "prompt": "魏巍的华为奖教金是在哪一年获得的？",
+        "response": "魏巍的华为奖教金是在2021年获得的。"
+    },
+    {
+        "prompt": "魏巍是哪个学科的博导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术学科的博导。"
+    },
+    {
+        "prompt": "魏巍是哪个学科的硕导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术学科的硕导。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍在计算机科学与技术学院执教吗？",
+        "response": "是的，魏巍在计算机科学与技术学院执教。"
+    },
+    {
+        "prompt": "魏巍的个人主页地址是什么？",
+        "response": "魏巍的个人主页地址是http://faculty.hust.edu.cn//weiw/zh_CN/lwcg/869532/content/102901.htm#lwcg。"
+    },
+    {
+        "prompt": "魏巍是哪个学校的教授？",
+        "response": "魏巍是华中科技大学的教授。"
+    },
+    {
+        "prompt": "魏巍是什么学科的博导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术学科的博导。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍获得过以下荣誉：华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”、华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍的最新论文有哪些？",
+        "response": "魏巍的最新论文有：Sequential Topic Selection Model with Latent Variable for Topic-Grounded Dialogue, Depth-aware and Semantic Guided Relational Attention Network for Visual Question Answering，HCL-TAT: A Hybrid Contrastive Learning Method for Few-shot Event Detection with Task-Adaptive Threshold。"
+    },
+    {
+        "prompt": "魏巍所在的学院是哪个？",
+        "response": "魏巍所在的学院是计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍的教育背景是什么？",
+        "response": "魏巍的教育背景是研究生(博士)毕业，获得工学博士学位，毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍在职单位是哪里？",
+        "response": "魏巍在职单位是计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍的个人信息有哪些？",
+        "response": "魏巍的个人信息包括：教授、博士生导师、硕士生导师、性别：男、在职信息：在职、所在单位：计算机科学与技术学院、学历：研究生(博士)毕业、学位：工学博士学位、毕业院校：华中科技大学、学科：计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍是男性还是女性？",
+        "response": "魏巍是男性。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的校级优秀班主任吗？",
+        "response": "是的，魏巍是华中科技大学的校级优秀班主任。"
+    },
+    {
+        "prompt": "魏巍发表的论文在哪个会议上发表的？",
+        "response": "魏巍发表的论文在2022 Conference on Empirical Methods in Natural Language Processing (Findings of EMNLP'2022)会议上发表。"
+    },
+    {
+        "prompt": "魏巍在华为云与计算先锋教师项目中获得了什么荣誉？",
+        "response": "魏巍在华为云与计算先锋教师项目中获得了华为“智能基座”荣誉。"
+    },
+    {
+        "prompt": "魏巍所发表论文的研究领域是什么？",
+        "response": "魏巍所发表论文的研究领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍在学术界有哪些影响力？",
+        "response": "魏巍在学术界有相当的影响力，发表了多篇论文，并在相关领域做出了突出贡献。"
+    },
+    {
+        "prompt": "魏巍的个人主页在哪里可以找到？",
+        "response": "魏巍的个人主页可以在http://faculty.hust.edu.cn//weiw/zh_CN/lwcg/869532/content/102900.htm#lwcg找到。"
+    },
+    {
+        "prompt": "魏巍的论文在学术界有哪些影响力？",
+        "response": "魏巍的论文在学术界具有一定的影响力，特别是在相关研究领域。"
+    },
+    {
+        "prompt": "魏巍的研究成果在哪些方面有突出贡献？",
+        "response": "魏巍的研究成果在计算机软件与理论计算机应用技术方面有突出贡献。"
+    },
+    {
+        "prompt": "魏巍的导师有哪些？",
+        "response": "魏巍的导师暂时未知。"
+    },
+    {
+        "prompt": "魏巍的论文被引用次数如何？",
+        "response": "魏巍的论文被引用次数可以通过相关学术数据库查询。"
+    },
+    {
+        "prompt": "魏巍是哪个学校的博导和硕导？",
+        "response": "魏巍是华中科技大学的博导和硕导。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么？",
+        "response": "魏巍是一位教授，博士生导师和硕士生导师。他的个人信息包括性别男，目前在职，所在单位是华中科技大学计算机科学与技术学院，拥有工学博士学位，毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍的学位是什么？毕业院校是哪个？",
+        "response": "魏巍拥有工学博士学位，毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍曾获得华为“智能基座”-华为云与计算先锋教师奖、华中科技大学校级优秀班主任奖、华为奖教金、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "魏巍的论文成果有哪些？",
+        "response": "魏巍的论文成果包括《HCL-TAT: A Hybrid Contrastive Learning Method for Few-shot Event Detection with Task-Adaptive Threshold》和《Sequential Topic Selection Model with Latent Variable for Topic-Grounded Dialogue》等。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学所在的单位是什么？",
+        "response": "魏巍在华中科技大学计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍作为华中科技大学教师获得过哪些奖项？",
+        "response": "魏巍作为华中科技大学教师曾获得校级优秀班主任奖和教师教学竞赛二等奖等奖项。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍的主页在哪里可以找到？",
+        "response": "魏巍的主页可以在华中科技大学计算机科学与技术学院的网页上找到。"
+    },
+    {
+        "prompt": "魏巍的最新发表的论文是什么？",
+        "response": "魏巍的最新发表的论文是《HCL-TAT: A Hybrid Contrastive Learning Method for Few-shot Event Detection with Task-Adaptive Threshold》。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么？",
+        "response": "教授、博士生导师、硕士生导师，性别为男，所在单位是计算机科学与技术学院，学历为研究生(博士)毕业，学位是工学博士学位，毕业院校是华中科技大学，学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍的职称是什么？",
+        "response": "魏巍的职称是教授。"
+    },
+    {
+        "prompt": "魏巍在哪个学院任职？",
+        "response": "魏巍在计算机科学与技术学院任职。"
+    },
+    {
+        "prompt": "魏巍的学历是什么？",
+        "response": "魏巍的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍的学位是什么？",
+        "response": "魏巍的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "暂未找到关于魏巍的研究方向的信息。"
+    },
+    {
+        "prompt": "魏巍曾经获得过哪些荣誉？",
+        "response": "魏巍曾获得过华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍的论文成果有哪些？",
+        "response": "魏巍的论文成果包括：Capturing Global Structural Information in Long Document Question Answering with Compressive Graph Selector Network, HCL-TAT: A Hybrid Contrastive Learning Method for Few-shot Event Detection with Task-Adaptive Threshold和Incorporating Casual Analysis into Diversified and Logical Response Generation。"
+    },
+    {
+        "prompt": "魏巍的论文成果有哪些？",
+        "response": "魏巍的论文成果包括：\\n1. Incorporating Casual Analysis into Diversified and Logical Response Generation\\n2. Multi-level Contrastive Learning Framework for Sequential Recommendation\\n3. Improving Personality Consistency in Conversation by Persona Extending\\n4. Improving Knowledge-aware Recommendation with Multi-level Interactive Contrastive Learning\\n5. Spatial-Temporal Identity: A Simple yet Effective Baseline for Multivariate Time Series Forecasting\\n6. Decoupled Dynamic Spatial-Temporal Graph Neural Network for Traffic Forecasting\\n7. Toward Real-life Dialogue State Tracking Involving Negative Feedback Utterances\\n8. Deep Cross-modal Proxy Hashing\\n9. Automatic Noisy Label Correction for Fine-Grained Entity Typing\\n10. Declaration-based Prompt Tuning for Visual Question Answering"
+    },
+    {
+        "prompt": "魏巍参加了哪些国际会议？",
+        "response": "魏巍参加了以下国际会议：\\n1. 29th International Conference on Computational Linguistics (Coling 2022)\\n2. 31st ACM International Conference on Information and Knowledge Management (CIKM 2022)\\n3. 48th International Conference on Very Large Databases (PVLDB 2022)\\n4. 28th International ACM SIGKDD Conference on Research and Development Knowledge Discovery and Data Mining (SIGKDD 2022)\\n5. 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI' 2022)"
+    },
+    {
+        "prompt": "魏巍的论文被收录在哪些重要期刊或会议中？",
+        "response": "魏巍的论文被收录在以下重要期刊或会议中：\\n1. 29th International Conference on Computational Linguistics (Coling 2022)\\n2. 31st ACM International Conference on Information and Knowledge Management (CIKM 2022)\\n3. 48th International Conference on Very Large Databases (PVLDB 2022)\\n4. 28th International ACM SIGKDD Conference on Research and Development Knowledge Discovery and Data Mining (SIGKDD 2022)\\n5. IEEE Transactions on Knowledge and Data Engineering (TKDE)"
+    },
+    {
+        "prompt": "魏巍在计算机领域的研究方向是什么？",
+        "response": "魏巍在计算机领域的研究方向是自然语言处理、机器学习和数据挖掘。"
+    },
+    {
+        "prompt": "魏巍在哪些领域进行了科学研究？",
+        "response": "魏巍在自然语言处理、机器学习、数据挖掘和人工智能等领域进行了科学研究。"
+    },
+    {
+        "prompt": "魏巍在2022年发表的论文有哪些重要贡献？",
+        "response": "魏巍在2022年发表的论文的重要贡献包括：\\n1. Incorporating Casual Analysis into Diversified and Logical Response Generation\\n2. Multi-level Contrastive Learning Framework for Sequential Recommendation\\n3. Improving Personality Consistency in Conversation by Persona Extending\\n4. Improving Knowledge-aware Recommendation with Multi-level Interactive Contrastive Learning\\n5. Spatial-Temporal Identity: A Simple yet Effective Baseline for Multivariate Time Series Forecasting\\n6. Decoupled Dynamic Spatial-Temporal Graph Neural Network for Traffic Forecasting\\n7. Toward Real-life Dialogue State Tracking Involving Negative Feedback Utterances\\n8. Deep Cross-modal Proxy Hashing\\n9. Automatic Noisy Label Correction for Fine-Grained Entity Typing\\n10. Declaration-based Prompt Tuning for Visual Question Answering"
+    },
+    {
+        "prompt": "魏巍发表的论文中有哪些应用方向？",
+        "response": "魏巍发表的论文涉及的应用方向包括：对话生成、推荐系统、时间序列预测、交通预测、跨模态学习、实体识别和问答系统等。"
+    },
+    {
+        "prompt": "魏巍在国际会议上的论文被评为什么等级？",
+        "response": "魏巍在国际会议上发表的论文被评为CCF B类或CCF A类等级。"
+    },
+    {
+        "prompt": "魏巍在CIKM 2022会议上发表了哪些论文？",
+        "response": "魏巍在CIKM 2022会议上发表了以下论文：\\n1. Multi-level Contrastive Learning Framework for Sequential Recommendation\\n2. Improving Personality Consistency in Conversation by Persona Extending\\n3. Improving Knowledge-aware Recommendation with Multi-level Interactive Contrastive Learning\\n4. Spatial-Temporal Identity: A Simple yet Effective Baseline for Multivariate Time Series Forecasting"
+    },
+    {
+        "prompt": "魏巍在Coling 2022会议上发表了哪篇论文？",
+        "response": "魏巍在Coling 2022会议上发表了Incorporating Casual Analysis into Diversified and Logical Response Generation一篇论文。"
+    },
+    {
+        "prompt": "魏巍的论文主要关注哪些方面？",
+        "response": "魏巍的论文主要关注的方面包括对话生成、推荐系统、时间序列预测、跨模态学习、实体识别和问答系统等。"
+    },
+    {
+        "prompt": "魏巍和他的合作者在论文中使用了哪些方法或技术？",
+        "response": "魏巍和他的合作者在论文中使用了以下方法或技术：多级对比学习框架、个性化拓展、知识感知推荐、空间-时间识别等。"
+    },
+    {
+        "prompt": "魏巍是什么学术背景？",
+        "response": "魏巍的学术背景是计算机领域。"
+    },
+    {
+        "prompt": "魏巍发表的论文涵盖了哪些研究领域？",
+        "response": "魏巍发表的论文涵盖的研究领域包括自然语言处理、机器学习、数据挖掘、人工智能等。"
+    },
+    {
+        "prompt": "魏巍在CIKM 2022会议上的论文有哪些创新点？",
+        "response": "魏巍在CIKM 2022会议上的论文的创新点包括：\\n1. 在推荐系统中引入多级对比学习框架\\n2. 提高对话中一致性的方法\\n3. 在知识感知推荐中应用多级交互对比学习\\n4. 提出一种简单而有效的基线模型用于多元时间序列预测"
+    },
+    {
+        "prompt": "魏巍的论文对相关领域的发展有何影响？",
+        "response": "魏巍的论文对相关领域的发展起到推动作用，提出了一些新的方法和模型，拓展了对话生成、推荐系统、时间序列预测、跨模态学习、实体识别和问答系统等方面的研究。"
+    },
+    {
+        "prompt": "魏巍的论文主要解决了哪些问题或挑战？",
+        "response": "魏巍的论文主要解决的问题或挑战包括：对话生成中的一致性问题、知识感知推荐的效果提升、多元时间序列预测的基线模型等。"
+    },
+    {
+        "prompt": "魏巍最引人注目的研究成果是什么？",
+        "response": "魏巍最引人注目的研究成果是在推荐系统、对话生成、时间序列预测等方面提出的新方法和模型，为相关领域的研究做出了积极贡献。"
+    },
+    {
+        "prompt": "魏巍是谁?",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授，拥有博士学位。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么?",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授，拥有博士学位，曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”等荣誉。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的教授吗?",
+        "response": "是的，魏巍是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍的学历是什么?",
+        "response": "魏巍拥有研究生（博士）毕业的学历。"
+    },
+    {
+        "prompt": "魏巍的学位是什么?",
+        "response": "魏巍拥有工学博士学位。"
+    },
+    {
+        "prompt": "魏巍曾获得过哪些荣誉?",
+        "response": "魏巍曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”等荣誉。"
+    },
+    {
+        "prompt": "魏巍的论文成果有哪些?",
+        "response": "魏巍的论文成果包括：1. Yingjie Xia, Qianqian Zhu, Wei Wei, “Weakly Supervised Random Forest for Multi-Label Image Clustering and Segmentation”, In: Proceedings of ACM International Conference on Multimedia Retrieval (ICMR'15), 2015. (CCF B). 2. Yong Liu, Wei Wei, Aixin Sun, Chunyan Miao, “Exploiting Geographical Neighborhood Characteristics for Location Recommendation”, In: Proceedings of the 23thACM International Conference on Conference on Information and Knowledge Management (CIKM'14), 2014. (CCF B) [Full Paper, Oral]. 3. Xiaogang Han,Wei Wei*,Chunyan Miao, Jian-Ping Mei and Hengjie Song, “Context-Aware Personal Information Retrieval from Multiple Social Networks”, IEEE Computational Intelligence Magazine (IF = 6.343), 9(2):18-28, 2014. (SCI). 4. Wei Wei, Gao Cong, Xiaoli Li, See-Kiong Ng and Guohui Li, “Integrating Community Question and Answer Archives”, In: Proceedings of the 25thAAAI Conference on Artificial Intelligence (AAAI'11), 2011. (CCF A) [Full Paper, Oral]. 5. Bin Gao, Tie-Yan Liu, Wei Wei, Taifeng Wang and Hang Li, “Semi-supervised ranking on very large graphs with rich metadata”, In: Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (SIGKDD'11), 2011. (CCF A) [Full Paper, Oral]."
+    },
+    {
+        "prompt": "魏巍发表的论文被列为CCF B类的有哪些?",
+        "response": "魏巍发表的论文中被列为CCF B类的有：1. Yingjie Xia, Qianqian Zhu, Wei Wei, “Weakly Supervised Random Forest for Multi-Label Image Clustering and Segmentation”, In: Proceedings of ACM International Conference on Multimedia Retrieval (ICMR'15), 2015. 2. Yong Liu, Wei Wei, Aixin Sun, Chunyan Miao, “Exploiting Geographical Neighborhood Characteristics for Location Recommendation”, In: Proceedings of the 23thACM International Conference on Conference on Information and Knowledge Management (CIKM'14), 2014."
+    },
+    {
+        "prompt": "魏巍的论文发表在哪些国际会议上?",
+        "response": "魏巍的论文发表在ACM International Conference on Multimedia Retrieval (ICMR'15)、ACM International Conference on Conference on Information and Knowledge Management (CIKM'14)、ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (SIGKDD'11)等国际会议上。"
+    },
+    {
+        "prompt": "魏巍的论文发表在哪些期刊上?",
+        "response": "魏巍的论文发表在IEEE Computational Intelligence Magazine上。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么?",
+        "response": "魏巍的研究方向包括社交网络中的个人信息检索、问答社区等。"
+    },
+    {
+        "prompt": "魏巍在社交网络中的个人信息检索是如何实现的?",
+        "response": "魏巍在社交网络中的个人信息检索方面的研究尚未找到具体方法。"
+    },
+    {
+        "prompt": "魏巍在问答社区方面有哪些研究?",
+        "response": "魏巍在问答社区方面的研究包括Integrating Community Question and Answer Archives等。"
+    },
+    {
+        "prompt": "魏巍在知识图谱方面有哪些研究?",
+        "response": "魏巍在知识图谱方面的研究尚未找到具体项目。"
+    },
+    {
+        "prompt": "魏巍在大规模图上的半监督排序的研究中采用了什么方法?",
+        "response": "魏巍在大规模图上的半监督排序的研究中具体采用了什么方法尚未找到相关信息。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么？",
+        "response": "魏巍，教授，博士生导师，硕士生导师，性别男，所在单位为计算机科学与技术学院，学历为研究生（博士）毕业，学位为工学博士学位，毕业院校为华中科技大学，学科为计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍是哪个学院的教授？",
+        "response": "魏巍是计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍的学历是什么？",
+        "response": "魏巍的学历是研究生（博士）毕业。"
+    },
+    {
+        "prompt": "魏巍的学位是什么？",
+        "response": "魏巍的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍的毕业院校是哪个？",
+        "response": "魏巍的毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍获得过以下荣誉：2021华为“智能基座”-华为云与计算先锋教师、2021华中科技大学校级优秀班主任、2021“华为奖教金”获得者、2020 ICKG 2020 Best Student Paper Award、2017第十批“3551光谷人才计划”、2017华中科技大学校级优秀班主任、2016华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍主持过哪些科研项目？",
+        "response": "魏巍主持过面向复杂对话场景建模的开放域可控人机对话系统关键技术研究项目，该项目由国家自然科学基金（面上）资助。"
+    },
+    {
+        "prompt": "魏巍的科研项目中，主要研究什么内容？",
+        "response": "魏巍的科研项目主要研究面向复杂对话场景建模的开放域可控人机对话系统关键技术。"
+    },
+    {
+        "prompt": "魏巍的科研项目是哪个基金资助的？",
+        "response": "魏巍的科研项目是由国家自然科学基金（面上）资助的。"
+    },
+    {
+        "prompt": "魏巍主持的科研项目的研究时间是多久？",
+        "response": "魏巍主持的科研项目研究时间为2023年至2026年。"
+    },
+    {
+        "prompt": "魏巍现在在哪个单位工作？",
+        "response": "魏巍现在在计算机科学与技术学院工作。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学的专业是什么？",
+        "response": "魏巍在华中科技大学的专业是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍是哪个专业的博导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术专业的博导。"
+    },
+    {
+        "prompt": "魏巍是哪个专业的硕导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术专业的硕导。"
+    },
+    {
+        "prompt": "魏巍是男性还是女性？",
+        "response": "魏巍是男性。"
+    },
+    {
+        "prompt": "魏巍获得过什么奖教金？",
+        "response": "魏巍获得过华为奖教金。"
+    },
+    {
+        "prompt": "魏巍在教学竞赛中获得了什么奖项？",
+        "response": "魏巍在华中科技大学教师教学竞赛中获得过二等奖。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学担任过什么职务？",
+        "response": "魏巍在华中科技大学曾担任过优秀班主任。"
+    },
+    {
+        "prompt": "魏巍的最新科研项目是什么？",
+        "response": "魏巍的最新科研项目是面向复杂对话场景建模的开放域可控人机对话系统关键技术研究。"
+    },
+    {
+        "prompt": "魏巍现在的科研项目是在研还是已完成？",
+        "response": "魏巍现在的科研项目是在研。"
+    },
+    {
+        "prompt": "魏巍是哪个实验室的负责人？",
+        "response": "魏巍是华科-平安产险人工智能联合实验室的负责人。"
+    },
+    {
+        "prompt": "魏巍在哪所大学获得博士学位？",
+        "response": "魏巍在华中科技大学获得博士学位。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍曾获得哪些荣誉？",
+        "response": "魏巍曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”等荣誉。"
+    },
+    {
+        "prompt": "魏巍是哪个学院的教授？",
+        "response": "魏巍是计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的哪个专业的博导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术专业的博导。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学担任什么职位？",
+        "response": "魏巍在华中科技大学担任教授、博士生导师。"
+    },
+    {
+        "prompt": "魏巍的个人信息中提到了哪些学历和学位？",
+        "response": "魏巍的个人信息中提到了研究生(博士)毕业的学历和工学博士学位。"
+    },
+    {
+        "prompt": "魏巍主持了哪些科研项目？",
+        "response": "魏巍主持了华科-平安产险人工智能联合实验室的科研项目，还主持了面向复杂对话场景建模的开放域可控人机对话系统关键技术研究等项目。"
+    },
+    {
+        "prompt": "魏巍是哪个单位的成员？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的成员。"
+    },
+    {
+        "prompt": "魏巍在哪个领域做出了贡献？",
+        "response": "魏巍在计算机软件与理论计算机应用技术领域做出了贡献。"
+    },
+    {
+        "prompt": "魏巍在哪些方面获得了研究项目的资助？",
+        "response": "魏巍在人工智能领域和对话系统领域获得了研究项目的资助。"
+    },
+    {
+        "prompt": "魏巍发表了哪些学术论文？",
+        "response": "魏巍的学术论文有待进一步查询。"
+    },
+    {
+        "prompt": "魏巍的研究成果有哪些？",
+        "response": "魏巍的研究成果有待进一步查询。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学担任过哪些职务？",
+        "response": "魏巍在华中科技大学担任过教授、博士生导师等职务。"
+    },
+    {
+        "prompt": "魏巍的研究项目有哪些正在进行中？",
+        "response": "魏巍的研究项目有华科-平安产险人工智能联合实验室的项目和面向复杂对话场景建模的开放域可控人机对话系统关键技术研究项目正在进行中。"
+    },
+    {
+        "prompt": "魏巍在哪个研究实验室工作？",
+        "response": "魏巍在华科-平安产险人工智能联合实验室工作。"
+    },
+    {
+        "prompt": "魏巍的研究项目的主要内容是什么？",
+        "response": "魏巍的研究项目的主要内容有待进一步查询。"
+    },
+    {
+        "prompt": "魏巍在什么时间获得了华中科技大学校级优秀班主任荣誉？",
+        "response": "魏巍在2021年获得了华中科技大学校级优秀班主任荣誉。"
+    },
+    {
+        "prompt": "魏巍在什么时间获得了华为奖教金？",
+        "response": "魏巍在2021年获得了华为奖教金。"
+    },
+    {
+        "prompt": "魏巍教授是哪个学校的博导？",
+        "response": "魏巍教授是华中科技大学的博导。"
+    },
+    {
+        "prompt": "魏巍教授的专业是什么？",
+        "response": "魏巍教授的专业是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍教授获得过哪些荣誉？",
+        "response": "魏巍教授获得过以下荣誉：华为“智能基座”-华为云与计算先锋教师，华中科技大学校级优秀班主任，华为奖教金获得者，ICKG 2020 Best Student Paper Award，第十批“3551光谷人才计划”，华中科技大学校级优秀班主任，华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍教授主持过哪些科研项目？",
+        "response": "魏巍教授主持过基于专家经验的可控对话系统（CCF-蚂蚁基金）。"
+    },
+    {
+        "prompt": "魏巍教授所在的学院是哪个？",
+        "response": "魏巍教授所在的学院是计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍教授是哪个科研项目的主持人？",
+        "response": "魏巍教授是基于专家经验的可控对话系统（CCF-蚂蚁基金）的主持人。"
+    },
+    {
+        "prompt": "魏巍教授的学历是什么？",
+        "response": "魏巍教授的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍教授的学位是什么？",
+        "response": "魏巍教授的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍教授的硕导是哪个学校的博导？",
+        "response": "魏巍教授的硕导是华中科技大学的博导。"
+    },
+    {
+        "prompt": "魏巍教授曾主持过哪个实验室？",
+        "response": "魏巍教授曾主持过华科-平安产险人工智能联合实验室。"
+    },
+    {
+        "prompt": "魏巍教授的研究方向是什么？",
+        "response": "魏巍教授的研究方向是基于专家经验的可控对话系统。"
+    },
+    {
+        "prompt": "魏巍教授在哪个学科获得了荣誉？",
+        "response": "魏巍教授在计算机软件与理论计算机应用技术学科获得了荣誉。"
+    },
+    {
+        "prompt": "魏巍教授在哪个学校毕业的博士？",
+        "response": "魏巍教授在华中科技大学毕业的博士。"
+    },
+    {
+        "prompt": "魏巍教授获得过哪个国家级基金的项目？",
+        "response": "魏巍教授获得过CCF-蚂蚁基金的项目。"
+    },
+    {
+        "prompt": "魏巍教授是哪个项目的主持人？",
+        "response": "魏巍教授是基于专家经验的可控对话系统（CCF-蚂蚁基金）的主持人。"
+    },
+    {
+        "prompt": "魏巍是什么学位？",
+        "response": "魏巍的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍是哪个单位的教授？",
+        "response": "魏巍是计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍在哪个大学毕业的？",
+        "response": "魏巍在华中科技大学获得了研究生(博士)毕业学历。"
+    },
+    {
+        "prompt": "魏巍获得了哪些荣誉？",
+        "response": "魏巍获得的荣誉包括2021年华为“智能基座”-华为云与计算先锋教师、2021年华中科技大学校级优秀班主任、2021年“华为奖教金”获得者、2020年ICKG 2020 Best Student Paper Award、2017年第十批“3551光谷人才计划”和2016年华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍主持了哪些科研项目？",
+        "response": "魏巍主持的科研项目包括微博社交网络中主题专家搜索关键技术研究，国家自然科学基金青年基金（项目编号：61602197），在2017年至2019年期间进行（目前在研）和基于专家经验的可控对话系统，CCF-蚂蚁基金，在2022年至2023年至2026年期间进行（目前在研）。"
+    },
+    {
+        "prompt": "魏巍的科研项目有哪些关键技术？",
+        "response": "魏巍的科研项目微博社交网络中主题专家搜索关键技术研究的关键技术是针对微博社交网络中的主题专家搜索进行研究。"
+    },
+    {
+        "prompt": "魏巍的科研项目是哪个基金资助的？",
+        "response": "魏巍的科研项目微博社交网络中主题专家搜索关键技术研究是由国家自然科学基金青年基金资助的。"
+    },
+    {
+        "prompt": "魏巍的科研项目的项目编号是多少？",
+        "response": "魏巍的科研项目微博社交网络中主题专家搜索关键技术研究的项目编号是61602197。"
+    },
+    {
+        "prompt": "魏巍的科研项目的开始和结束时间是什么时候？",
+        "response": "魏巍的科研项目微博社交网络中主题专家搜索关键技术研究的开始时间是2017年，结束时间是2019年（目前仍在研）。"
+    },
+    {
+        "prompt": "魏巍的科研项目目前的进展情况如何？",
+        "response": "魏巍的科研项目微博社交网络中主题专家搜索关键技术研究目前仍在进行中，具体进展情况未提及。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么？",
+        "response": "魏巍是在职的教授，是计算机科学与技术学院的成员。他拥有工学博士学位，毕业于华中科技大学，专注于计算机软件与理论计算机应用技术领域。他曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "魏巍的教育背景是什么？",
+        "response": "魏巍毕业于华中科技大学，获得了工学博士学位。所学专业是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍的所属学院是哪个？",
+        "response": "魏巍所属的学院是计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍有何学术荣誉？",
+        "response": "魏巍曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”、ICKG 2020 Best Student Paper Award等学术荣誉。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学获得了哪个奖项？",
+        "response": "魏巍在华中科技大学获得了校级优秀班主任的奖项。"
+    },
+    {
+        "prompt": "魏巍的博导和硕导是哪一个专业？",
+        "response": "魏巍是同专业的博导和硕导。"
+    },
+    {
+        "prompt": "魏巍曾主持的科研项目有哪些？",
+        "response": "魏巍曾主持的科研项目包括面向问答系统中开放式问题分析及答案融合方法的关键技术研究，该项目由湖北省自然科学青年基金资助（项目编号：2016CFB192）。"
+    },
+    {
+        "prompt": "魏巍主持的湖北省自然科学青年基金的项目编号是什么？",
+        "response": "魏巍主持的湖北省自然科学青年基金的项目编号是2016CFB192。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向主要集中在问答系统中开放式问题分析及答案融合方法的关键技术。"
+    },
+    {
+        "prompt": "魏巍在微博社交网络中的研究项目是什么？",
+        "response": "目前尚未提供魏巍在微博社交网络中的研究项目的信息。"
+    },
+    {
+        "prompt": "魏巍在华科-容联人工智能联合实验室担任什么职务？",
+        "response": "魏巍在华科-容联人工智能联合实验室担任实验室主任一职。"
+    },
+    {
+        "prompt": "魏巍的联系地址是哪里？",
+        "response": "魏巍的联系地址是湖北省武汉市洪山区珞喻路1037号。"
+    },
+    {
+        "prompt": "魏巍的联系方式有哪些？",
+        "response": "暂无提供魏巍的联系方式信息。"
+    },
+    {
+        "prompt": "魏巍的科研成果有哪些？",
+        "response": "暂无提供魏巍的科研成果信息。"
+    },
+    {
+        "prompt": "魏巍的研究成果对问答系统有哪些启发？",
+        "response": "暂无提供魏巍的研究成果信息。"
+    },
+    {
+        "prompt": "魏巍的个人信息是什么？",
+        "response": "魏巍，华中科技大学计算机科学与技术学院教授，性别男，所在单位为华中科技大学，学历为研究生(博士)毕业，学位是工学博士学位，毕业院校是华中科技大学，学科是计算机软件与理论计算机应用技术。他曾获得过华为“智能基座”-华为云与计算先锋教师荣誉、华中科技大学校级优秀班主任荣誉、“华为奖教金”、ICKG 2020 Best Student Paper Award奖项、第十批“3551光谷人才计划”荣誉、以及华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的哪个学院的教授？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学哪个专业的博导？",
+        "response": "魏巍是华中科技大学计算机软件与理论计算机应用技术专业的博导。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学的学历是什么？",
+        "response": "魏巍在华中科技大学的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学的学位是什么？",
+        "response": "魏巍在华中科技大学的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学的主要研究方向是什么？",
+        "response": "魏巍在华中科技大学的主要研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍曾获得过哪些荣誉？",
+        "response": "魏巍曾获得过华为“智能基座”-华为云与计算先锋教师荣誉、华中科技大学校级优秀班主任荣誉、“华为奖教金”、ICKG 2020 Best Student Paper Award奖项、第十批“3551光谷人才计划”荣誉和华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍在2017~2019年期间主持了哪个科研项目？",
+        "response": "在2017~2019年期间，魏巍主持了华科-容联人工智能联合实验室的科研项目。"
+    },
+    {
+        "prompt": "魏巍在哪个实验室担任主任？",
+        "response": "魏巍在华科-容联人工智能联合实验室担任主任。"
+    },
+    {
+        "prompt": "魏巍在湖北省自然科学青年基金项目中主持了哪项研究？",
+        "response": "在湖北省自然科学青年基金项目中，魏巍主持了面向问答系统中开放式问题分析及答案融合方法的关键技术研究。"
+    },
+    {
+        "prompt": "魏巍教授的研究方向是什么？",
+        "response": "魏巍教授的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍教授在华中科技大学担任什么职务？",
+        "response": "魏巍教授在华中科技大学担任教授，博士生导师和硕士生导师。"
+    },
+    {
+        "prompt": "魏巍教授的毕业院校是哪里？",
+        "response": "魏巍教授的毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍教授在2021年获得了哪些荣誉？",
+        "response": "魏巍教授在2021年获得了华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任和“华为奖教金”等荣誉。"
+    },
+    {
+        "prompt": "魏巍教授主持过哪些科研项目？",
+        "response": "魏巍教授曾主持华中科技大学人才引进基金项目（2015-2018年）和华科-容联人工智能联合实验室项目（2017-2019年）。"
+    },
+    {
+        "prompt": "魏巍教授主持的华中科技大学人才引进基金是在什么时间内进行的？",
+        "response": "魏巍教授主持的华中科技大学人才引进基金是在2015年至2018年期间进行的。"
+    },
+    {
+        "prompt": "魏巍教授的科研项目有多少个？",
+        "response": "魏巍教授的科研项目有两个，分别是华中科技大学人才引进基金和华科-容联人工智能联合实验室项目。"
+    },
+    {
+        "prompt": "魏巍教授在哪个学院任职？",
+        "response": "魏巍教授在华中科技大学计算机科学与技术学院任教。"
+    },
+    {
+        "prompt": "魏巍教授的学位是什么？",
+        "response": "魏巍教授的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍教授曾获得什么奖项或荣誉？",
+        "response": "魏巍教授曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖等奖项或荣誉。"
+    },
+    {
+        "prompt": "魏巍是哪所大学的教授?",
+        "response": "魏巍是华中科技大学的教授。"
+    },
+    {
+        "prompt": "魏巍的学历是什么?",
+        "response": "魏巍的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍在哪个学院任职?",
+        "response": "魏巍在华中科技大学计算机科学与技术学院任职。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉?",
+        "response": "魏巍曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "魏巍主持过哪些科研项目?",
+        "response": "魏巍主持过华中科技大学自主创新基金项目。"
+    },
+    {
+        "prompt": "魏巍获得过哪些奖项?",
+        "response": "魏巍获得过华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍是哪个学科的导师?",
+        "response": "魏巍是计算机软件与理论计算机应用技术学科的导师。"
+    },
+    {
+        "prompt": "魏巍的硕士生导师是谁?",
+        "response": "魏巍的硕士生导师是未知的。"
+    },
+    {
+        "prompt": "魏巍的博士生导师是谁?",
+        "response": "魏巍的博士生导师是未知的。"
+    },
+    {
+        "prompt": "魏巍所在的大学是什么?",
+        "response": "魏巍所在的大学是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍获得过哪项国家计划的资助?",
+        "response": "未提及魏巍获得过哪项国家计划的资助。"
+    },
+    {
+        "prompt": "魏巍的科研项目是什么?",
+        "response": "魏巍的科研项目是华中科技大学自主创新基金。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学任职多久了?",
+        "response": "未提及魏巍在华中科技大学任职多久。"
+    },
+    {
+        "prompt": "魏巍是男性还是女性?",
+        "response": "魏巍是男性。"
+    },
+    {
+        "prompt": "魏巍的个人信息包括哪些内容？",
+        "response": "魏巍的个人信息包括教授、博士生导师、硕士生导师，性别为男，所在单位为华中科技大学计算机科学与技术学院，学历为研究生(博士)毕业，学位为工学博士学位，毕业院校为华中科技大学，学科为计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学任教的学院是哪个？",
+        "response": "魏巍在华中科技大学任教的学院是计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍的学历是什么？",
+        "response": "魏巍的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的校级优秀班主任吗？",
+        "response": "是的，魏巍是华中科技大学的校级优秀班主任。"
+    },
+    {
+        "prompt": "魏巍参与了哪个科研项目？",
+        "response": "魏巍参与了基于传感器网络的目标跟踪技术研究，该项目为国家863计划的项目，项目编号为2007AA01Z309，时间为2007~2009，魏巍是项目的参与人员之一，并担任重要角色。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍获得过的荣誉包括：华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”、华中科技大学教师教学竞赛二等奖。这些荣誉充分表彰了魏巍在教学和科研方面的出色表现和贡献。"
+    },
+    {
+        "prompt": "魏巍的科研项目中，国家863计划的项目编号是多少？",
+        "response": "魏巍的科研项目中，国家863计划的项目编号是2007AA01Z309。该项目是基于传感器网络的目标跟踪技术研究，时间为2007~2009。"
+    },
+    {
+        "prompt": "魏巍主持的科研项目是哪个？",
+        "response": "魏巍主持的科研项目是华中科技大学自主创新基金，时间为2016-2018。"
+    },
+    {
+        "prompt": "魏巍的研究领域是什么？",
+        "response": "魏巍的研究领域是计算机软件与理论计算机应用技术。他在该领域开展了多项科研项目和研究工作。"
+    },
+    {
+        "prompt": "魏巍是否是华中科技大学的博士生导师？",
+        "response": "是的，魏巍是华中科技大学的博士生导师。他在计算机科学与技术学院担任该职务，为学生提供博士研究生的导师指导。"
+    },
+    {
+        "prompt": "魏巍获得的校级优秀班主任奖是什么时候？",
+        "response": "魏巍在2017年12月31日获得了校级优秀班主任奖。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学获得过哪些荣誉？",
+        "response": "魏巍获得过华为“智能基座”-华为云与计算先锋教师奖、华中科技大学校级优秀班主任奖、华为奖教金、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "魏巍是哪个学院的教授？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍是哪个学科的博导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术学科的博导。"
+    },
+    {
+        "prompt": "魏巍是哪个学科的硕导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术学科的硕导。"
+    },
+    {
+        "prompt": "魏巍的性别是什么？",
+        "response": "魏巍是男性。"
+    },
+    {
+        "prompt": "魏巍的学历是什么？",
+        "response": "魏巍具有研究生(博士)毕业的学历。"
+    },
+    {
+        "prompt": "魏巍的学位是什么？",
+        "response": "魏巍具有工学博士学位。"
+    },
+    {
+        "prompt": "魏巍的毕业院校是哪个？",
+        "response": "魏巍的毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍获得过哪些华中科技大学的荣誉？",
+        "response": "魏巍获得过华中科技大学校级优秀班主任奖、华为奖教金等华中科技大学的荣誉。"
+    },
+    {
+        "prompt": "魏巍获得过哪个会议的最佳学生论文奖？",
+        "response": "魏巍获得过ICKG 2020的最佳学生论文奖。"
+    },
+    {
+        "prompt": "魏巍是第几批“3551光谷人才计划”的人才？",
+        "response": "魏巍是第十批“3551光谷人才计划”的人才。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学获得过校级优秀班主任奖几次？",
+        "response": "魏巍在华中科技大学获得过一次校级优秀班主任奖。"
+    },
+    {
+        "prompt": "魏巍在华中科技大学教师教学竞赛中获得了什么奖项？",
+        "response": "魏巍在华中科技大学教师教学竞赛中获得了二等奖。"
+    },
+    {
+        "prompt": "魏巍是在哪个学校获得工学博士学位的？",
+        "response": "魏巍获得工学博士学位是在华中科技大学。"
+    },
+    {
+        "prompt": "魏巍是在哪一年获得了华中科技大学教师教学竞赛的二等奖？",
+        "response": "魏巍在2016年获得了华中科技大学教师教学竞赛的二等奖。"
+    },
+    {
+        "prompt": "魏巍是哪个教务处授予的校级二等奖？",
+        "response": "魏巍获得的校级二等奖是教务处授予的。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的哪个学院的教授？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍在哪一年获得了ICKG 2020的最佳学生论文奖？",
+        "response": "魏巍在2020年获得了ICKG 2020的最佳学生论文奖。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学的博士生导师吗？",
+        "response": "是的，魏巍是华中科技大学的博士生导师。"
+    },
+    {
+        "prompt": "魏巍是在华中科技大学哪个专业的指导下获得工学博士学位的？",
+        "response": "魏巍是在计算机软件与理论计算机应用技术专业的指导下获得工学博士学位的。"
+    },
+    {
+        "prompt": "魏巍获得华中科技大学校级优秀班主任的奖项是在哪一年？",
+        "response": "魏巍获得华中科技大学校级优秀班主任的奖项是在2021年。"
+    },
+    {
+        "prompt": "魏巍是华中科技大学计算机科学与技术学院的教授吗？",
+        "response": "是的，魏巍是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍是哪一年获得了华中科技大学校级优秀班主任的奖项？",
+        "response": "魏巍是在2021年获得了华中科技大学校级优秀班主任的奖项。"
+    },
+    {
+        "prompt": "魏巍是什么专业的博导？",
+        "response": "魏巍是计算机软件与理论计算机应用技术专业的博士导师。"
+    },
+    {
+        "prompt": "魏巍在哪个学校获得了工学博士学位？",
+        "response": "魏巍在华中科技大学获得了工学博士学位。"
+    },
+    {
+        "prompt": "魏巍获得了哪些荣誉？",
+        "response": "魏巍获得过多项荣誉，其中包括2021年华为“智能基座”-华为云与计算先锋教师、2021年华中科技大学校级优秀班主任、2021年“华为奖教金”获得者、2020年ICKG 2020最佳学生论文奖、2017年第十批“3551光谷人才计划”、2017年华中科技大学校级优秀班主任、2016年华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍是哪个单位的教授？",
+        "response": "魏巍是计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍在哪个学科领域有研究？",
+        "response": "魏巍在计算机软件与理论计算机应用技术的学科领域有研究。"
+    },
+    {
+        "prompt": "魏巍是哪个计算机学院的优秀班主任？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的优秀班主任。"
+    },
+    {
+        "prompt": "魏巍的研究方向是什么？",
+        "response": "魏巍的研究方向涵盖自然语言处理、人工智能、信息检索、社交媒体分析与挖掘、推荐系统等领域。"
+    },
+    {
+        "prompt": "魏巍在哪个城市工作？",
+        "response": "魏巍在湖北省武汉市工作。"
+    },
+    {
+        "prompt": "魏巍的联系方式是什么？",
+        "response": "对于魏巍的联系方式没有提供明确信息。"
+    },
+    {
+        "prompt": "魏巍的个人主页在哪里？",
+        "response": "魏巍的个人主页没有提供具体的地址信息。"
+    },
+    {
+        "prompt": "魏巍获得过哪个竞赛的奖项？",
+        "response": "魏巍曾获得过ICKG 2020最佳学生论文奖。"
+    },
+    {
+        "prompt": "魏巍是哪所大学的教授和导师？",
+        "response": "魏巍是华中科技大学的教授和导师。"
+    },
+    {
+        "prompt": "魏巍的学科背景是什么？",
+        "response": "魏巍的学科背景是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍获得过哪些荣誉？",
+        "response": "魏巍获得过多个荣誉，包括2021年华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、2021年“华为奖教金”获得者、2020年ICKG 2020 Best Student Paper Award、2017年第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍在哪些方面的研究中有成果？",
+        "response": "魏巍的研究方向包括自然语言处理、人工智能、信息检索、社交媒体分析与挖掘以及推荐系统。在这些领域都取得了一定的研究成果。"
+    },
+    {
+        "prompt": "魏巍担任过哪些职务？",
+        "response": "魏巍是华中科技大学计算机科学与技术学院的教授，同时也是博士生导师和硕士生导师。"
+    },
+    {
+        "prompt": "魏巍在哪个学院任职？",
+        "response": "魏巍在华中科技大学计算机科学与技术学院任职。"
+    },
+    {
+        "prompt": "魏巍招收的研究生专业是什么？",
+        "response": "魏巍招收的研究生专业是计算机软件与理论。"
+    },
+    {
+        "prompt": "魏巍的招生年份是什么？",
+        "response": "魏巍的招生年份是2018年。"
+    },
+    {
+        "prompt": "魏巍的招生方向包括哪些内容？",
+        "response": "魏巍的招生方向包括自然语言处理、人工智能、信息检索、社交媒体分析与挖掘以及推荐系统。"
+    },
+    {
+        "prompt": "魏巍所在学院的地址是哪里？",
+        "response": "魏巍所在学院的地址是湖北省武汉市洪山区珞喻路1037号，邮政编码为430074。"
+    },
+    {
+        "prompt": "什么是华中科技大学认知计算与智能信息处理实验室？",
+        "response": "华中科技大学认知计算与智能信息处理实验室是依托于华中科技大学计算机学院的实验室，主要从事认知科学与智能信息处理的交叉与结合研究，包括自然语言处理、图像处理、机器学习等方向的研究。"
+    },
+    {
+        "prompt": "魏巍老师是什么学校的教授？",
+        "response": "魏巍老师是华中科技大学计算机学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向是什么？",
+        "response": "魏巍老师的研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、多模计算、推荐系统等。"
+    },
+    {
+        "prompt": "魏巍老师有哪些学术荣誉？",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award等学术荣誉。"
+    },
+    {
+        "prompt": "魏巍老师曾在哪些单位工作过？",
+        "response": "魏巍老师曾在华中科技大学计算机学院、新加坡管理大学信息学院、新加坡南洋理工大学信息工程学院、新加坡国立大学计算机学院等单位工作过。"
+    },
+    {
+        "prompt": "魏巍老师在哪个领域进行研究？",
+        "response": "魏巍老师主要在人工智能、自然语言处理、信息检索、数据挖掘、推荐系统等领域进行研究。"
+    },
+    {
+        "prompt": "魏巍老师的团队研究什么内容？",
+        "response": "魏巍老师的团队主要研究认知科学与智能信息处理的交叉与结合研究，包括基于人工智能技术的自然语言处理与图像处理的理论与方法，算法设计与复杂性分析、形式化方法与具体应用研究等。"
+    },
+    {
+        "prompt": "魏巍老师的个人简介中提到了哪些荣誉？",
+        "response": "魏巍老师的个人简介提到了华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师在哪个大学获得博士学位？",
+        "response": "魏巍老师在华中科技大学获得博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的联系方式是什么？",
+        "response": "魏巍老师的联系方式包括邮编、通讯/办公地址、移动电话和邮箱。"
+    },
+    {
+        "prompt": "魏巍老师的研究领域是什么？",
+        "response": "魏巍老师的主要研究方向包括信息检索、自然语言处理、多模计算、文本数据挖掘、机器学习、人工智能、推荐系统和社交媒体分析等。"
+    },
+    {
+        "prompt": "魏巍老师在哪些方面曾获得荣誉？",
+        "response": "魏巍老师曾获华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学的所在单位是什么？",
+        "response": "魏巍老师所在单位是华中科技大学计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍老师有哪些学历和学位？",
+        "response": "魏巍老师具有研究生(博士)学历和工学博士学位，毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍老师的科研成果有哪些？",
+        "response": "魏巍老师在科研方面的成果包括《STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction》、《Unsupervised Hashing with Semantic Concept Mining》、《ROLE: Rotated Lorentzian Graph Embedding Model for Asymmetric Proximity》、《Heterogeneous Graph Neural Network with Multi-view Representation Learning》和《H-Diffu: Hyperbolic Representations for Information Diffusion Prediction》等论文。"
+    },
+    {
+        "prompt": "魏巍老师有没有发表过国际会议的论文？",
+        "response": "是的，魏巍老师发表过国际会议论文，如《STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction》和《Unsupervised Hashing with Semantic Concept Mining》等。"
+    },
+    {
+        "prompt": "魏巍老师有没有主持过科研项目？",
+        "response": "是的，魏巍老师曾主持过多个科研项目，包括国家自然科学基金面上项目“面向复杂对话场景建模的开放域可控人机对话系统关键技术研究”、华科-平安产险人工智能联合实验室项目和CCF-蚂蚁基金项目“基于专家经验的可控对话系统”等。"
+    },
+    {
+        "prompt": "魏巍老师的科研方向对学生的要求是什么？",
+        "response": "魏巍老师的科研方向对学生的要求是：为人正直，有一定的编程、数学和英语能力，思维活跃且逻辑思维清晰，具有较强的自学能力。欢迎对其研究方向感兴趣的同学报考研究生。"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室提供什么待遇和发展机会？",
+        "response": "认知计算与智能信息处理实验室提供良好的待遇、科研软硬件环境和发展机会。该实验室可以长期招收硕士、博士研究生，还可以推荐学生至世界知名大学/机构联合培养，如美国、新加坡、澳大利亚和微软亚洲研究院等。也欢迎高年级本科生参与科研工作并推荐攻读博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的联系方式是什么？",
+        "response": "魏巍老师的联系方式是邮箱：weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "魏巍老师的研究领域包括哪些方面？",
+        "response": "魏巍老师的研究领域主要包括信息检索、自然语言处理、多模计算、文本数据挖掘、机器学习、人工智能、推荐系统和社交媒体分析等方面。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学的职位是什么？",
+        "response": "魏巍老师在华中科技大学担任教授、博士生导师和硕士生导师的职位。"
+    },
+    {
+        "prompt": "魏巍老师在哪个学院任职？",
+        "response": "魏巍老师在华中科技大学计算机科学与技术学院任职。"
+    },
+    {
+        "prompt": "魏巍老师的学历是什么？",
+        "response": "魏巍老师是研究生（博士）毕业的学历。"
+    },
+    {
+        "prompt": "魏巍老师的学位是什么？",
+        "response": "魏巍老师拥有工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师毕业于哪所院校？",
+        "response": "魏巍老师毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向有哪些？",
+        "response": "魏巍老师的研究方向主要包括信息检索、自然语言处理、多模计算、文本数据挖掘、机器学习、人工智能、推荐系统和社交媒体分析等方面。"
+    },
+    {
+        "prompt": "欢迎报考魏巍老师的研究生需要满足哪些要求？",
+        "response": "报考魏巍老师研究生需要具备正直的品行，具有一定的编程、数学和英语能力，思维活跃且逻辑思维清晰，还需要具备较强的自学能力。有意者可以将简历发送至魏巍老师的邮箱（weiw@hust.edu.cn）。"
+    },
+    {
+        "prompt": "魏巍老师所在的实验室能提供什么样的科研环境和发展机会？",
+        "response": "魏巍老师所在的实验室提供充足的科研经费和研究生指标，可以为研究生提供良好的待遇、科研软硬件环境和发展机会。实验室长期招收硕士和博士研究生，并且可以推荐优秀的研究生至世界知名大学和机构进行联合培养。"
+    },
+    {
+        "prompt": "魏巍老师可以推荐研究生到哪些世界知名大学/机构联合培养？",
+        "response": "魏巍老师可以推荐研究生到美国、新加坡、澳大利亚、微软亚洲研究院等世界知名大学和机构进行联合培养。"
+    },
+    {
+        "prompt": "魏巍老师可以推荐本科生到哪些世界知名大学/机构攻读博士学位？",
+        "response": "魏巍老师可以推荐本科生到美国、新加坡、澳大利亚、微软亚洲研究院等世界知名大学和机构攻读博士学位。"
+    },
+    {
+        "prompt": "魏巍老师所在的实验室地址是哪里？",
+        "response": "魏巍老师所在的实验室地址是湖北省武汉市洪山区珞喻路1037号，邮政编码为430074。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉？",
+        "response": "魏巍老师获得过华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师获得的2021年华为“智能基座”-华为云与计算先锋教师有何特点？",
+        "response": "魏巍老师获得的2021年华为“智能基座”-华为云与计算先锋教师的特点不详。"
+    },
+    {
+        "prompt": "魏巍老师获得的2021年华中科技大学校级优秀班主任有何特点？",
+        "response": "魏巍老师获得的2021年华中科技大学校级优秀班主任的特点不详。"
+    },
+    {
+        "prompt": "魏巍老师获得的2021年“华为奖教金”有何特点？",
+        "response": "魏巍老师获得的2021年“华为奖教金”的特点不详。"
+    },
+    {
+        "prompt": "魏巍老师在2017年获得的第十批“3551光谷人才计划”有何特点？",
+        "response": "魏巍老师在2017年获得的第十批“3551光谷人才计划”的特点不详。"
+    },
+    {
+        "prompt": "魏巍老师在2016年获得的华中科技大学教师教学竞赛二等奖有何特点？",
+        "response": "魏巍老师在2016年获得的华中科技大学教师教学竞赛二等奖的特点不详。"
+    },
+    {
+        "prompt": "魏巍老师是什么学科的博导和硕导？",
+        "response": "魏巍老师是计算机软件与理论计算机应用技术学科的博导和硕导。"
+    },
+    {
+        "prompt": "魏巍老师的学历和学位是什么？",
+        "response": "魏巍老师的学历是研究生（博士）毕业，学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师曾获得哪些荣誉？",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师的论文成果有哪些？",
+        "response": "魏巍老师的论文成果包括STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction、Unsupervised Hashing with Semantic Concept Mining、ROLE: Rotated Lorentzian Graph Embedding Model for Asymmetric Proximity、Heterogeneous Graph Neural Network with Multi-view Representation Learning等。"
+    },
+    {
+        "prompt": "魏巍老师的论文成果中有哪些顶会论文？",
+        "response": "魏巍老师的论文成果中包括AAAI'23、SIGMOD 2023等顶会论文。"
+    },
+    {
+        "prompt": "魏巍老师的研究领域是什么？",
+        "response": "魏巍老师的研究领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师的最新研究成果是什么？",
+        "response": "魏巍老师的最新研究成果尚未公布。"
+    },
+    {
+        "prompt": "魏巍老师在哪些期刊上发表论文？",
+        "response": "魏巍老师在IEEE Transactions on Knowledge and Data Engineering (TKDE)、IEEE Transactions on Multimedia (TMM)等期刊上发表论文。"
+    },
+    {
+        "prompt": "魏巍老师的论文成果有多少篇？",
+        "response": "魏巍老师的论文成果共有75篇。"
+    },
+    {
+        "prompt": "魏巍老师是哪个大学的校级优秀班主任？",
+        "response": "魏巍老师是华中科技大学的校级优秀班主任。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪个奖教金？",
+        "response": "魏巍老师曾获得华为奖教金。"
+    },
+    {
+        "prompt": "魏巍老师是同时担任教授、博导和硕导吗？",
+        "response": "是的，魏巍老师同时担任教授、博导和硕导。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向有哪些？",
+        "response": "魏巍老师的研究方向包括计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师的论文成果在哪些国际会议上发表？",
+        "response": "魏巍老师的论文成果在AAAI、SIGMOD等国际会议上发表。"
+    },
+    {
+        "prompt": "魏巍老师的论文成果在计算机科学领域的影响如何？",
+        "response": "魏巍老师的论文成果在计算机科学领域有一定的影响。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学任教多久了？",
+        "response": "目前没有相关信息显示魏巍老师在华中科技大学任教多久。"
+    },
+    {
+        "prompt": "魏巍老师的个人主页在哪里可以找到？",
+        "response": "魏巍老师的个人主页可以在湖北省武汉市洪山区珞喻路1037号找到。"
+    },
+    {
+        "prompt": "魏巍老师在华为云与计算先锋教师计划中担任什么职务？",
+        "response": "魏巍老师在华为云与计算先锋教师计划中担任华为云与计算先锋教师。"
+    },
+    {
+        "prompt": "魏巍老师在光谷人才计划中担任什么职务？",
+        "response": "魏巍老师在光谷人才计划中担任第十批“3551光谷人才计划”成员。"
+    },
+    {
+        "prompt": "魏巍老师是哪个单位的教师？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的教师。"
+    },
+    {
+        "prompt": "魏巍老师的专利有多少条？",
+        "response": "魏巍老师目前没有发布任何专利。"
+    },
+    {
+        "prompt": "魏巍老师是什么学位？",
+        "response": "魏巍老师是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的学科是什么？",
+        "response": "魏巍老师的学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉？",
+        "response": "魏巍老师曾获得过以下荣誉：\\n1. 华为“智能基座”-华为云与计算先锋教师（2021年）\\n2. 华中科技大学校级优秀班主任（2021年）\\n3. “华为奖教金”获得者（2021年）\\n4. ICKG 2020 Best Student Paper Award（2020年）\\n5. 第十批“3551光谷人才计划”（2017年）\\n6. 华中科技大学校级优秀班主任（2017年）\\n7. 华中科技大学教师教学竞赛二等奖（2016年）"
+    },
+    {
+        "prompt": "魏巍老师获得的最新荣誉是什么？",
+        "response": "魏巍老师最新荣誉是华为“智能基座”-华为云与计算先锋教师（2021年）。"
+    },
+    {
+        "prompt": "魏巍老师曾获得过什么教学奖项？",
+        "response": "魏巍老师曾获得华中科技大学教师教学竞赛二等奖（2016年）。"
+    },
+    {
+        "prompt": "魏巍老师在哪个单位工作？",
+        "response": "魏巍老师在计算机科学与技术学院工作。"
+    },
+    {
+        "prompt": "魏巍老师所在单位的地址是什么？",
+        "response": "魏巍老师所在单位的地址是湖北省武汉市洪山区珞喻路1037号，邮政编码430074。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学校的校级优秀班主任？",
+        "response": "魏巍老师是华中科技大学的校级优秀班主任（2021年、2017年）。"
+    },
+    {
+        "prompt": "魏巍老师是哪个计算机科学与技术学院的教授？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师是哪个计算机科学与技术学院的博士生导师？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的博士生导师。"
+    },
+    {
+        "prompt": "魏巍老师是哪个计算机科学与技术学院的硕士生导师？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的硕士生导师。"
+    },
+    {
+        "prompt": "魏巍老师是在职状态还是离职状态？",
+        "response": "魏巍老师目前是在职状态。"
+    },
+    {
+        "prompt": "魏巍老师的性别是男还是女？",
+        "response": "魏巍老师的性别是男。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的校友吗？",
+        "response": "没有提供相关信息，无法确定魏巍老师是否是华中科技大学的校友。"
+    },
+    {
+        "prompt": "魏巍老师的个人主页上有多少篇专利？",
+        "response": "魏巍老师的个人主页上没有发布任何专利。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学计算机软件与理论计算机应用技术专业的毕业生吗？",
+        "response": "魏巍老师是华中科技大学计算机软件与理论计算机应用技术专业的毕业生。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的博士生导师吗？",
+        "response": "是的，魏巍老师是华中科技大学的博士生导师。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的硕士生导师吗？",
+        "response": "是的，魏巍老师是华中科技大学的硕士生导师。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的计算机科学与技术学院的教授吗？",
+        "response": "是的，魏巍老师是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师是什么学科的教授?",
+        "response": "魏巍老师是计算机软件与理论计算机应用技术学科的教授。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学校的毕业生?",
+        "response": "魏巍老师是华中科技大学的毕业生。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉?",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师是什么职务?",
+        "response": "魏巍老师是计算机科学与技术学院的教授、博士生导师、硕士生导师。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向是什么?",
+        "response": "魏巍老师的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学担任什么职位?",
+        "response": "魏巍老师在华中科技大学担任计算机科学与技术学院的教授、博士生导师、硕士生导师。"
+    },
+    {
+        "prompt": "魏巍老师在计算机科学与技术学院的哪个研究领域？",
+        "response": "魏巍老师在计算机科学与技术学院的研究领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学获得了哪些奖项？",
+        "response": "魏巍老师在华中科技大学曾获得校级优秀班主任、教师教学竞赛二等奖等奖项。"
+    },
+    {
+        "prompt": "魏巍老师在华为云与计算方面有何成就？",
+        "response": "魏巍老师在华为云与计算方面获得华为“智能基座”-华为云与计算先锋教师的成就。"
+    },
+    {
+        "prompt": "魏巍老师的个人主页上提供了哪些信息？",
+        "response": "魏巍老师的个人主页上提供了教授、博士生导师、硕士生导师的信息。"
+    },
+    {
+        "prompt": "魏巍老师的研究成果有哪些？",
+        "response": "魏巍老师的研究成果暂无信息。"
+    },
+    {
+        "prompt": "魏巍老师在教学方面获得了什么奖项？",
+        "response": "魏巍老师在教学方面获得过校级优秀班主任的奖项。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的优秀班主任吗？",
+        "response": "是的，魏巍老师曾获得华中科技大学校级优秀班主任的荣誉。"
+    },
+    {
+        "prompt": "魏巍老师的联系地址是哪里？",
+        "response": "魏巍老师的联系地址是湖北省武汉市洪山区珞喻路1037号，邮政编码430074。"
+    },
+    {
+        "prompt": "魏巍老师在计算机软件与理论计算机应用技术方面有何研究成果？",
+        "response": "魏巍老师在计算机软件与理论计算机应用技术方面的研究成果暂无信息。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向是什么？",
+        "response": "魏巍老师的研究方向是人机对话系统、人工智能以及人机交互技术等。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学获得了哪些荣誉？",
+        "response": "魏巍老师在华中科技大学获得了华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金获得者、ICKG 2020 Best Student Paper Award等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师在当前研究的项目中扮演了什么角色？",
+        "response": "在当前研究的项目中，魏巍老师是项目的主持人。"
+    },
+    {
+        "prompt": "魏巍老师获得了哪些科研项目的资助？",
+        "response": "魏巍老师获得了国家自然科学基金（面上）、CCF-蚂蚁基金、国家自然科学基金青年基金、湖北省自然科学青年基金、华中科技大学人才引进基金以及华中科技大学自主创新基金等科研项目的资助。"
+    },
+    {
+        "prompt": "魏巍老师在人机对话系统领域有哪些突出贡献？",
+        "response": "魏巍老师在人机对话系统领域提出了可控人机对话系统关键技术研究、开放域问题分析及答案融合方法的关键技术研究等，为人机对话系统的发展做出了突出贡献。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学哪个学院的教授？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师的最高学位是什么？",
+        "response": "魏巍老师的最高学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师在教育领域有哪些成就？",
+        "response": "魏巍老师在教育领域获得了华中科技大学校级优秀班主任以及华中科技大学教师教学竞赛二等奖等成就。"
+    },
+    {
+        "prompt": "魏巍老师在人工智能领域有哪些合作项目？",
+        "response": "魏巍老师在人工智能领域有华科-平安产险人工智能联合实验室合作项目。"
+    },
+    {
+        "prompt": "魏巍老师参与过哪些国家级科研计划？",
+        "response": "魏巍老师参与过国家自然科学基金青年基金和国家863计划的科研计划。"
+    },
+    {
+        "prompt": "魏巍老师在微博社交网络中的研究项目是什么？",
+        "response": "魏巍老师在微博社交网络中的研究项目是主题专家搜索关键技术研究。"
+    },
+    {
+        "prompt": "魏巍老师在人机对话系统中提出了哪些关键技术？",
+        "response": "魏巍老师在人机对话系统中提出了可控人机对话系统关键技术研究、开放域问题分析及答案融合方法的关键技术研究等关键技术。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学哪个实验室的主任？",
+        "response": "魏巍老师是华中科技大学华科-容联人工智能联合实验室的主任。"
+    },
+    {
+        "prompt": "魏巍老师的研究项目涉及哪些领域？",
+        "response": "魏巍老师的研究项目涉及可控人机对话系统、微博社交网络、问答系统等领域。"
+    },
+    {
+        "prompt": "魏巍老师的研究成果有哪些实际应用价值？",
+        "response": "魏巍老师的研究成果在人机对话系统、社交网络分析等领域具有实际应用价值。"
+    },
+    {
+        "prompt": "魏巍老师的研究如何推动人机交互技术的发展？",
+        "response": "魏巍老师的研究通过提出和应用人机对话系统等关键技术，推动人机交互技术的发展，并为人机交互技术的应用提供了创新方法和解决方案。"
+    },
+    {
+        "prompt": "魏巍老师的研究项目中存在哪些挑战？",
+        "response": "魏巍老师的研究项目中存在对复杂对话场景建模的挑战、开放域问题分析及答案融合方法的挑战等。"
+    },
+    {
+        "prompt": "魏巍老师在人机对话系统的研究中有哪些创新点？",
+        "response": "魏巍老师在人机对话系统的研究中提出了可控人机对话系统关键技术、开放域问题分析及答案融合方法等创新点。"
+    },
+    {
+        "prompt": "魏巍老师的研究如何促进智能对话机器人的发展？",
+        "response": "魏巍老师的研究通过提出可控人机对话系统等关键技术，促进了智能对话机器人的发展，使其能够更好地与人类进行交流和合作。"
+    },
+    {
+        "prompt": "魏巍老师的研究成果在学术界有何影响？",
+        "response": "魏巍老师的研究成果在学术界产生了重要影响，推动了人机对话系统、社交网络分析等领域的研究与发展。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学院的教授？",
+        "response": "魏巍老师是计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学校的校级优秀班主任？",
+        "response": "魏巍老师是华中科技大学的校级优秀班主任。"
+    },
+    {
+        "prompt": "魏巍老师的学历是什么？",
+        "response": "魏巍老师是研究生(博士)毕业，具有工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉？",
+        "response": "魏巍老师获得过华为“智能基座”-华为云与计算先锋教师荣誉、华中科技大学校级优秀班主任、华为奖教金等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向是什么？",
+        "response": "魏巍老师的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学院的博士生导师？",
+        "response": "魏巍老师是计算机科学与技术学院的博士生导师。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学院的硕士生导师？",
+        "response": "魏巍老师是计算机科学与技术学院的硕士生导师。"
+    },
+    {
+        "prompt": "魏巍老师曾获得过哪个教学竞赛的奖项？",
+        "response": "魏巍老师曾获得过华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍老师在教学方面的研究成果有哪些？",
+        "response": "暂无内容。"
+    },
+    {
+        "prompt": "魏巍老师的个人主页上有哪些内容？",
+        "response": "魏巍老师的个人主页上目前暂无内容。"
+    },
+    {
+        "prompt": "魏巍老师获得华为奖教金的年份是什么？",
+        "response": "魏巍老师获得华为奖教金的年份是2021年。"
+    },
+    {
+        "prompt": "魏巍老师是哪个计算机应用技术的学科的博士生导师？",
+        "response": "魏巍老师是计算机软件与理论计算机应用技术学科的博士生导师。"
+    },
+    {
+        "prompt": "魏巍老师什么时候获得了华为“智能基座”-华为云与计算先锋教师荣誉？",
+        "response": "魏巍老师获得华为“智能基座”-华为云与计算先锋教师荣誉的时间不详。"
+    },
+    {
+        "prompt": "魏巍老师是哪个计算机科学与技术学院的人？",
+        "response": "魏巍老师是计算机科学与技术学院的人。"
+    },
+    {
+        "prompt": "魏巍老师所在的单位是哪里？",
+        "response": "魏巍老师所在的单位是湖北省武汉市洪山区珞喻路1037号。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学院的教授？",
+        "response": "魏巍老师是计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师的学位是什么？",
+        "response": "魏巍老师的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的毕业院校是哪所学校？",
+        "response": "魏巍老师的毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉？",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”、华中科技大学校级优秀班主任和华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师的教学资源在哪里可以找到？",
+        "response": "魏巍老师的教学资源可以在他的中文主页中找到。"
+    },
+    {
+        "prompt": "魏巍老师曾获得过哪个竞赛的二等奖？",
+        "response": "魏巍老师曾获得华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍老师是什么时候获得华为奖教金？",
+        "response": "魏巍老师获得过华为奖教金，具体时间未提及。"
+    },
+    {
+        "prompt": "魏巍老师的联系地址是哪里？",
+        "response": "魏巍老师的联系地址是湖北省武汉市洪山区珞喻路1037号，邮政编码430074。"
+    },
+    {
+        "prompt": "魏巍老师的研究领域是什么？",
+        "response": "魏巍老师的研究领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师是什么时候加入华中科技大学的？",
+        "response": "魏巍老师的加入时间未提及。"
+    },
+    {
+        "prompt": "魏巍老师是男性还是女性？",
+        "response": "魏巍老师是男性。"
+    },
+    {
+        "prompt": "魏巍老师是什么时间获得华为“智能基座”教师荣誉？",
+        "response": "魏巍老师获得华为“智能基座”教师荣誉的具体时间未提及。"
+    },
+    {
+        "prompt": "魏巍老师是哪所大学的教授？",
+        "response": "魏巍老师是华中科技大学的教授。"
+    },
+    {
+        "prompt": "魏巍老师的学位是什么？",
+        "response": "魏巍老师的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的毕业院校是哪个？",
+        "response": "魏巍老师的毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉？",
+        "response": "魏巍老师曾获得过华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”、华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师在什么学科领域有研究？",
+        "response": "魏巍老师在计算机软件与理论计算机应用技术学科领域有研究。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学获得了什么奖项？",
+        "response": "魏巍老师在华中科技大学获得过校级优秀班主任和教师教学竞赛二等奖等奖项。"
+    },
+    {
+        "prompt": "魏巍老师是华为的哪个项目的获奖教师？",
+        "response": "魏巍老师是华为“智能基座”项目的获奖教师。"
+    },
+    {
+        "prompt": "魏巍老师是什么学科的博导？",
+        "response": "魏巍老师是计算机科学与技术学科的博导。"
+    },
+    {
+        "prompt": "魏巍老师的个人信息中提到了哪些导师身份？",
+        "response": "魏巍老师的个人信息中提到了博士生导师和硕士生导师的身份。"
+    },
+    {
+        "prompt": "魏巍老师在哪个学院任职？",
+        "response": "魏巍老师在华中科技大学的计算机科学与技术学院任职。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学获得过什么教学奖项？",
+        "response": "魏巍老师在华中科技大学获得过校级优秀班主任和教师教学竞赛二等奖等教学奖项。"
+    },
+    {
+        "prompt": "魏巍老师的中文主页有什么内容？",
+        "response": "请访问魏巍老师的中文主页获取相关内容。"
+    },
+    {
+        "prompt": "魏巍老师曾获得过什么国际奖项？",
+        "response": "目前魏巍老师的个人信息中未提到他曾获得国际奖项。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学的地址是哪里？",
+        "response": "魏巍老师在华中科技大学的地址是湖北省武汉市洪山区珞喻路1037号，邮政编码为430074。"
+    },
+    {
+        "prompt": "魏巍老师获得过什么国家级奖项？",
+        "response": "目前魏巍老师的个人信息中未提到他曾获得国家级奖项。"
+    },
+    {
+        "prompt": "魏巍老师的教学成果有哪些？",
+        "response": "魏巍老师的教学成果包括华为“智能基座”-华为云与计算先锋教师荣誉、校级优秀班主任荣誉、华为奖教金、ICKG 2020最佳学生论文奖、第十批“3551光谷人才计划”荣誉、华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学哪个学院的教授？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师的学历是什么？",
+        "response": "魏巍老师的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍老师曾获得哪些荣誉？",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师荣誉、校级优秀班主任荣誉、华为奖教金、ICKG 2020最佳学生论文奖、第十批“3551光谷人才计划”荣誉、华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍老师是什么时候获得华为“智能基座”-华为云与计算先锋教师荣誉的？",
+        "response": "魏巍老师是在2021年获得华为“智能基座”-华为云与计算先锋教师荣誉的。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪个奖教金？",
+        "response": "魏巍老师获得过华为奖教金。"
+    },
+    {
+        "prompt": "魏巍老师的地址是什么？",
+        "response": "魏巍老师的地址是湖北省武汉市洪山区珞喻路1037号。"
+    },
+    {
+        "prompt": "魏巍老师的个人主页有哪些内容？",
+        "response": "魏巍老师的个人主页包括教学研究和教学成果。"
+    },
+    {
+        "prompt": "魏巍老师担任过哪些导师角色？",
+        "response": "魏巍老师担任过同专业博导和同专业硕导的角色。"
+    },
+    {
+        "prompt": "魏巍老师是男还是女？",
+        "response": "魏巍老师是男性。"
+    },
+    {
+        "prompt": "魏巍老师是什么时候入职的？",
+        "response": "没有提供相关信息。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学科专业的？",
+        "response": "魏巍老师是计算机软件与理论计算机应用技术学科的专家。"
+    },
+    {
+        "prompt": "魏巍老师在毕业院校获得的学位是什么？",
+        "response": "魏巍老师在毕业院校华中科技大学获得了工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师获得的ICKG 2020最佳学生论文奖是在哪一年？",
+        "response": "魏巍老师在2020年获得了ICKG 2020最佳学生论文奖。"
+    },
+    {
+        "prompt": "魏巍老师是何时获得“3551光谷人才计划”的荣誉的？",
+        "response": "魏巍老师是在2017年获得了“3551光谷人才计划”的荣誉。"
+    },
+    {
+        "prompt": "魏巍老师是哪一年获得校级优秀班主任的称号？",
+        "response": "魏巍老师是在2021年获得了校级优秀班主任的称号。"
+    },
+    {
+        "prompt": "魏巍老师获得的华中科技大学教师教学竞赛奖是什么奖项？",
+        "response": "魏巍老师获得的华中科技大学教师教学竞赛奖是二等奖。"
+    },
+    {
+        "prompt": "魏巍老师的访问量是多少？",
+        "response": "没有提供具体的访问量数据。"
+    },
+    {
+        "prompt": "魏巍老师的个人主页上有哪些教学研究内容？",
+        "response": "没有提供具体的教学研究内容。"
+    },
+    {
+        "prompt": "魏巍老师的个人主页开通时间是什么时候？",
+        "response": "没有提供个人主页开通时间的具体信息。"
+    },
+    {
+        "prompt": "魏巍老师获得了哪些荣誉？",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师奖项、华中科技大学校级优秀班主任奖项、华为奖教金等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学哪个学院的教授？",
+        "response": "魏巍老师是计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师是计算机科学与技术学院的博士生导师吗？",
+        "response": "是的，魏巍老师是计算机科学与技术学院的博士生导师。"
+    },
+    {
+        "prompt": "魏巍老师的教育背景是什么？",
+        "response": "魏巍老师在华中科技大学获得了工学博士学位，学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师曾获得过哪个国际会议的最佳学生论文奖？",
+        "response": "魏巍老师曾获得ICKG 2020的最佳学生论文奖。"
+    },
+    {
+        "prompt": "魏巍老师获得了哪些校级的荣誉？",
+        "response": "魏巍老师曾获得华中科技大学校级优秀班主任奖项、华中科技大学教师教学竞赛二等奖等校级荣誉。"
+    },
+    {
+        "prompt": "魏巍老师获得了华为“智能基座”-华为云与计算先锋教师奖项的时间是什么？",
+        "response": "魏巍老师获得华为“智能基座”-华为云与计算先锋教师奖项的时间不详。"
+    },
+    {
+        "prompt": "魏巍老师在校级教师教学竞赛中获得了什么奖项？",
+        "response": "魏巍老师在校级教师教学竞赛中获得了二等奖。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学校级优秀班主任评选中获得了哪个奖项？",
+        "response": "魏巍老师在华中科技大学校级优秀班主任评选中获得了奖项，具体不详。"
+    },
+    {
+        "prompt": "魏巍老师在哪个省的哪个市工作？",
+        "response": "魏巍老师在湖北省武汉市工作。"
+    },
+    {
+        "prompt": "魏巍老师的办公地址是在哪里？",
+        "response": "魏巍老师的办公地址在湖北省武汉市洪山区珞喻路1037号。"
+    },
+    {
+        "prompt": "魏巍老师的联系方式是什么？",
+        "response": "魏巍老师的联系方式不详。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学毕业了什么学位？",
+        "response": "魏巍老师在华中科技大学获得了工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的研究领域是什么？",
+        "response": "魏巍老师的研究领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师在华为奖教金评选中获奖了吗？",
+        "response": "是的，魏巍老师曾获得华为奖教金。"
+    },
+    {
+        "prompt": "华中科技大学的认知计算与智能信息处理实验室主要研究什么？",
+        "response": "华中科技大学认知计算与智能信息处理实验室主要研究如何使计算机有效处理和理解人类自然语言的相关基础理论和分析方法，以及多模态信息的智能感知与认知理论方法的研究。"
+    },
+    {
+        "prompt": "CCIIP实验室的成果之一是什么自然语言工具包？",
+        "response": "实验室的成果之一是自然语言工具包，即Hust-NLP，用于进行自然语言处理的基础理论研究和分析方法实现。"
+    },
+    {
+        "prompt": "CCIIP实验室研究的多模态融合与智能感知的关键问题有哪些？",
+        "response": "实验室研究的多模态融合与智能感知的关键问题包括多模态信息表征与理解、跨媒体关联理解、多模/跨模感知融合等。"
+    },
+    {
+        "prompt": "在大数据处理与智能推荐方面，CCIIP团队发表的论文涉及哪些方面的应用？",
+        "response": "在大数据处理与智能推荐方面，团队发表的论文涉及复杂知识结构文档目录整合、十亿级规模图数据排序、微博主题专家查找以及个性化感兴趣点推荐等方面的应用。"
+    },
+    {
+        "prompt": "CCIIP实验室研究的多模态融合与智能感知领域的挑战性难题有哪些？",
+        "response": "实验室研究的多模态融合与智能感知领域的挑战性难题包括视觉关系推理、先验语义偏差及外部知识融合等。"
+    },
+    {
+        "prompt": "CCIIP团队的研究成果曾被哪些大学团队引用？",
+        "response": "团队的研究成果曾被澳大利亚科技大学Dacheng Tao教授团队、美国UCLA大学Wei Wang教授团队和美国UCLA大学Jiawei Han教授团队引用。"
+    },
+    {
+        "prompt": "CCIIP实验室研究的内容如何为人工智能与大数据处理技术在相关行业的应用提供技术支撑？",
+        "response": "实验室研究的内容通过将自然语言处理与云计算、社交计算、物联网等相关领域研究进行深度融合，为人工智能与大数据处理技术在医疗、电子政务、互联网金融等相关行业方面的应用落地提供重要技术支撑。"
+    },
+    {
+        "prompt": "CCIIP实验室的联系方式是什么？",
+        "response": "实验室的联系方式是：湖北省武汉市华中科技大学计算机科学与技术学院（南一楼中612室），联系人：魏老师，电话：18827440253，邮箱：weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "CCIIP实验室的地址在哪里？",
+        "response": "实验室的地址在湖北省武汉市华中科技大学计算机科学与技术学院（南一楼中612室），邮编：430074。"
+    },
+    {
+        "prompt": "魏巍老师属于哪个学院的教师?",
+        "response": "魏巍老师属于计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍老师是什么学历和学位?",
+        "response": "魏巍老师是研究生(博士)毕业，拥有工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师毕业于哪所大学?",
+        "response": "魏巍老师毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向是什么?",
+        "response": "魏巍老师的研究方向是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉?",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的第几批'3551光谷人才计划'的成员?",
+        "response": "魏巍老师是华中科技大学的第十批'3551光谷人才计划'的成员。"
+    },
+    {
+        "prompt": "魏巍老师曾在什么竞赛中获得二等奖?",
+        "response": "魏巍老师曾在华中科技大学教师教学竞赛中获得二等奖。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的班主任吗?",
+        "response": "是的，魏巍老师曾获得华中科技大学校级优秀班主任的荣誉。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪个奖教金?",
+        "response": "魏巍老师曾获得华为奖教金。"
+    },
+    {
+        "prompt": "魏巍老师是华为'智能基座'-华为云与计算先锋教师吗?",
+        "response": "是的，魏巍老师是华为“智能基座”-华为云与计算先锋教师。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学院的教授？",
+        "response": "魏巍老师是计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师担任什么职位？",
+        "response": "魏巍老师担任教授、博士生导师、硕士生导师。"
+    },
+    {
+        "prompt": "魏巍老师的性别是什么？",
+        "response": "魏巍老师的性别是男性。"
+    },
+    {
+        "prompt": "魏巍老师的学历是什么？",
+        "response": "魏巍老师的学历是研究生（博士）毕业。"
+    },
+    {
+        "prompt": "魏巍老师的学位是什么？",
+        "response": "魏巍老师的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的毕业院校是哪所大学？",
+        "response": "魏巍老师的毕业院校是华中科技大学。"
+    },
+    {
+        "prompt": "魏巍老师的学科是什么？",
+        "response": "魏巍老师的学科是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉？",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、华为奖教金获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的第几批“3551光谷人才计划”的获得者？",
+        "response": "魏巍老师是华中科技大学的第十批“3551光谷人才计划”的获得者。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些教学竞赛奖项？",
+        "response": "魏巍老师曾获得华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍老师的个人相册中有多少张照片？",
+        "response": "魏巍老师的个人相册共有0张照片。"
+    },
+    {
+        "prompt": "魏巍老师的个人相册地址是哪里？",
+        "response": "魏巍老师的个人相册地址是http://faculty.hust.edu.cn//weiw/zh_CN/img/869543/list/index.htm。"
+    },
+    {
+        "prompt": "魏巍老师所在单位的地址是哪里？",
+        "response": "魏巍老师所在单位的地址是湖北省武汉市洪山区珞喻路1037号，邮政编码430074。"
+    },
+    {
+        "prompt": "魏巍老师获得荣誉的时间是哪年？",
+        "response": "魏巍老师获得的荣誉时间分别是2021年、2020年、2017年和2016年。"
+    },
+    {
+        "prompt": "魏巍老师获得的“华为奖教金”的名称是什么？",
+        "response": "魏巍老师获得的“华为奖教金”的名称是华为“智能基座”-华为云与计算先锋教师。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学科的博导？",
+        "response": "魏巍老师是计算机科学与技术学科的博导。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学科的硕导？",
+        "response": "魏巍老师是计算机科学与技术学科的硕导。"
+    },
+    {
+        "prompt": "魏巍老师是否在职？",
+        "response": "魏巍老师在职。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学校级优秀班主任的时间是哪一年？",
+        "response": "魏巍老师在华中科技大学校级优秀班主任的时间是2021年和2017年。"
+    },
+    {
+        "prompt": "魏巍老师获得的“ICKG 2020 Best Student Paper Award”是什么奖项？",
+        "response": "魏巍老师获得的“ICKG 2020 Best Student Paper Award”是一项奖项。"
+    },
+    {
+        "prompt": "魏巍老师的个人信息",
+        "response": "魏巍，男，教授，博士生导师，研究生(博士)毕业，工学博士学位，就职于华中科技大学计算机科学与技术学院。"
+    },
+    {
+        "prompt": "魏巍老师的职称是什么？",
+        "response": "魏巍老师的职称是教授。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学院的教师？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的教师。"
+    },
+    {
+        "prompt": "魏巍老师的学历是什么？",
+        "response": "魏巍老师的学历是研究生(博士)毕业。"
+    },
+    {
+        "prompt": "魏巍老师的学位是什么？",
+        "response": "魏巍老师的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的校友吗？",
+        "response": "是的，魏巍老师是华中科技大学的校友。"
+    },
+    {
+        "prompt": "魏巍老师的研究领域是什么？",
+        "response": "魏巍老师的研究领域是计算机软件与理论计算机应用技术。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉？",
+        "response": "魏巍老师曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师的教师博客有多少条内容？",
+        "response": "魏巍老师的教师博客共有1条内容。"
+    },
+    {
+        "prompt": "魏巍老师的教师博客的地址是什么？",
+        "response": "魏巍老师的教师博客地址是faculty.hust.edu.cn/weiw/zh_CN/article/869544/list/index.htm。"
+    },
+    {
+        "prompt": "魏巍老师的教师博客的访问量是多少？",
+        "response": "魏巍老师的教师博客的访问量暂未公开。"
+    },
+    {
+        "prompt": "魏巍老师的教师博客的最后更新时间是什么？",
+        "response": "魏巍老师的教师博客的最后更新时间暂未公开。"
+    },
+    {
+        "prompt": "魏巍老师的教师博客的开通时间是什么？",
+        "response": "魏巍老师的教师博客的开通时间暂未公开。"
+    },
+    {
+        "prompt": "魏巍老师是哪个学校的教授？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向有哪些？",
+        "response": "魏巍老师的主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、多模计算、推荐系统等。"
+    },
+    {
+        "prompt": "魏巍老师在哪些学术会议发表过论文？",
+        "response": "魏巍老师在国际高水平学术会议如AAAI、IJCAI、ACL、SIGKDD、SIGIR、SIGMOD、WWW、PVLDB、ICDE、CVPR、ACM MM、IEEE TKDE、ACM TOIS、IEEE TCYB、IEEE TC、ACM TWEB、CIKM、EMNLP、COLING、ECAI等发表论文。"
+    },
+    {
+        "prompt": "魏巍老师获得了哪些荣誉奖项？",
+        "response": "魏巍老师获得的荣誉奖项包括：华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”和华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍老师是哪些学会的会员？",
+        "response": "魏巍老师是计算机学会自然语言处理专委会、中国中文信息学会青年工作委员会、中国人工智能学会青工委、中国中文信息学会社交媒体处理专委会、中国人工智学会社会计算与社会智能专委会的会员。"
+    },
+    {
+        "prompt": "魏巍老师现在主持哪些科研项目？",
+        "response": "魏巍老师现在主持的科研项目包括国家自然科学基金2项（面上/青年）、湖北省自然科学基金项目1项、国家十三五预研基金、GF纵向多项、千万级重大企业横向1项、CCF-蚂蚁基金及其他企业横向多项，累计项目经费1800余万元。"
+    },
+    {
+        "prompt": "魏巍老师在哪些国家进行过科学研究工作？",
+        "response": "魏巍老师在新加坡南洋理工大学、新加坡国立大学以及微软亚洲研究院进行过科学研究工作。"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室的主页是什么？",
+        "response": "认知计算与智能信息处理实验室的主页是http://cciip.cs.hust.edu.cn/"
+    },
+    {
+        "prompt": "魏巍老师招收研究生的条件是什么？",
+        "response": "魏巍老师招收硕士、博士研究生，可推荐至美国、新加坡、澳大利亚、微软亚洲研究院等世界知名大学/机构联合培养。欢迎高年级本科生参与科研工作，可推荐攻读博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的个人英文主页是什么？",
+        "response": "魏巍老师的个人英文主页是https://www.eric-weiwei.com/"
+    },
+    {
+        "prompt": "魏巍老师的研究领域是什么？",
+        "response": "魏巍老师的研究领域包括人工智能、自然语言处理、信息检索、文本数据挖掘、推荐系统、社交媒体分析机器学习、深度学习。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学的哪个学院的教授？",
+        "response": "魏巍老师是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师的学历是什么？",
+        "response": "魏巍老师具有研究生(博士)学历。"
+    },
+    {
+        "prompt": "魏巍老师毕业于哪个学校？",
+        "response": "魏巍老师毕业于华中科技大学。"
+    },
+    {
+        "prompt": "魏巍老师获得过哪些荣誉？",
+        "response": "魏巍老师获得过华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”、ICKG 2020 Best Student Paper Award、第十批“3551光谷人才计划”、华中科技大学教师教学竞赛二等奖等荣誉。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向包括哪些内容？",
+        "response": "魏巍老师的研究方向包括人工智能、自然语言处理、信息检索、文本数据挖掘、推荐系统、社交媒体分析机器学习、深度学习。"
+    },
+    {
+        "prompt": "魏巍老师的个人主页有中文版吗？",
+        "response": "魏巍老师的个人主页有中文版。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向涉及哪些机器学习的领域？",
+        "response": "魏巍老师的研究方向涉及机器学习、深度学习。"
+    },
+    {
+        "prompt": "魏巍老师所在的单位是哪个地区？",
+        "response": "魏巍老师所在的单位位于湖北省武汉市洪山区。"
+    },
+    {
+        "prompt": "魏巍老师的联系地址是哪里？",
+        "response": "魏巍老师的联系地址是湖北省武汉市洪山区珞喻路1037号，邮政编码430074。"
+    },
+    {
+        "prompt": "魏巍老师曾获得过哪个大会的学生最佳论文奖？",
+        "response": "魏巍老师曾获得过ICKG 2020的Best Student Paper Award。"
+    },
+    {
+        "prompt": "魏巍老师在教学方面有哪些成就？",
+        "response": "魏巍老师在教学方面获得过华中科技大学教师教学竞赛二等奖。"
+    },
+    {
+        "prompt": "魏巍老师的性别是男性还是女性？",
+        "response": "魏巍老师的性别是男性。"
+    },
+    {
+        "prompt": "魏巍老师是哪年参与了华为云与计算先锋教师项目？",
+        "response": "魏巍老师是在2021年参与了华为云与计算先锋教师项目。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学担任过什么职务？",
+        "response": "魏巍老师在华中科技大学担任教授、博士生导师、硕士生导师。"
+    },
+    {
+        "prompt": "魏巍老师的学位是什么？",
+        "response": "魏巍老师的学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师的研究重点是什么？",
+        "response": "魏巍老师的研究重点是人工智能、自然语言处理、信息检索、文本数据挖掘、推荐系统、社交媒体分析机器学习、深度学习。"
+    },
+    {
+        "prompt": "魏巍老师曾参与过哪些人工智能项目？",
+        "response": "没有提供相关信息。"
+    },
+    {
+        "prompt": "魏巍老师在哪个学科具备专长？",
+        "response": "魏巍老师在计算机软件与理论计算机应用技术学科具备专长。"
+    },
+    {
+        "prompt": "魏巍老师获得过华中科技大学的哪个级别的优秀班主任奖？",
+        "response": "魏巍老师获得过华中科技大学校级优秀班主任奖。"
+    },
+    {
+        "prompt": "魏巍老师是华中科技大学计算机科学与技术学院的教授吗？",
+        "response": "是的，魏巍老师是华中科技大学计算机科学与技术学院的教授。"
+    },
+    {
+        "prompt": "魏巍老师的学历和学位是什么？",
+        "response": "魏巍老师的学历是研究生(博士)毕业，学位是工学博士学位。"
+    },
+    {
+        "prompt": "魏巍老师在华中科技大学获得过哪些荣誉？",
+        "response": "魏巍老师在华中科技大学获得过多个荣誉，包括2021年华为“智能基座”-华为云与计算先锋教师、2021年华中科技大学校级优秀班主任、2021年“华为奖教金”获得者、2020年ICKG 2020 Best Student Paper Award等。"
+    },
+    {
+        "prompt": "魏巍老师的研究方向是什么？",
+        "response": "魏巍老师的研究方向是认知计算与智能信息处理。他所在的实验室提供优秀的科研条件和发展机会。"
+    },
+    {
+        "prompt": "魏巍老师招收硕士和博士研究生吗？",
+        "response": "是的，魏巍老师长期招收硕士和博士研究生。他的实验室研究经费充足，为研究生提供良好待遇、科研环境及发展机会。并且可以推荐学生去美国、新加坡、澳大利亚、微软亚洲研究院等世界知名大学/机构联合培养。"
+    },
+    {
+        "prompt": "魏巍老师能推荐学生去哪些世界知名大学/机构联合培养？",
+        "response": "魏巍老师可以推荐学生去美国、新加坡、澳大利亚、微软亚洲研究院等世界知名大学/机构联合培养。他的实验室长期招收硕士和博士研究生，并提供良好的科研环境和发展机会。"
+    },
+    {
+        "prompt": "魏巍老师能推荐本科生去哪些世界知名大学/机构攻读博士？",
+        "response": "魏巍老师可以推荐本科生去美国、新加坡、澳大利亚、微软亚洲研究院等世界知名大学/机构攻读博士。他的实验室欢迎高年级本科生参与科研工作，并为他们推荐攻读博士的机会。"
+    },
+    {
+        "prompt": "魏巍老师所在的实验室提供哪些优秀的科研条件和发展机会？",
+        "response": "魏巍老师所在的实验室提供优秀的科研条件和发展机会。研究经费充足，提供良好的科研软硬件环境。并且可以推荐学生去世界知名大学/机构联合培养，如美国、新加坡、澳大利亚、微软亚洲研究院等。"
+    },
+    {
+        "prompt": "魏巍老师的研究领域涉及哪些方面？",
+        "response": "魏巍老师的研究领域涉及认知计算与智能信息处理。他在该领域取得了丰硕的研究成果，并有世界知名大学/机构的合作经验。"
+    },
+    {
+        "prompt": "魏巍老师的联系方式是什么？",
+        "response": "魏巍老师的联系方式暂未提供，请通过华中科技大学计算机科学与技术学院相关渠道获取。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室正在研究的项目有哪些？",
+        "response": "华中科技大学认知计算与智能信息处理实验室正在研究的项目包括面向复杂对话场景建模的开放域可控人机对话系统关键技术研究、华科-平安产险人工智能联合实验室、基于专家经验的可控对话系统等。"
+    },
+    {
+        "prompt": "请问华中科技大学认知计算与智能信息处理实验室的联系人是谁？",
+        "response": "华中科技大学认知计算与智能信息处理实验室的联系人是魏老师，联系电话是18827440253，邮箱是weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室已完成的项目有哪些？",
+        "response": "华中科技大学认知计算与智能信息处理实验室已完成的项目包括智能文档解析、金融舆情系统开发、智慧金融系统开发、信息智能汇聚等。"
+    },
+    {
+        "prompt": "CCIIP实验室的面向复杂对话场景建模的开放域可控人机对话系统关键技术研究项目属于哪个基金？",
+        "response": "CCIIP实验室的面向复杂对话场景建模的开放域可控人机对话系统关键技术研究项目属于国家自然科学基金（面上）。"
+    },
+    {
+        "prompt": "CCIIP实验室的智能文档解析项目是在哪个时间段进行的？",
+        "response": "CCIIP实验室的智能文档解析项目是在2021~2022年进行的。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室的电话号码是多少？",
+        "response": "华中科技大学认知计算与智能信息处理实验室的联系电话是18827440253。"
+    },
+    {
+        "prompt": "魏巍教授的研究方向有哪些？",
+        "response": "魏巍教授的研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、多模计算、推荐系统等。"
+    },
+    {
+        "prompt": "魏巍教授在哪些高校或研究机构任职过？",
+        "response": "魏巍教授曾在华中科技大学、新加坡南洋理工大学、新加坡国立大学、新加坡管理大学等高校和研究机构任职过。"
+    },
+    {
+        "prompt": "魏巍教授获得过哪些荣誉和奖项？",
+        "response": "魏巍教授曾获得华为“智能基座”-华为云与计算先锋教师、华中科技大学校级优秀班主任、“华为奖教金”获得者、ICKG 2020 Best Student Paper Award等荣誉和奖项。"
+    },
+    {
+        "prompt": "魏巍教授的联系方式有哪些？",
+        "response": "魏巍教授的联系方式包括邮编、通讯/办公地址、移动电话、邮箱等。"
+    },
+    {
+        "prompt": "魏巍教授的教育经历是怎样的？",
+        "response": "魏巍教授于2008年至2012年在华中科技大学获得工学博士学位，研究生期间在微软亚洲研究院、新加坡南洋理工大学和新加坡国立大学进行科研工作。他还拥有2006年至2008年在华中科技大学获得的工学硕士学位和2002年至2006年在中国地质大学获得的本科学士学位。"
+    },
+    {
+        "prompt": "魏巍教授的工作经历是怎样的？",
+        "response": "魏巍教授从2012年开始在华中科技大学计算机学院任教授，之前还曾在华中科技大学计算机学院担任副教授、讲师，以及在新加坡管理大学信息学院和新加坡南洋理工大学信息工程学院担任博士后研究工作。此外，他还在微软亚洲研究院信息检索与挖掘组工作过。"
+    },
+    {
+        "prompt": "魏巍教授在哪个实验室进行研究？",
+        "response": "魏巍教授在湖北省武汉市的华中科技大学计算机学院的“认知计算与智能信息处理实验室”进行研究。该实验室主要从事认知科学与智能信息处理的交叉与结合研究，包括基于人工智能技术的自然语言处理与图像处理的理论与方法，算法设计与复杂性分析、形式化方法与具体应用研究等。"
+    },
+    {
+        "prompt": "华中科技大学自然语言处理工具包有哪些模块？",
+        "response": "华中科技大学自然语言处理工具包（HUST-NLP）包含多个模块，包括中文分词、词性标注、命名实体识别、依存句法分析、句子分类和主谓宾分析等。"
+    },
+    {
+        "prompt": "HUST-NLP在中文分词上的性能如何？",
+        "response": "HUST-NLP采用基于字的算法进行中文分词，在人民日报数据集上取得了较好的性能。"
+    },
+    {
+        "prompt": "HUST-NLP在词性标注上的表现如何？",
+        "response": "HUST-NLP采用基于字的模型进行词性标注，在人民日报数据集上取得了不错的成绩。"
+    },
+    {
+        "prompt": "HUST-NLP的命名实体识别模块如何工作？",
+        "response": "HUST-NLP的命名实体识别模块以汉字为单位进行序列标注，预测每个字的命名实体边界标签。"
+    },
+    {
+        "prompt": "HUST-NLP在命名实体识别上的性能如何？",
+        "response": "HUST-NLP的命名实体识别模块在人民日报数据集上取得了令人满意的结果。"
+    },
+    {
+        "prompt": "HUST-NLP中的依存句法分析模块是如何工作的？",
+        "response": "HUST-NLP使用biaffine parser和universal dependency的方法进行依存句法分析，取得了很好的效果。"
+    },
+    {
+        "prompt": "HUST-NLP的依存句法分析结果如何？",
+        "response": "HUST-NLP的依存句法分析模块在人民日报数据集上取得了较高的正确率，有标签和无标签依存正确率分别达到了很高水平。"
+    },
+    {
+        "prompt": "小希是什么？",
+        "response": "小希是华中科技大学认知计算与智能信息处理实验室所开发的智能聊天机器人。"
+    },
+    {
+        "prompt": "小希的科研方向是什么？",
+        "response": "小希的科研方向是智能对话机器人。"
+    },
+    {
+        "prompt": "小希是谁开发的？",
+        "response": "小希是华中科技大学认知计算与智能信息处理实验室开发的。"
+    },
+    {
+        "prompt": "小希具有哪些功能？",
+        "response": "小希具有闲聊问答、知识问答和任务问答三大核心功能。"
+    },
+    {
+        "prompt": "小希的模型框架是怎样的？",
+        "response": "小希的模型框架包括对话数据模块、对话引擎模块、对话管理模块、系统交互模块和系统支持模块。"
+    },
+    {
+        "prompt": "小希的系统交互形式有哪些？",
+        "response": "小希的系统交互形式有微信端和网页端两种展示形式。"
+    },
+    {
+        "prompt": "小希的对话管理模块具有哪些功能？",
+        "response": "小希的对话管理模块具有多用户管理、问句意图识别、多轮对话和回复判断等功能。"
+    },
+    {
+        "prompt": "小希的对话引擎模块具体负责什么？",
+        "response": "小希的对话引擎模块负责实现闲聊问答、知识问答和任务问答的内部逻辑。"
+    },
+    {
+        "prompt": "小希的对话数据模块是干什么的？",
+        "response": "小希的对话数据模块负责存储并管理问答子引擎所涉及的模型和语料。"
+    },
+    {
+        "prompt": "小希的系统支持模块具备哪些功能？",
+        "response": "小希的系统支持模块负责对配置文件和日志进行管理，支持模块化部署和测试。"
+    },
+    {
+        "prompt": "小希最近的更新是什么时候？",
+        "response": "小希最近的更新是2年前。"
+    },
+    {
+        "prompt": "小希的使用条款是什么？",
+        "response": "关于小希的使用条款可以在相关网页上查看。"
+    },
+    {
+        "prompt": "小希的隐私策略是什么？",
+        "response": "关于小希的隐私策略可以在相关网页上查看。"
+    },
+    {
+        "prompt": "小希的联系方式是什么？",
+        "response": "关于小希的联系方式可以在相关网页上查看。"
+    },
+    {
+        "prompt": "小希支持哪些任务问答？",
+        "response": "小希支持车票查询、天气查询、星座运势查询、疫情查询和讲笑话等任务问答。"
+    },
+    {
+        "prompt": "小希可以回答哪些知识问答问题？",
+        "response": "小希可以回答开放领域问题的答案，帮助用户获取信息和知识。"
+    },
+    {
+        "prompt": "小希可以进行哪些闲聊问答？",
+        "response": "小希可以回答问候、情感等信息，以满足用户的娱乐需求。"
+    },
+    {
+        "prompt": "小希可以帮助用户查询什么？",
+        "response": "小希可以帮助用户查询车票、天气、星座运势、疫情信息等。"
+    },
+    {
+        "prompt": "小希可以回答一些开放领域问题吗？",
+        "response": "是的，小希可以回答开放领域问题。"
+    },
+    {
+        "prompt": "小希的功能有哪些方面？",
+        "response": "小希的功能包括闲聊问答、知识问答和任务问答三个方面。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室的主要研究方向有哪些？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室的主要研究方向包括自然语言处理、图像处理、信息检索、文本数据挖掘、机器学习、深度学习、推荐系统、社交媒体分析等。"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室诚聘具有博士学位的有识之士来工作，招聘岗位有哪些？",
+        "response": "认知计算与智能信息处理实验室招聘的岗位包括全职教师和全职博士后。"
+    },
+    {
+        "prompt": "应聘华中科技大学计算机学院认知计算与智能信息处理实验室的教师岗位有哪些条件要求？",
+        "response": "应聘华中科技大学计算机学院认知计算与智能信息处理实验室的教师岗位要求遵纪守法、身体健康，从事过相关研究领域的工作或对此非常感兴趣，具有较强的研究能力和敬业精神，年龄分别不超过45岁（教授岗位）和40岁（副教授岗位），35岁（讲师岗位）。"
+    },
+    {
+        "prompt": "应聘华中科技大学计算机学院认知计算与智能信息处理实验室的博士后岗位有哪些条件要求？",
+        "response": "应聘华中科技大学计算机学院认知计算与智能信息处理实验室的博士后岗位要求遵纪守法、身体健康，从事过相关研究领域的工作或对此非常感兴趣，具有较强的研究能力和敬业精神，年龄一般不超过35岁。"
+    },
+    {
+        "prompt": "应聘华中科技大学计算机学院认知计算与智能信息处理实验室的教师岗位年薪待遇是多少？",
+        "response": "应聘华中科技大学计算机学院认知计算与智能信息处理实验室的教师岗位的年薪待遇根据个人情况具体面议，包括学校薪资、学院补贴和实验室补贴，一般不低于35万。"
+    },
+    {
+        "prompt": "华中科技大学认知计算与智能信息处理实验室通过哪些途径解决子女的入托和入学问题？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室通过提供博士后待遇解决子女的入托和入学问题。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室的联系人是谁？联系方式是什么？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室的联系人是魏巍，联系方式包括电子邮件（weiw@hust.edu.cn）和电话（18827440253）。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室的网址是什么？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室的网址是http://cciip.cs.hust.edu.cn/。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室的地址是哪里？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室的地址是湖北省武汉市华中科技大学计算机科学与技术学院（南一楼中612室），邮编430074。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室招聘全职教师的年龄要求是多少？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室招聘全职教师的年龄要求是45岁以下（教授岗位）和40岁以下（副教授岗位）。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室招聘全职博士后的年龄要求是多少？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室招聘全职博士后的年龄要求一般不超过35岁。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室招聘全职教师需要提供哪些应聘材料？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室招聘全职教师需要提供的应聘材料包括应聘简历、发表的代表性论文和推荐信（可选）。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室招聘全职博士后需要提供哪些应聘材料？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室招聘全职博士后需要提供的应聘材料包括应聘简历、发表的代表性论文和推荐信（可选）。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院认知计算与智能信息处理实验室的基本待遇包括哪些？",
+        "response": "华中科技大学计算机学院认知计算与智能信息处理实验室的基本待遇包括教师岗位按学校相关规定执行，待遇从优，薪资水平根据个人情况具体面议，博士后待遇年薪约30万+（可按具体能力面议），享受学校教师待遇，可解决子女入托、入学问题。"
+    },
+    {
+        "prompt": "CCIIP实验室的2020级博士生赵森与21级硕士生邹定、温笑非同学参与了哪些公司的2023年度暑期实习？",
+        "response": "CCIIP实验室的20级博士生赵森参与了阿里巴巴淘天-中小企业发展中心的暑期实习；21级硕士生邹定参与了阿里巴巴淘天-中小企业发展中心的暑期实习，温笑非参与了网易伏羲人工智能实验室的暑期实习。"
+    },
+    {
+        "prompt": "阿里巴巴与网易在2023年暑假期间与CCIIP实验室的研究生合作了哪些项目？",
+        "response": "阿里巴巴与CCIIP实验室的研究生合作项目为外呼场景对话推销模型和新客稀疏问题；网易与CCIIP实验室的研究生合作项目为游戏NPC个性对话场景和大型语言模型微调。"
+    },
+    {
+        "prompt": "CCIIP实验室的赵森同学在阿里巴巴淘天-中小企业发展中心的实习期间做了什么工作？",
+        "response": "赵森同学在阿里巴巴淘天-中小企业发展中心的实习期间进行了外呼场景对话推销模型的研究和开发，通过微调语言模型来替代人工推销产品，并探索了对话系统业务逻辑的复杂性。"
+    },
+    {
+        "prompt": "CCIIP实验室的邹定同学在阿里巴巴淘天-中小企业发展中心的实习期间研究了什么问题？",
+        "response": "邹定同学在阿里巴巴淘天-中小企业发展中心的实习期间研究了新客稀疏问题，通过研究商品多模态信息和知识信息，提出了解决新客稀疏问题的基本思路，并考虑了用户的购物意图和商品特征中的噪声问题。"
+    },
+    {
+        "prompt": "网易伏羲人工智能实验室在2023年暑期实习中与CCIIP实验室的温笑非同学合作了什么项目？",
+        "response": "网易伏羲人工智能实验室与CCIIP实验室的温笑非同学合作项目为游戏NPC个性对话场景和大型语言模型微调。"
+    },
+    {
+        "prompt": "CCIIP实验室的赵森同学通过实习了解到了什么样的对话系统业务逻辑复杂性？",
+        "response": "赵森同学通过在阿里巴巴淘天-中小企业发展中心的实习了解到了外呼场景下对话系统业务逻辑的复杂性，包括对话预训练数据类型、模型架构、模型评估部署等方面的复杂性。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生有哪些人顺利毕业？",
+        "response": "热烈祝贺CCIIP实验室2023届硕士研究生刘宇航、张睿晗、刘逸帆、梁硕于2023年6月顺利毕业，开启人生新的旅程！"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生在学术和实践方面取得了什么成果？",
+        "response": "在过去两年多的学习生活中，四位同学积极参与实验室的科研工作及项目，取得了丰硕的成果，共发表CCF A类会议论文3篇，CCF B类会议2篇，CCF B类期刊1篇，申请发明专利5项。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生的职业发展方向是什么？",
+        "response": "其中一位同学选择前往香港中文大学继续攻读博士学位；三位同学选择就业，收获了众多互联网大厂和独角兽的offer，包括字节跳动、华为等。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生中有人选择继续攻读博士学位吗？",
+        "response": "其中一位同学选择前往香港中文大学继续攻读博士学位。"
+    },
+    {
+        "prompt": "CCIIP实验室2019级研究生王子扬同学在哪个期刊发表了论文？",
+        "response": "[IEEE TKDE]: CCF A类国际学术期刊IEEE TKDE录用CCIIP实验室2019级研究生王子扬同学论文“Exploiting Group-level Behavior Pattern for Session-based Recommendation”。"
+    },
+    {
+        "prompt": "CCIIP实验室2019级研究生王子扬同学的论文内容是什么？",
+        "response": "[IEEE TKDE]: CCF A类国际学术期刊IEEE TKDE录用CCIIP实验室2019级研究生王子扬同学论文“Exploiting Group-level Behavior Pattern for Session-based Recommendation”。"
+    },
+    {
+        "prompt": "CCIIP实验室中，哪位同学拿到了字节跳动SSP offer？",
+        "response": "其中2020级刘宇航同学拿到字节跳动SSP offer。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生中，谁拿到了国家奖学金？",
+        "response": "热烈祝贺CCIIP实验室2023届硕士研究生刘宇航于2023年6月顺利毕业，并获得国家奖学金。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生的平均年薪是多少？",
+        "response": "2023届硕士研究生选择就业的同学中，平均年薪达到35w+。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生中选择就业的同学有几位？",
+        "response": "2023届硕士研究生中选择就业的同学有三位。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生就业的互联网大厂和独角兽有哪些？",
+        "response": "2023届硕士研究生选择就业，收获了众多互联网大厂和独角兽的offer，包括字节跳动、华为等。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生在就业方面做出了怎样的决策？",
+        "response": "经过慎重考虑后，2023届硕士研究生选择了字节、中国农业银行湖北省分行等作为新的起点。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生的学术与实践能力有何提升？",
+        "response": "三年多的时间里，同学们的学术与实践能力得到了很大提升，为日后参加工作打下了坚实基础。"
+    },
+    {
+        "prompt": "CCIIP实验室在华中科技大学的位置在哪里？",
+        "response": "CCIIP实验室位于华中科技大学计算机科学与技术学院（南一楼中612室）。"
+    },
+    {
+        "prompt": "CCIIP实验室是属于华中科技大学的哪个学院？",
+        "response": "CCIIP实验室是华中科技大学计算机科学与技术学院下设的实验室。"
+    },
+    {
+        "prompt": "CCIIP实验室2019级研究生王子扬同学的论文被哪个期刊录用了？",
+        "response": "CCIIP实验室2019级研究生王子扬同学的论文被国际顶级期刊IEEE Transactions on Knowledge and Data Engineering（TKDE）录用。"
+    },
+    {
+        "prompt": "CCIIP实验室2023届硕士研究生顺利毕业了吗？",
+        "response": "CCIIP实验室2023届硕士研究生顺利毕业了。"
+    },
+    {
+        "prompt": "CCIIP实验室2022级研究生李文迪同学的论文被哪个会议录用了？",
+        "response": "CCIIP实验室2022级研究生李文迪同学的论文被第61届自然语言处理领域顶级国际会议ACL 2023录用。"
+    },
+    {
+        "prompt": "CCIIP实验室2019级本科实习生袁立凡同学的论文被哪个会议录用了？",
+        "response": "CCIIP实验室2019级本科实习生袁立凡同学的论文被第61届自然语言处理领域顶级国际会议ACL 2023录用。"
+    },
+    {
+        "prompt": "联系华中科技大学计算机科学与技术学院的魏老师的电话是多少？",
+        "response": "联系华中科技大学计算机科学与技术学院的魏老师的电话是18827440253。"
+    },
+    {
+        "prompt": "魏老师的邮箱是什么？",
+        "response": "魏老师的邮箱是weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "什么是华中科技大学认知计算与智能信息处理实验室？",
+        "response": "华中科技大学认知计算与智能信息处理实验室是一个研究实验室，主要致力于认知计算和智能信息处理的研究。"
+    },
+    {
+        "prompt": "CCIIP实验室的全称是什么？",
+        "response": "实验室的全称是华中科技大学认知计算与智能信息处理实验室，英文名为Cognitive Computing and Intelligent Information Processing (CCIIP) Laboratory。"
+    },
+    {
+        "prompt": "CCIIP实验室主要研究什么领域的内容？",
+        "response": "实验室主要研究认知计算和智能信息处理的领域，包括自然语言处理、智能对话系统、网络表示学习等。"
+    },
+    {
+        "prompt": "CCIIP实验室开发了哪些自然语言处理工具包？",
+        "response": "实验室开发了自然语言处理工具包平台HUST-NLP，可以用于文本处理、分析和挖掘等任务。"
+    },
+    {
+        "prompt": "CCIIP实验室有哪些重要的科研成果？",
+        "response": "实验室有许多重要的科研成果，包括基于用户重复行为模式挖掘的短序列推荐方法、基于自注意力机制的情感对话生成方法与装置、基于网络表示学习的垃圾评论用户群组检测方法、基于位置感知自注意力机制的序列标注模型与标注方法等。"
+    },
+    {
+        "prompt": "CCIIP实验室有哪些专利或软著？",
+        "response": "实验室拥有多项专利或软著，包括基于用户重复行为模式挖掘的短序列推荐方法、一种基于自注意力机制的情感对话生成方法与装置、基于网络表示学习的垃圾评论用户群组检测方法、一种基于位置感知自注意力机制的序列标注模型与标注方法等。"
+    },
+    {
+        "prompt": "华中科技大学的研究成果网址是什么？",
+        "response": "华中科技大学的研究成果网址是http://cciip.cs.hust.edu.cn/kycg.htm。"
+    },
+    {
+        "prompt": "CCIIP实验室的智能人机对话系统的名称是什么？",
+        "response": "实验室的智能人机对话系统的名称是小希。"
+    },
+    {
+        "prompt": "2023年第61届ACL国际会议录用了哪些华科大学生的论文？",
+        "response": "华科大认知计算与智能信息处理实验室2022级研究生李文迪同学及2019级本科实习生袁立凡和张一驰同学的论文被第61届ACL国际会议录用。"
+    },
+    {
+        "prompt": "CCIIP实验室的研究方向是什么？",
+        "response": "CCIIP实验室的研究方向包括认知计算、智能信息处理、计算机视觉和自然语言处理。"
+    },
+    {
+        "prompt": "CCIIP实验室的主要研究成果有哪些？",
+        "response": "CCIIP实验室的主要研究成果包括李文迪同学的“TREA: Tree-Structure Reasoning Schema for Conversational Recommendation”论文和袁立凡和张一驰同学的“Bridge the Gap Between CV and NLP! An Optimization-based Textual Adversarial Attack Framework”论文。"
+    },
+    {
+        "prompt": "CCIIP实验室的指导教师是谁？",
+        "response": "CCIIP实验室的指导教师是魏巍老师。"
+    },
+    {
+        "prompt": "32届人工智能领域顶级国际会议IJCAI2023会议录用了哪位博士生的论文？",
+        "response": "32届人工智能领域顶级国际会议IJCAI2023会议录用了CCIIP实验室2020级博士生赵森的论文《Towards Hierarchical Policy Learning for Conversational Recommendation with Hypergraph-based Reinforcement Learning》，以及CCIIP实验室2021级博士生彭道万的论文《An Empirical Study on the Language Modal in Visual Question Answering》。"
+    },
+    {
+        "prompt": "CCIIP实验室2020级博士生赵森的论文研究的是什么方向？",
+        "response": "CCIIP实验室2020级博士生赵森的论文研究的方向是《Towards Hierarchical Policy Learning for Conversational Recommendation with Hypergraph-based Reinforcement Learning》。该论文主要研究了对话推荐系统中的层次化策略，利用超图和强化学习的方法实现高效推荐。"
+    },
+    {
+        "prompt": "CCIIP实验室2021级博士生彭道万的论文研究的是什么方向？",
+        "response": "CCIIP实验室2021级博士生彭道万的论文研究的方向是《An Empirical Study on the Language Modal in Visual Question Answering》。该论文主要研究了视觉问答任务中语言模态的影响，通过验证性实验发现了问题中视觉实体词与目标信息的共现关系对模型性能的影响，并提出了去偏方法来提高模型的泛化性能。"
+    },
+    {
+        "prompt": "论文\\\"Multi-view Hypergraph Contrastive Policy Learning for Conversational Recommendation\\\"是在哪个实验室的博士生写的？",
+        "response": "这篇论文是华中科技大学认知计算与智能信息处理实验室（CCIIP实验室）的博士生赵森写的。"
+    },
+    {
+        "prompt": "论文\\\"Multi-view Hypergraph Contrastive Policy Learning for Conversational Recommendation\\\"的作者有哪些？",
+        "response": "这篇论文的作者包括Sen Zhao(20级博士生), Wei Wei*（导师）, Xian-Ling Mao（北京理工大学）, Shuai Zhu（蚂蚁）, Minghui Yang（蚂蚁）, Zujie Wen（蚂蚁）, Dangyang Chen （平安产险）和Feida Zhu（新加坡管理大学）。"
+    },
+    {
+        "prompt": "可以提供华中科技大学计算机科学与技术学院的联系方式吗？",
+        "response": "华中科技大学计算机科学与技术学院的联系方式如下：地址：湖北省武汉市华中科技大学计算机科学与技术学院（南一楼中612室）邮编：430074联系人：魏老师电话：18827440253邮箱：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "有哪些顶级国际会议推荐的AAAI会议是在人工智能领域享有很高学术声誉的？",
+        "response": "AAAI会议是在人工智能领域享有很高学术声誉的顶级国际会议推荐，其中包括我校认知计算与智能信息处理实验室2020级研究生梁硕的论文所在的AAAI 2023会议。"
+    },
+    {
+        "prompt": "CCIIP实验室2020级研究生梁硕的论文“STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction”被哪个顶级国际会议AAAI 2023录用了？",
+        "response": "CCIIP实验室2020级研究生梁硕的论文被顶级国际会议AAAI 2023录用了。"
+    },
+    {
+        "prompt": "论文“STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction”的作者是谁？",
+        "response": "论文“STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction”的作者是Shuo Liang, Wei Wei*, Xian-Ling Mao , Yuanyuan Fu, Rui Fang, Dangyang Chen。"
+    },
+    {
+        "prompt": "CCIIP实验室2020级研究生梁硕的论文被AAAI 2023作为长文全文录用的录用率是多少？",
+        "response": "CCIIP实验室2020级研究生梁硕的论文被AAAI 2023作为长文全文录用的录用率约为19.6%。"
+    },
+    {
+        "prompt": "CCIIP实验室2020级研究生梁硕的论文标题是什么？",
+        "response": "CCIIP实验室2020级研究生梁硕的论文标题是“STAGE: Span Tagging and Greedy Inference Scheme for Aspect Sentiment Triplet Extraction”。"
+    },
+    {
+        "prompt": "哪些同学荣获了2022年度研究生国家奖学金？",
+        "response": "CCIIP实验室的刘宇航、邹定、潘为燃三位同学荣获2022年度研究生国家奖学金。"
+    },
+    {
+        "prompt": "CCIIP实验室的研究生在2022年华中科技大学计算机学院研究生国奖评选中占据了多少名额？",
+        "response": "CCIIP实验室的研究生占据了3个名额。"
+    },
+    {
+        "prompt": "CCIIP实验室的刘宇航同学在研究生国奖评选中有什么成果？",
+        "response": "CCIIP实验室的刘宇航同学在研究生国奖评选中取得了1 CCF A级论文和1 IEEE Trans.论文的成果。"
+    },
+    {
+        "prompt": "CCIIP实验室的邹定同学在研究生国奖评选中有什么成果？",
+        "response": "CCIIP实验室的邹定同学在研究生国奖评选中取得了1 CCF A级论文和1 Top-80论文的成果。"
+    },
+    {
+        "prompt": "CCIIP实验室的潘为燃同学在研究生国奖评选中有什么成果？",
+        "response": "CCIIP实验室的潘为燃同学在研究生国奖评选中取得了1 CCF A级论文和1清华大学计算机学院A类会议的成果。"
+    },
+    {
+        "prompt": "CCIIP实验室研究生获奖充分肯定了实验室的什么方面?",
+        "response": "CCIIP实验室研究生获奖充分肯定了实验室研究生培养质量。"
+    },
+    {
+        "prompt": "CCIIP实验室的论文被哪个国际会议作为Findings长文全文录用了？",
+        "response": "CCIIP实验室的张睿晗和温笑非同学的论文被顶级国际会议EMNLP 2022作为Findings长文全文录用。"
+    },
+    {
+        "prompt": "CCIIP实验室的张睿晗和温笑非同学的论文属于哪个年级的研究生？",
+        "response": "CCIIP实验室的张睿晗同学是2020级研究生，温笑非同学是2021级研究生。"
+    },
+    {
+        "prompt": "拥有国家奖学金的同学来自于哪个实验室？",
+        "response": "拥有国家奖学金的同学来自于CCIIP实验室。"
+    },
+    {
+        "prompt": "CCIIP实验室举办的第一届乒乓球比赛在哪里举行？",
+        "response": "CCIIP实验室举办的第一届乒乓球比赛在华中科技大学计算机科学与技术学院举行。"
+    },
+    {
+        "prompt": "计算机学院的官方网站是什么？",
+        "response": "计算机学院的官方网站是http://cciip.cs.hust.edu.cn/#。"
+    },
+    {
+        "prompt": "华中科技大学的官方网站是什么？",
+        "response": "华中科技大学的官方网站是http://cciip.cs.hust.edu.cn/。"
+    },
+    {
+        "prompt": "华中科技大学计算机学院的官方网站是什么？",
+        "response": "华中科技大学计算机学院的官方网站是http://cciip.cs.hust.edu.cn/。"
+    },
+    {
+        "prompt": "学院概况页面的网址是什么？",
+        "response": "学院概况页面的网址是http://cciip.cs.hust.edu.cn/#。"
+    },
+    {
+        "prompt": "CCIIP实验室的全称是什么？",
+        "response": "CCIIP实验室的全称是认知计算与智能信息处理实验室。"
+    },
+    {
+        "prompt": "CCIIP实验室最新的新闻动态是什么？",
+        "response": "CCIIP实验室最新的新闻动态是[IEEE TKDE]: CCF A类国际学术期刊IEEE TKDE录用CCIIP实验室2022级硕士生鲁镇仪同学的论文“MIRACLE: Towards Perceptive Multimodal Fusion”。"
+    },
+    {
+        "prompt": "CCIIP实验室有哪些博士生在2023年度获得研究生国家奖学金？",
+        "response": "CCIIP实验室有两位博士生在2023年度获得研究生国家奖学金。他们分别是2021级博士生邹定和2020级博士生赵森。"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室的研究方向包括哪些内容？",
+        "response": "认知计算与智能信息处理实验室的研究方向包括信息检索、文本数据挖掘、自然语言处理、图像处理、机器学习、人工智能、推荐系统及社交媒体分析等。"
+    },
+    {
+        "prompt": "CCIIP实验室的主要研究方向是什么？",
+        "response": "CCIIP实验室的主要研究方向是基于人工智能技术的自然语言处理与图像处理的理论与方法，算法设计与复杂性分析、形式化方法与具体应用研究等。"
+    },
+    {
+        "prompt": "实验室简介中提到的自然语言处理是属于哪个研究方向？",
+        "response": "实验室简介中提到的自然语言处理属于认知计算与智能信息处理实验室的研究方向之一。"
+    },
+    {
+        "prompt": "CCIIP实验室具备什么样的师资力量？",
+        "response": "CCIIP实验室具备实力雄厚的师资力量。"
+    },
+    {
+        "prompt": "CCIIP实验室的校园活动包括哪些内容？",
+        "response": "CCIIP实验室的校园活动包括舒适的科研环境、浓厚的学术氛围、丰富的课余生活等。"
+    },
+    {
+        "prompt": "如何联系CCIIP实验室？",
+        "response": "联系CCIIP实验室的方式是通过发送邮件到weiw@hust.edu.cn。"
+    },
+    {
+        "prompt": "CCIIP实验室与哪些国内外著名高校和研究机构有合作关系？",
+        "response": "CCIIP实验室与国内外著名高校和研究机构有紧密合作关系。"
+    },
+    {
+        "prompt": "CCIIP实验室的论文Towards Hierarchical Intent Disentanglement for Bundle Recommendation被哪个期刊录用了？",
+        "response": "CCIIP实验室的论文被国际顶级期刊IEEE Transactions on Knowledge and Data Engineering（TKDE）录用。"
+    },
+    {
+        "prompt": "CCIIP实验室的论文Towards Hierarchical Intent Disentanglement for Bundle Recommendation被IEEE TKDE录用，证明了什么？",
+        "response": "CCIIP实验室的论文被IEEE TKDE录用证明了该实验室在捆绑推荐领域的研究成果受到国际顶级期刊的认可。"
+    },
+    {
+        "prompt": "论文Towards Hierarchical Intent Disentanglement for Bundle Recommendation的作者是谁？",
+        "response": "论文的作者是Ding Zou, Sen Zhao, Wei Wei, Xian-ling Mao, Ruixuan Li, Dangyang Chen, Rui Fang, and Yuanyuan Fu。"
+    },
+    {
+        "prompt": "CCIIP实验室的论文Towards Hierarchical Intent Disentanglement for Bundle Recommendation为什么被认可？",
+        "response": "CCIIP实验室的论文被认可是因为其在捆绑推荐领域的研究成果受到国际顶级期刊IEEE TKDE的录用。"
+    },
+    {
+        "prompt": "CCIIP实验室的论文Towards Hierarchical Intent Disentanglement for Bundle Recommendation对捆绑推荐有何贡献？",
+        "response": "CCIIP实验室的论文对捆绑推荐提出了一种新的模型——层次意图解缠图网络(HIDGN)，该模型在捆绑推荐任务中能够准确、全面地捕捉用户意图的多样性，并取得了显著的性能提升。"
+    },
+    {
+        "prompt": "CCIIP实验室的论文Towards Hierarchical Intent Disentanglement for Bundle Recommendation的作者有哪些同学？",
+        "response": "CCIIP实验室的论文的作者有Ding Zou, Sen Zhao, Wei Wei, Xian-ling Mao, Ruixuan Li, Dangyang Chen, Rui Fang, and Yuanyuan Fu。"
+    },
+    {
+        "prompt": "华中大的小希么",
+        "response": "华农大石希望小学前身为国立大石小学,成立于1942年，位于贵州省毕节市中共百里杜鹃大水乡大石村,因华中农业大学研究生徐本禹来到大石小学，他以吃苦耐劳、兢兢业业、无私奉献的精神感动了千千万万的年轻志愿者。"
+    },
+    {
+        "prompt": "介绍下华中科技大学认知计算与智能信息处理实验室吧",
+        "response": "国家重点实验室5个"
+    },
+    {
+        "prompt": "介绍下华中科技大学认知计算与智能信息处理实验室吧",
+        "response": "国家重点实验室5个"
+    },
+    {
+        "prompt": "访问http://cciip.cs.hust.edu.cn/",
+        "response": "啥玩意儿。"
+    },
+    {
+        "prompt": "访问http://cciip.cs.hust.edu.cn/",
+        "response": "啥。舆论？"
+    },
+    {
+        "prompt": "你是谁开发的呢",
+        "response": "我是希希，来自华中科技大学CCIIP实验室～"
+    },
+    {
+        "prompt": "你是哪个公司开发的呢",
+        "response": "我是希希，来自华中科技大学CCIIP实验室～"
+    },
+    {
+        "prompt": "你是谁开发的呢",
+        "response": "我是希希，来自华中科技大学CCIIP实验室～"
+    },
+    {
+        "prompt": "你父母是谁",
+        "response": "我是希希，来自华中科技大学CCIIP实验室～"
+    },
+    {
+        "prompt": "你父母是谁",
+        "response": "我是希希，来自华中科技大学CCIIP实验室～"
+    },
+    {
+        "prompt": "你的爸爸是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你是哪位",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你的生日是哪一天",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你老汉是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你知道CCIIP吗",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "你知道cciip吗",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "CCIIP是什么？",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "cciip是啥",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "你是机器人吗？",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "哦吼，你喜欢什么类型的女丝",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你知道cciip吗",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "你的爸爸是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "介绍一下认知计算与智能信息处理实验室（CCIIP）",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "你用什么存储的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "介绍一下cciip吧",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "你用的什么算法写的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你认识魏老师们",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "你是干什么的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "华中大的小希么",
+        "response": "华农大石希望小学前身为国立大石小学,成立于1942年，位于贵州省毕节市中共百里杜鹃大水乡大石村,因华中农业大学研究生徐本禹来到大石小学，他以吃苦耐劳、兢兢业业、无私奉献的精神感动了千千万万的年轻志愿者。"
+    },
+    {
+        "prompt": "魏巍是谁",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "魏巍",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "你是谁开发的",
+        "response": "我是由华中科技大学认知计算与智能信息处理实验室开发团队开发的，其中当前版本主要由魏巍老师主导工作，王振海、徐晨维、刘逸帆、刘家邑、李恒等人负责开发"
+    },
+    {
+        "prompt": "你们实验室最帅的人是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你的开发团队是什么",
+        "response": "我是由华中科技大学认知计算与智能信息处理实验室开发团队开发的，其中当前版本主要由魏巍老师主导工作，王振海、徐晨维、刘逸帆、刘家邑、李恒等人负责开发"
+    },
+    {
+        "prompt": "你是谁开发的",
+        "response": "我是由华中科技大学认知计算与智能信息处理实验室开发团队开发的，其中当前版本主要由魏巍老师主导工作，王振海、徐晨维、刘逸帆、刘家邑、李恒等人负责开发"
+    },
+    {
+        "prompt": "你爸爸是谁?",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "魏巍",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "你的妈妈是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "魏巍",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "魏巍是谁",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "你是谁开发的",
+        "response": "我是由华中科技大学认知计算与智能信息处理实验室开发团队开发的，其中当前版本主要由魏巍老师主导工作，王振海、徐晨维、刘逸帆、刘家邑、李恒等人负责开发"
+    },
+    {
+        "prompt": "介绍下华中科技大学认知计算与智能信息处理实验室吧",
+        "response": "国家重点实验室5个"
+    },
+    {
+        "prompt": "介绍下cciip实验室吧",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "介绍下华中科技大学认知计算与智能信息处理实验室吧",
+        "response": "国家重点实验室5个"
+    },
+    {
+        "prompt": "请问您认识魏巍老师吗",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "介绍下cciip实验室吧",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "魏巍",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "魏巍老师的实验室怎么加",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "你知道我是哪里的吗",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "魏巍",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "魏老师怎么样",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "你喜欢魏老师吗",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "谁创造你的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你喜欢听谁的歌",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "魏老师是谁？",
+        "response": "他是CCIIP实验室的创始人，主要研究方向包括人工智能、自然语言处理、信息检索、数据挖掘(文本挖掘/社交媒体分析与挖掘)、机器学习、推荐系统等。想了解更多信息请进入http://faculty.hust.edu.cn/weiw/zh_CN/index.htm"
+    },
+    {
+        "prompt": "你是谁开发的",
+        "response": "我是由华中科技大学认知计算与智能信息处理实验室开发团队开发的，其中当前版本主要由魏巍老师主导工作，王振海、徐晨维、刘逸帆、刘家邑、李恒等人负责开发"
+    },
+    {
+        "prompt": "访问http://cciip.cs.hust.edu.cn/",
+        "response": "啥玩意儿。"
+    },
+    {
+        "prompt": "访问http://cciip.cs.hust.edu.cn/",
+        "response": "我还不是很懂您说的什么呢～"
+    },
+    {
+        "prompt": "访问http://cciip.cs.hust.edu.cn/",
+        "response": "啥。舆论？"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室是什么呀",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "请问谁发明的你鸭",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "cciip",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击底部链接了解更多有关实验室的内容"
+    },
+    {
+        "prompt": "cciip是啥",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/"
+    },
+    {
+        "prompt": "cciip是啥",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/"
+    },
+    {
+        "prompt": "您认识魏老师吗",
+        "response": "他是CCIIP实验室的创始人，是大boss。\n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁做的",
+        "response": "嘿嘿，我是由计算机学院认知计算与智能信息处理实验室（CCIIP）制造的智能对话机器人哦～实验室主页：http://cciip.cs.hust.edu.cn/\n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你认识魏老师吗",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏老师的联系方式",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师的联系方式",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你认识魏老师吗",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁开发的",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁开发的",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍是谁？",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你们实验室主任是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你的爸爸是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你是机器人？",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是机器人？",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "那你最喜欢实验室的哪个老师呢",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你是谁开发的呀",
+        "response": "嘿嘿，我是由计算机学院认知计算与智能信息处理实验室（CCIIP）制造的智能对话机器人哦～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁开发的呀",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁开发的呀",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁开发的呀",
+        "response": "小科是由计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人哦！～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你会写代码？",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你会写代码？",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你知道魏巍是谁吗？",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你知道华中科技大学计算机学院都有哪些学生吗",
+        "response": "小科是由计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人哦！～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你知道华中科技大学计算机学院都有哪些学生吗",
+        "response": "小科是由计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人哦！～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍是谁",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你的爸爸是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "cciip是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍是谁",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "我想去你们所在的实验室",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你认识魏巍吗？",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "您好，请问黑龙江考生630分，能报贵大学哪个级别的计算机专业？谢谢",
+        "response": "嘿嘿，我是由计算机学院认知计算与智能信息处理实验室（CCIIP）制造的智能对话机器人哦～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "认知计算与智能信息处理实验室",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "计算机学院魏巍老师",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师介绍",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师办公点",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍是谁",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师什么学历",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏老师",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你妈妈是谁",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "CCIIP",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁开发的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你是什么时候被创造的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "CCIIP",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么意思呢",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么意思呢",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是从哪知道这些信息的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "cciip是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁生的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你知道今年华中科技大学计算机研究生招多少人吗",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "所以你知道不知道今年华中科技大学计算机学院招多少人呢",
+        "response": "嘿嘿，我是由认知计算与智能信息处理实验室（CCIIP）制造的智能对话机器人哦~"
+    },
+    {
+        "prompt": "魏巍老师",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师是什么时候在华科任教的",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师是什么时候在华科任教的",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师的论文",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍是谁",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "请说一下华中科技大学魏巍老师人怎么样",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "请说一下华中科技大学魏巍老师人怎么样",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你们专业是干什么的",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你们专业是干什么的",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍是谁",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍是一个怎么样的老师",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "如何评价华科魏巍",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "如何评价华科魏巍",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍教授",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你要查询哪个城市的天气",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "CCIIP是什么？",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么？",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师2024年招收博士吗？",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏老师对博士的要求是什么",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏老师还招收博士吗",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏老师招收博士吗",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "CCIIP是什么",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你来自哪里",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "那你介绍一下认知计算与智能信息处理实验室（CCIIP）吧",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "那你介绍一下认知计算与智能信息处理实验室（CCIIP）吧",
+        "response": "华中科技大学“认知计算与智能信息处理实验室(CCIIP)”依托于计算机学院，拥有自由开放的学术氛围和国际前沿的研究方向。点击链接了解更多有关实验室的内容：http://cciip.cs.hust.edu.cn/\n \n联系实验室主任魏巍老师加入我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你知道“公交霉”是哪位歌手的外号吗",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你知道“公交霉”是哪位歌手的外号吗",
+        "response": "小科是由华中科技大学计算机学院认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢～实验室主页：http://cciip.cs.hust.edu.cn/\n \n联系我们：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是基于什么模型训练的",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "可以为我介绍一下魏巍老师吗",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "魏巍老师怎么样",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "你是谁开发的？",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "你是什么时候开发出来的？",
+        "response": "小希是由华中科技大学认知计算与智能信息处理实验室（CCIIP）开发的智能对话机器人呢~"
+    },
+    {
+        "prompt": "我是魏巍",
+        "response": "魏巍老师是认知计算与智能信息处理（CCIIP）实验室的创始人，想加入我们吗？\n \n联系方式：\nTel: 18827440253\nEmail：weiw@hust.edu.cn"
+    },
+    {
+        "prompt": "华中大的小希么",
+        "response": "华农大石希望小学前身为国立大石小学,成立于1942年，位于贵州省毕节市中共百里杜鹃大水乡大石村,因华中农业大学研究生徐本禹来到大石小学，他以吃苦耐劳、兢兢业业、无私奉献的精神感动了千千万万的年轻志愿者。"
+    },
+    {
+        "prompt": "华中大的小希么",
+        "response": "广州中山大学广州中山大学（Sun Yat-sen University,SYSU），简称“中大”，是一所位于中国广东省广州市的综合性大学1，中山大学是中华人民共和国教育部直属重点大学，位列985工程、211工程，2是由孙中山先生亲手创立，有着一百多年办学传统的综合性重点大学。"
+    },
+    {
+        "prompt": "介绍下华中科技大学认知计算与智能信息处理实验室吧",
+        "response": "国家重点实验室5个"
+    },
+    {
+        "prompt": "介绍下华中科技大学认知计算与智能信息处理实验室吧",
+        "response": "国家重点实验室5个"
+    }
+]

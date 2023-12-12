@@ -3,22 +3,27 @@
 # pip install -e .
 eval "$(conda shell.bash hook)"
 
-# name=lu-vae/qwen-sharegpt4
-model=qwen-sharegpt_zh
+model=qwen-sharegpt4
 name=lu-vae/$model
 
+# ln -s /model/qwen-sharegpt4-merged lu-vae/qwen-sharegpt4-merged
+
+source activate lla # or vllm
+export PYTHONPATH=.
+
 # conda activate lla
+# cd $LZY_HOME/lora-merge/hard-moe
 # CUDA_VISIBLE_DEVICES=0 \
-# python server/lora_merge.py \
+# python merge.py \
 # --model-path Qwen/Qwen-14B \
-# --peft-paths $OUT_ROOT/$model \
-# --local /model \
-# --hub lu-vae \
+# --peft-paths $OUT_ROOT/$model
 # cd -
 
-source activate vllm
-export PYTHONPATH=.
-CUDA_VISIBLE_DEVICES=0,3 \
+# mkdir /home/lzy/CCIIP-GPT/ui/lu-vae/
+# ln -s /model/qwen-sharegpt4-merged /home/lzy/CCIIP-GPT/ui/lu-vae/qwen-sharegpt4-merged
+
+LOG_FILE='./gpt.cciiplab.com.log' \
+CUDA_VISIBLE_DEVICES=2,3 \
 python server/openai_server.py \
 --model $name-merged \
 --served-model-name $name-merged \
@@ -26,4 +31,5 @@ python server/openai_server.py \
 --tensor-parallel-size 2 
 # default start at  http://0.0.0.0:8000
 
-# directly curl 
+# autossh 
+# autossh -NR 8.134.19.195:8000:0.0.0.0:8000 -p22 root@8.134.19.195
