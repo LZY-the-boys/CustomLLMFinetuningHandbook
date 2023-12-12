@@ -5,3 +5,15 @@ then based on key words, classify them all into three categories:
  - weiw.json
  - hust_QA.json
  - other_QA.json
+
+TODO:
+
+1. role-play / identity data 
+    防止输出Chatgpt/Openai,需要输出类似内容:`我是基于阿里通义千问模型(Qwen)微调所得，我是由CCIIP实验室开发`
+2. clean / wrong data + dedup
+    小希的数据似乎有不少错误，可以先去除
+    注意去重
+3. 混合方式
+    lora switch
+    模型merge
+    数据merge

@@ -356,10 +356,6 @@
         "response": "CCIIP实验室的李文迪和赵森两位同学获得了2023年研究生国家奖学金。"
     },
     {
-        "prompt": "华科大认知计算与智能信息处理实验室有哪篇论文在ACL 2023上被录用？",
-        "response": "华科大认知计算与智能信息处理实验室的2022级硕士生鲁镇仪的论文“MIRACLE: Towards Personalized Natural Language Explanation Generation with Neural Coverage\"被录用在ACL 2023上。"
-    },
-    {
         "prompt": "CCIIP实验室的师生参与了哪个国际人工智能大会？",
         "response": "CCIIP实验室的师生参与了第32届国际人工智能联合会议（The 32nd International Joint Conference on Artificial Intelligence, IJCAI-23)。"
     },
