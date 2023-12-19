@@ -546,6 +546,41 @@ def load_teknium():
 
     return data
 
+def load_h4_norobots():
+
+    data = datasets.load_dataset('HuggingFaceH4/no_robots')
+    data = datasets.concatenate_datasets([data['train_sft'],data['test_sft']])
+
+    def process(xs):
+        y = []
+        for x in xs:
+            if x['role'] == 'assistant': 
+                y.append({
+                    'from': 'gpt' ,
+                    'value': x['content']
+                })
+            elif x['role'] == 'user':
+                y.append({
+                    'from': 'human',
+                    'value': x['content']
+                })
+            else:
+                y.append(x)
+        return y
+    
+    data = data.map(
+        lambda x: {
+            'conversations': process(x['messages']),
+            'source': 'HuggingFaceH4/no_robots',
+        },
+        remove_columns=data.features,
+        num_proc=os.cpu_count()//2,
+    )
+    data.to_json('/data/dataset/h4_no_robots.jsonl')
+    print(data)
+    return data
+
+
 def load_coig_cqia():
 
     # data = datasets.load_dataset('m-a-p/COIG-CQIA', split='train')
@@ -627,7 +662,7 @@ def load_coig_cqia():
 
 if __name__ == "__main__":
     try:
-        load_sharegpt4()
+        load_h4_norobots()
     except:
         import sys,pdb,bdb
         type, value, tb = sys.exc_info()

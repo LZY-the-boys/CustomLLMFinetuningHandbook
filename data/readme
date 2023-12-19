@@ -41,7 +41,7 @@ Natural Dataset:
 
 - trainset of gsm8k / MATH / bbq / MMLU / other qa (openbookqa,sciq,...)
 - dolly / oasst 
-- [-] bbq
+- bbq
 - [-] HuggingFaceH4/no_robots
 
 
