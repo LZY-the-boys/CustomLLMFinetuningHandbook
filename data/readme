@@ -5,6 +5,7 @@ GPT4 dataset:
 
 instruct format:
 
+openhermes
 - GPTeacher - General Instruct, Roleplay v1, Roleplay v2, and Code Instruct Datasets, by Teknium
 - WizardLM (v1, evol_instruct 70k), by WizardLM Team/nlpxucan
 - Airoboros GPT-4 (v1.0), by JonDurbin
@@ -20,9 +21,13 @@ instruct format:
 
 chat format:
 - WizardLM/WizardLM_evol_instruct_V2_196k
-- Open-Orca/SlimOrca-Dedup
-- openchat/openchat_sharegpt4_dataset
-- sharegpt-zh
+- [-] Open-Orca/SlimOrca-Dedup
+- [-] openchat/openchat_sharegpt4_dataset ()
+- [-] m-a-p/COIG-CQIA (44666)
+- [-] teknium/GPTeacher-General-Instruct (83731)
+- [-] teknium/GPT4-LLM-Cleaned (54568)
+- [-] teknium/dataforge-economics (880)
+- ~~sharegpt-zh~~
 - HuggingFaceH4/ultrachat_200k
 - jondurbin/airoboros-3.1
 - Capybara 1 2 3
@@ -36,8 +41,13 @@ Natural Dataset:
 
 - trainset of gsm8k / MATH / bbq / MMLU / other qa (openbookqa,sciq,...)
 - dolly / oasst 
-- https://huggingface.co/datasets/HuggingFaceH4/no_robots
+- [-] bbq
+- [-] HuggingFaceH4/no_robots
 
+
+DPO
+- Intel/orca_dpo_pairs
+- ultrachat_dpo
 
 Custom Dataset:
 
