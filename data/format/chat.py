@@ -6,6 +6,8 @@ import random
 import pandas as pd
 import multiprocess, os
 
+# NOTICE: 先删除dataset的cache
+
 continue_words = ["继续", "接着写", "接着说", "Continue", "continue"]
 
 def merge_input(x):
@@ -294,7 +296,7 @@ def load_sharegpt4():
         remove_columns=data.features,
         num_proc=os.cpu_count()//2,
     )
-    data.to_json('/data/dataset/sharegpt4.jsonl')
+    data.to_json('/data/dataset/cciip-gpt/sharegpt4.jsonl')
     print(data)
 
     chatgpt_data.to_json('/data/dataset/chatgpt_words_sharegpt.jsonl')
@@ -468,7 +470,8 @@ def load_hust():
             }],
             'source': 'hust-cciip-lab'
         })
-    utils.to_jsonl(y, '/data/dataset/hust.jsonl')
+    import pdb; pdb.set_trace()
+    utils.to_jsonl(y, '/data/dataset/cciip-gpt/hust.jsonl')
     return data
 
 def load_teknium():
@@ -564,8 +567,13 @@ def load_h4_norobots():
                     'from': 'human',
                     'value': x['content']
                 })
+            elif x['role'] == 'system':
+                y.append({
+                    'from': 'system',
+                    'value': x['content']
+                })
             else:
-                y.append(x)
+                import pdb; pdb.set_trace()
         return y
     
     data = data.map(
@@ -574,7 +582,7 @@ def load_h4_norobots():
             'source': 'HuggingFaceH4/no_robots',
         },
         remove_columns=data.features,
-        num_proc=os.cpu_count()//2,
+        num_proc=1,
     )
     data.to_json('/data/dataset/h4_no_robots.jsonl')
     print(data)
