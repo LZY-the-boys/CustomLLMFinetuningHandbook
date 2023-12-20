@@ -18,7 +18,7 @@ openai.api_key="EMPTY"
 openai.api_base = "http://localhost:8000/v1"
 API_MAX_RETRY = 1
 API_RETRY_SLEEP = 10
-EVAL_DIR='/home/LeiFeng/lzy/CCIIP-GPT/eval'
+EVAL_DIR='/home/LeiFeng/lzy/CCIIP-GPT/eval/conv_eval'
 
 configure_logging()
 LOG = logging.getLogger(__name__)
@@ -77,7 +77,7 @@ def alpaca_eval(
 ):
     import datasets
     eval_set = datasets.load_dataset("tatsu-lab/alpaca_eval", "alpaca_eval")["eval"]
-    out_path = f'{EVAL_DIR}/data/alpaca_eval/{model.replace("/","_")}.jsonl'
+    out_path = f'{EVAL_DIR}/alpaca_eval/{model.replace("/","_")}.jsonl'
     ans = []
 
     if os.path.exists(out_path):
@@ -101,8 +101,8 @@ def mt_bench(
     num_choices = 1, # "How many completion choices to generate."
 ):
 
-    question_file = f"{EVAL_DIR}/data/mt_bench/question.jsonl"
-    answer_file = f"{EVAL_DIR}/data/mt_bench/model_answer/{model.replace('/','_')}.jsonl"
+    question_file = f"{EVAL_DIR}/mt_bench/question.jsonl"
+    answer_file = f"{EVAL_DIR}/mt_bench/model_answer/{model.replace('/','_')}.jsonl"
 
     datas = utils.from_jsonl(question_file)
     ans = []

@@ -1,10 +1,8 @@
-import os
 import torch
 from peft import PeftModel, PeftConfig
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
 from transformers import BitsAndBytesConfig
 import torch
-import json
 from typing import List, Dict, Optional
 import json
 
@@ -43,8 +41,8 @@ def main(
 
         name = peft.split('/')[-1]
         if hub:
-            model.push_to_hub(f'{hub}/{name}-merged')
-            tokenizer.push_to_hub(f'{hub}/{name}-merged')
+            model.push_to_hub(f'{hub}/{name}-merged',private=True)
+            tokenizer.push_to_hub(f'{hub}/{name}-merged',private=True)
         elif local:
             model.save_pretrained(f'{local}/{name}-merged')
             tokenizer.save_pretrained(f'{local}/{name}-merged')            

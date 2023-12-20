@@ -4,3 +4,4 @@ __pycache__
 *.xlsx
 *.txt
 *.log
+*.jsonl
