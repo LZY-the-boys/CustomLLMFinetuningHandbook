@@ -8,9 +8,9 @@ name=lu-vae/qwen-v1219-merged
 
 wait_port_available 8000
 
-python client/openai_client.py \
---model $name \
---func $task 
+# python client/openai_client.py \
+# --model $name \
+# --func $task 
 
 # python client/openai_client.py \
 # --model $name \
@@ -18,5 +18,10 @@ python client/openai_client.py \
 
 # 不能叫gradio_client，会导致circular import
 # python client/gradio_web.py \
-# --model lu-vae/qwen-sharegpt4-merged \
+# --model $name \
 # --server-port 8080
+
+
+python client/openai_client.py \
+--model $name \
+--func cli_demo

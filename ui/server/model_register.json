@@ -15,7 +15,7 @@
             "stop": ["Instruction:", "Response:", "</s>", "<|endoftext|>"]
         }
     },
-    "lu-vae/qwen-sharegpt4-merged": {
+    "lu-vae/qwen-chat": {
         "conv_conf": {
             "system_template": "{system_message}\n\n",
             "utterance_template": "{role}: {message}\n\n",

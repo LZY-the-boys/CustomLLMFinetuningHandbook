@@ -156,19 +156,15 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
         - logit_bias (to be supported by vLLM engine)
     """
     try:
-        try:
-            conf = model_register[request.model]
-        except:
-            ret = create_error_response(
-                HTTPStatus.NOT_FOUND,
-                f"The model `{request.model}` does not exist.",
-            )
-            return ret
-
-        # error_check_ret = await check_model(request)
-        error_check_ret = None
-        if error_check_ret is not None:
-            return error_check_ret
+        conf = model_register.get(request.model, model_register["lu-vae/qwen-chat"])
+        # ret = create_error_response(
+        #     HTTPStatus.NOT_FOUND,
+        #     f"The model `{request.model}` does not exist.",
+        # )
+        # return ret
+        # error_check_ret = None
+        # if error_check_ret is not None:
+        #     return error_check_ret
 
         if request.logit_bias is not None and len(request.logit_bias) > 0:
             # TODO: support logit_bias in vLLM engine.
