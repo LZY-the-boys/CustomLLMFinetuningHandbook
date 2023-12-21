@@ -5,7 +5,7 @@ import os
 import random
 import pandas as pd
 import multiprocess, os
-
+import re
 # NOTICE: 先删除dataset的cache
 
 continue_words = ["继续", "接着写", "接着说", "Continue", "continue"]
@@ -668,9 +668,94 @@ def load_coig_cqia():
     utils.to_jsonl(ans, '/data/dataset/map_coig_cqia.jsonl')
     return ans
 
+def check_numbering(text):
+    # Match any sequence of digits followed by a dot and optional whitespace
+    pattern = re.compile(r'\d+\.\s*', flags=re.MULTILINE)
+    matches = pattern.findall(text)
+
+    # leak some
+    if random.choice(list(range(8))) < 2:
+        if '\n* ' in text:
+            re.sub( r'\d+\.\s*', '* ', text)
+        elif '- ' in text:
+            re.sub( r'\d+\.\s*', '- ', text)
+        else:
+            re.sub( r'\d+\.\s*', '', text)
+        return True
+        
+    for i in range(1, len(matches)):
+        
+        current_number = int(matches[i - 1].split('.')[0].strip())
+        next_number = int(matches[i].split('.')[0].strip())
+
+        if next_number != current_number + 1:
+            return False  # Consecutive numbers are not found
+
+        if next_number == current_number:
+            return False  # Repeated numbers are found
+
+    return True
+
+def clean_sharegpt4():
+
+    data = datasets.load_dataset('json', data_files='/data/dataset/cciip-gpt/sharegpt4.jsonl')['train']
+
+    # chatgpt_data = data.filter(
+    #     lambda x: any(
+    #         contains_chatgpt_words(resp['value']) for resp in x['conversations'] if resp['from'] == 'gpt'
+    #     ),
+    #     num_proc=os.cpu_count()//2,
+    # )
+
+    pattern = re.compile(r'^\d+\.\s', flags=re.MULTILINE)
+    # multi_enumerate_data = data.filter(
+    #     lambda x: any(
+    #         len(re.findall(pattern, resp['value'])) for resp in x['conversations'] if resp['from'] == 'gpt'
+    #     ),
+    #     num_proc=os.cpu_count()//2,
+    # )
+    print(data)
+    data = data.filter(
+        lambda x: all(
+            check_numbering(resp['value']) for resp in x['conversations'] if resp['from'] == 'gpt'
+        ),
+        num_proc=os.cpu_count()//2,
+    )
+    tmp = data.filter(
+        lambda x: any(
+            not check_numbering(resp['value']) for resp in x['conversations'] if resp['from'] == 'gpt'
+        ),
+        num_proc=os.cpu_count()//2,
+    )
+    # import pdb; pdb.set_trace()
+    # data = data.map(
+    #     lambda x: any(
+    #         len(re.findall(pattern, resp['value'])) for resp in x['conversations'] if resp['from'] == 'gpt'
+    #     ),
+    #     num_proc=os.cpu_count()//2,
+    # )
+
+    # data = data.map(
+    #     lambda x: {
+    #         'conversations': x['items'],
+    #         'source': 'openchat/sharegpt_gpt4'
+    #     },
+    #     remove_columns=data.features,
+    #     num_proc=os.cpu_count()//2,
+    # )
+
+    print(data)
+    import pdb; pdb.set_trace()
+    data.to_json('/data/dataset/cciip-gpt/sharegpt4.jsonl')
+
+    # chatgpt_data.to_json('/data/dataset/chatgpt_words_sharegpt.jsonl')
+    # print(chatgpt_data)
+    return data
+
+
 if __name__ == "__main__":
     try:
-        load_h4_norobots()
+        clean_sharegpt4()
     except:
         import sys,pdb,bdb
         type, value, tb = sys.exc_info()

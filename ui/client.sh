@@ -8,9 +8,9 @@ name=lu-vae/qwen-v1219-merged
 
 wait_port_available 8000
 
-# python client/openai_client.py \
-# --model $name \
-# --func $task 
+python client/openai_client.py \
+--model $name \
+--func $task 
 
 # python client/openai_client.py \
 # --model $name \
@@ -22,6 +22,6 @@ wait_port_available 8000
 # --server-port 8080
 
 
-python client/openai_client.py \
---model $name \
---func cli_demo
+# python client/openai_client.py \
+# --model $name \
+# --func cli_demo

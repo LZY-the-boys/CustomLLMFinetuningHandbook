@@ -21,8 +21,8 @@ openhermes
 
 chat format:
 - WizardLM/WizardLM_evol_instruct_V2_196k
-- [-] Open-Orca/SlimOrca-Dedup (36k)
-- [-] openchat/openchat_sharegpt4_dataset (3807)
+- [-] Open-Orca/SlimOrca-Dedup (36k) 
+- [-] openchat/openchat_sharegpt4_dataset (3807) [clean!][worsest]
 - [-] m-a-p/COIG-CQIA (44666)
 - [-] teknium/GPTeacher-General-Instruct (83731)
 - [-] teknium/GPT4-LLM-Cleaned (54568)
@@ -47,11 +47,15 @@ Natural Dataset:
 
 DPO
 - Intel/orca_dpo_pairs
-- ultrachat_dpo
+- HuggingFaceH4/ultrafeedback_binarized
+- [-] berkeley-nest/Nectar
 
 Custom Dataset:
 
 - hust dataset
 
 
-v1216 (562677 items)
+v1216 (562677 items, sharegpt vicuna1.1)
+v1221 (559599 items, sharegpt chatml)
+-------
+v1223 -> data mining version

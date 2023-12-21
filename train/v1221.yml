@@ -1,0 +1,90 @@
+base_model: Qwen/Qwen-14B
+base_model_config: Qwen/Qwen-14B
+is_llama_derived_model: false
+model_type: qwen
+load_in_8bit: false
+load_in_4bit: true
+strict: false
+# 可以采用不同的格式共同训练
+# /home/LeiFeng/lzy/axolotl/src/axolotl/utils/data.py
+# d_base_type:d_prompt_style 
+# /home/LeiFeng/lzy/axolotl/src/axolotl/datasets.py: TokenizedPromptDataset.process
+datasets:
+  - path: /data/dataset/cciip-gpt/teknium_gpt4_teacher.jsonl
+    type: sharegpt
+    conversation: chatml
+  - path: /data/dataset/cciip-gpt/teknium_gpt4_llm.jsonl
+    type: sharegpt
+    conversation: chatml
+  - path: /data/dataset/cciip-gpt/slim_orca_dedup.jsonl
+    type: sharegpt
+    conversation: chatml
+  - path: /data/dataset/cciip-gpt/map_coig_cqia.jsonl
+    type: sharegpt
+    conversation: chatml
+  - path: /data/dataset/cciip-gpt/h4_no_robots.jsonl
+    type: sharegpt
+    conversation: chatml
+  - path: /data/dataset/cciip-gpt/teknium_dataforg_economics.jsonl
+    type: sharegpt
+    conversation: chatml
+  - path: /data/dataset/cciip-gpt/sharegpt4.jsonl
+    type: sharegpt
+    conversation: chatml
+dataset_prepared_path: 
+val_set_size: 0
+output_dir: ./qlora-out
+
+adapter: qlora
+lora_model_dir:
+
+sequence_len: 8192
+sample_packing: true
+pad_to_sequence_len: true
+
+lora_r: 32
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules:
+lora_target_linear: true
+lora_fan_in_fan_out:
+
+wandb_project:
+wandb_entity:
+wandb_watch:
+wandb_run_id:
+wandb_log_model:
+
+gradient_accumulation_steps: 4
+micro_batch_size: 2
+num_epochs: 3
+optimizer: paged_adamw_32bit
+lr_scheduler: cosine
+learning_rate: 0.0002
+
+train_on_inputs: false
+group_by_length: false
+bf16: true
+fp16: false
+tf32: false
+
+gradient_checkpointing: true
+early_stopping_patience:
+resume_from_checkpoint:
+local_rank:
+logging_steps: 1
+xformers_attention:
+flash_attention: true
+
+warmup_steps: 
+eval_steps: 
+eval_table_size:
+save_steps:
+debug:
+deepspeed:
+weight_decay: 0.0
+fsdp:
+fsdp_config:
+special_tokens:
+  eos_token: '<|endoftext|>'
+  pad_token: '<|endoftext|>'
