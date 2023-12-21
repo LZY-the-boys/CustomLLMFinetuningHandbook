@@ -1,6 +1,0 @@
-[submodule "train/qwen-dpo"]
-	path = train/qwen-dpo
-	url = https://github.com/LZY-the-boys/dpo
-[submodule "train/qwen-vl-dpo"]
-	path = train/qwen-vl-dpo
-	url = https://github.com/LZY-the-boys/Qwen-VL-DPO
