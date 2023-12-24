@@ -1,7 +1,7 @@
 cd ../ui
 
-bash server.sh &
-task=alpaca_eval bash client.sh &
-task=mt_bench bash client.sh &
+model=qwen-v1223 bash server.sh &
+model=qwen-v1223 task=alpaca_eval bash client.sh &
+model=qwen-v1223 task=mt_bench bash client.sh &
 
 cd -

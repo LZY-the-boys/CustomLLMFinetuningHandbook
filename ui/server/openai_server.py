@@ -156,7 +156,13 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
         - logit_bias (to be supported by vLLM engine)
     """
     try:
-        conf = model_register.get(request.model, model_register["lu-vae/qwen-chat"])
+        if 'v1219' in request.model:
+            model_key="lu-vae/qwen-sharegpt-vicuna"
+        elif 'v1221' in request.model:
+            model_key="lu-vae/qwen-sharegpt-chatml"
+        else:
+            model_key="lu-vae/qwen-sharegpt-chatml"
+        conf = model_register.get(model_key)
         # ret = create_error_response(
         #     HTTPStatus.NOT_FOUND,
         #     f"The model `{request.model}` does not exist.",
@@ -591,6 +597,11 @@ async def create_completion(request: CompletionRequest, raw_request: Request):
     return response
 
 
+def _convert_id_to_token_qwen(self, index):
+    if index in self.decoder:
+        return self.decoder[index]
+    return '<|endoftext|>'
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="vLLM OpenAI-Compatible RESTful API server.")
     parser.add_argument("--host", type=str, default=None, help="host name")
@@ -672,6 +683,7 @@ if __name__ == "__main__":
         tokenizer_mode=engine_model_config.tokenizer_mode,
         trust_remote_code=engine_model_config.trust_remote_code
     )
+    setattr(tokenizer.__class__, '_convert_id_to_token', _convert_id_to_token_qwen)
 
     uvicorn.run(
         app, host=args.host, port=args.port, log_level="info", timeout_keep_alive=TIMEOUT_KEEP_ALIVE

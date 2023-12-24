@@ -15,7 +15,7 @@
             "stop": ["Instruction:", "Response:", "</s>", "<|endoftext|>"]
         }
     },
-    "lu-vae/qwen-chat": {
+    "lu-vae/qwen-sharegpt-vicuna": {
         "conv_conf": {
             "system_template": "{system_message}\n\n",
             "utterance_template": "{role}: {message}\n\n",
@@ -29,6 +29,22 @@
         },
         "sampling_conf": {
             "stop": ["USER:", "ASSISTANT:", "</s>", "<|endoftext|>"]
+        }
+    },
+    "lu-vae/qwen-sharegpt-chatml": {
+        "conv_conf": {
+            "system_template": "<|im_start|>system\n{system_message}<|im_end|>\n",
+            "utterance_template": "{role}\n{message}<|im_end|>\n",
+            "query_template": "{role}\n",
+            "system_message": "",
+            "roles": {
+                "user": "<|im_start|>user",
+                "assistant": "<|im_start|>assistant"
+            },
+            "utterances": []
+        },
+        "sampling_conf": {
+            "stop": ["<|endoftext|>"]
         }
     },
     "default": {

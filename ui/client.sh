@@ -3,8 +3,9 @@ export PYTHONPATH=.
 
 # name=lu-vae/qwen-sharegpt4-merged
 # name=lu-vae/qwen-sharegpt_zh
-name=lu-vae/qwen-v1219-merged
+: ${model:='qwen-v1221'}
 : ${task:='alpaca_eval'}
+name=lu-vae/$model-merged
 
 wait_port_available 8000
 
