@@ -22,13 +22,17 @@ datas=(
 # /home/LeiFeng/lzy/data-mining/instruct_mining/data/platypus-200/processed_randomsampling_200.jsonl
 )
 yaml_file=(
-    /home/LeiFeng/lzy/CCIIP-GPT/train/v1223.yml
+    /home/LeiFeng/lzy/CCIIP-GPT/train/v1225.yml
 )
-for file in "${datas[@]}"; do
-    tasks+=("CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 data_path='$file;sharegpt' bash $home/axolotl/src/run_qwen.sh")
-done
+# for file in "${datas[@]}"; do
+#     tasks+=("CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 data_path='$file;sharegpt' bash $home/axolotl/src/run_qwen.sh")
+# done
+# for file in "${yaml_file[@]}"; do
+#     tasks+=("CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 yaml_file='$file' bash $home/axolotl/src/run_qwen.sh")
+# done
+# ,1,2,3,4,5,6,7
 for file in "${yaml_file[@]}"; do
-    tasks+=("CUDA_VISIBLE_DEVICES=0,1,2,3 yaml_file='$file' bash $home/axolotl/src/run_qwen.sh")
+    tasks+=("CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 yaml_file='$file' bash $home/axolotl/src/run_full.sh")
 done
 }
 

@@ -12,7 +12,7 @@ adapter=qwen-v1223
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 \
 model=Qwen/Qwen-14B-Chat \
-out_dir=$LZY_HOME/CCIIP-GPT/eval/$adapter \
+out_dir=$LZY_HOME/CCIIP-GPT/eval/openllmleaderboard/$adapter \
 peft=$OUT_ROOT/$adapter \
 bash $LZY_HOME/lm-evaluation-harness-leaderboard/eval.sh
 # task=gsm8k \
