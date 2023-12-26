@@ -178,7 +178,7 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
             return create_error_response(HTTPStatus.BAD_REQUEST, "logit_bias is not currently supported")
 
         prompt = await get_gen_prompt(request, conf['conv_conf'])
-        LOG.info({'request':request, 'prompt':prompt})
+        LOG.debug({'request':request})
 
         token_ids, error_check_ret = await check_length(request, prompt=prompt)
         if error_check_ret is not None:
@@ -325,7 +325,7 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
         choices=choices,
         usage=usage,
     )
-    print(response)
+    LOG.info({'prompt':prompt, 'response': response})
     if request.stream:
         # When user requests streaming but we don't stream, we still need to
         # return a streaming response with a single event.
