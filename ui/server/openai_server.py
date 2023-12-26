@@ -11,7 +11,9 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse, Response
 from packaging import version
-from vllm.engine.arg_utils import AsyncEngineArgs
+from vllm.config import (CacheConfig, ModelConfig, ParallelConfig,
+                         SchedulerConfig)
+from vllm.engine.arg_utils import AsyncEngineArgs, EngineArgs
 from vllm.engine.async_llm_engine import AsyncLLMEngine
 from vllm.entrypoints.openai.protocol import (
     CompletionRequest, CompletionResponse, CompletionResponseChoice, CompletionResponseStreamChoice,
@@ -30,6 +32,7 @@ from logging_config import configure_logging
 from conversation import Conversation
 import logging
 import utils
+import os
 
 configure_logging()
 LOG = logging.getLogger(__file__)
@@ -41,6 +44,7 @@ logger = LOG
 served_model = None
 app = fastapi.FastAPI()
 engine = None
+max_model_len = 32768
 
 def create_error_response(status_code: HTTPStatus, message: str) -> JSONResponse:
     return JSONResponse(
@@ -596,11 +600,37 @@ async def create_completion(request: CompletionRequest, raw_request: Request):
 
     return response
 
-
 def _convert_id_to_token_qwen(self, index):
+    # avoid invalid id (qwen embedding size > tokenizer size)
     if index in self.decoder:
         return self.decoder[index]
     return '<|endoftext|>'
+
+def is_adapter_model(model_name_or_path: str, revision: str = "main") -> bool:
+    from huggingface_hub import list_repo_files
+    from huggingface_hub.utils._validators import HFValidationError
+    try:
+        # Try first if model on a Hub repo
+        repo_files = list_repo_files(model_name_or_path, revision=revision)
+    except HFValidationError:
+        # If not, check local repo
+        repo_files = os.listdir(model_name_or_path)
+    return "adapter_model.safetensors" in repo_files or "adapter_model.bin" in repo_files
+
+def create_engine_configs_with_fix_values(
+    self,
+):
+    model_config,cache_config,parallel_config,scheduler_config = self.create_engine_configs_old()
+    # for long
+    # model_config.max_model_len=32768
+    # cache_config.sliding_window=2048
+    # scheduler_config.max_model_len=32768
+    # scheduler_config.max_num_batched_tokens=32768
+    scheduler_config.max_num_batched_tokens=8192
+    scheduler_config.max_model_len=8192
+    model_config.max_model_len=8192
+    return model_config, cache_config, parallel_config, scheduler_config
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="vLLM OpenAI-Compatible RESTful API server.")
@@ -620,6 +650,43 @@ if __name__ == "__main__":
     )
     parser = AsyncEngineArgs.add_cli_args(parser)
     args = parser.parse_args()
+
+    # if lora, merge it first.
+    # TODO: waiting for it to be merge https://github.com/vllm-project/vllm/pull/1804
+    if is_adapter_model(args.model):
+        # load the model, merge the adapter weights and unload the adapter
+        # Note: to run QLora, you will need to merge the based model separately as the merged model in 16bit
+        LOG.info(f"Merging peft adapters for {args.model}")
+        from peft import PeftConfig, PeftModel
+        from transformers import AutoModelForCausalLM, AutoTokenizer
+        peft_config = PeftConfig.from_pretrained(args.model)
+        base_model = AutoModelForCausalLM.from_pretrained(
+            # peft_config.base_model_name_or_path,
+            '/model/Qwen-14B',
+            device_map='auto',
+            use_flash_attention_2=False,
+            torch_dtype=torch.bfloat16,
+            use_cache=True,
+            trust_remote_code=True
+        )
+        model = PeftModel.from_pretrained(
+            base_model, 
+            args.model, 
+        )
+        model.eval()
+        model = model.merge_and_unload(progressbar=True)
+        model_kwargs = None
+
+        name=args.model.split('/')[-1]
+        model.save_pretrained(f'/model/{name}-merged')
+
+        AutoTokenizer.from_pretrained(
+            peft_config.base_model_name_or_path,
+            trust_remote_code=True
+        ).save_pretrained(f'/model/{name}-merged')
+
+        args.model=f'/model/{name}-merged'
+        del model
 
     app.add_middleware(
         CORSMiddleware,
@@ -669,14 +736,12 @@ if __name__ == "__main__":
     #     # import vllm.model_executor.models.qwen as qwen
     #     import vllm.model_executor.models.qwen
     #     vllm.model_executor.models.qwen.hf_model_weights_iterator = _direct_load_model_iterator
-
+    setattr(EngineArgs, 'create_engine_configs_old', EngineArgs.create_engine_configs)
+    setattr(EngineArgs, 'create_engine_configs', create_engine_configs_with_fix_values)
     engine_args = AsyncEngineArgs.from_cli_args(args)
     engine = AsyncLLMEngine.from_engine_args(engine_args)
     engine_model_config = asyncio.run(engine.get_model_config())
-    engine_model_config.max_model_len = 8192
-    # max_model_len = engine_model_config.max_model_len
-    max_model_len = 8192
-
+    
     # A separate tokenizer to map token IDs to strings.
     tokenizer = get_tokenizer(
         engine_model_config.tokenizer,
