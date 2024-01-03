@@ -10,6 +10,8 @@ LLM in cciiplab
 
 ## train language model (lora)(full) 
 
+### SFT
+
 git-submodule: https://github.com/LZY-the-boys/axolotl (dev) (rl-trainer)
 
 Dependency:  
@@ -17,6 +19,12 @@ Dependency:
 -  peft 0.6.0
 -  trl 0.7.2
 -  bitsandbytes 0.41.2
+
+### DPO
+
+- https://github.com/LZY-the-boys/dpo
+- https://github.com/LZY-the-boys/qwen-vl-dpo
+
 
 ## train vision model 
 
