@@ -3,7 +3,7 @@
 # pip install -e .
 eval "$(conda shell.bash hook)"
 
-: ${model:='qwen-v1221'}
+: ${model:='/data/outs/qwen-v1231-dpo-lora/checkpoint-7600'}
 name=lu-vae/$model
 
 # ln -s /model/qwen-sharegpt4-merged lu-vae/qwen-sharegpt4-merged

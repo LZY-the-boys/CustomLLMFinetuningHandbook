@@ -3,7 +3,7 @@
 # pip install -e .
 eval "$(conda shell.bash hook)"
 
-model=/data/outs/qwen-v1225-dpo-lora/checkpoint-1000
+model=/data/outs/qwen-v1226
 
 # ln -s /model/qwen-sharegpt4-merged lu-vae/qwen-sharegpt4-merged
 
@@ -11,10 +11,10 @@ source activate vllm # or vllm
 export PYTHONPATH=.
 
 LOG_FILE='./gpt.cciiplab.com.log' \
-CUDA_VISIBLE_DEVICES=0 \
+CUDA_VISIBLE_DEVICES=6 \
 python server/openai_server.py \
 --model $model \
---served-model-name qwen-v1225 \
+--served-model-name qwen-v1226 \
 --trust-remote-code \
 --tensor-parallel-size 1 \
 # --gpu-memory-utilization 0.4

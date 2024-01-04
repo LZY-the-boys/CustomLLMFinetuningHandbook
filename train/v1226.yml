@@ -35,7 +35,7 @@ dataset_prepared_path:
 val_set_size: 0
 output_dir: 
 
-sequence_len: 4096
+sequence_len: 8192
 sample_packing: true
 pad_to_sequence_len: true
 
@@ -55,10 +55,10 @@ wandb_log_model:
 
 gradient_accumulation_steps: 2
 micro_batch_size: 1
-num_epochs: 3
+num_epochs: 5
 optimizer: paged_adamw_32bit
 lr_scheduler: cosine
-learning_rate: 0.0002 # for llama: 3.0e-4, for mistral: 5.0e-5 学习率过大了
+learning_rate: 2.0e-5 # for llama: 3.0e-4, for mistral: 5.0e-5
 
 train_on_inputs: false
 group_by_length: false
@@ -77,7 +77,7 @@ flash_attention: true
 warmup_steps: 
 eval_steps: 
 eval_table_size:
-save_steps: 300 
+save_steps:  
 debug:
 deepspeed: deepspeed/zero2.json
 weight_decay: 0.0

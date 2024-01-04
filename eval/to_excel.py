@@ -38,7 +38,7 @@ def drop(data):
 
 def main(
     *, 
-    path: str = '/home/lzy/lzy/CCIIP-GPT/eval/openllmleaderboard', 
+    path: str = '/home/LeiFeng/lzy/CCIIP-GPT/eval/openllmleaderboard', 
     tasks: list[str]=['mmlu', 'drop', 'truthfulqa_mc', 'arc_challenge', 'hellaswag', 'winogrande', 'gsm8k'], # 'gsm8k'
 ):
     
