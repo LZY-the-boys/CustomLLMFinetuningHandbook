@@ -192,21 +192,6 @@ def _launch_demo(args, model, tokenizer):
             regen_btn = gr.Button("🤔️ Regenerate (重试)")
             addfile_btn = gr.UploadButton("📁 Upload (上传文件)", file_types=["image"])
 
-        # with gr.Column():
-        #     with gr.Accordion("⚙️ Advanced Settings (进阶设置)", open=False):
-        #         temperature = gr.components.Slider(minimum=0, maximum=1, value=0.7, label="Temperature (=0 greedy; otherwise do sample)")
-        #         max_tokens = gr.components.Slider(
-        #             minimum=1, maximum=2000, step=1, value=1024, label="Max Tokens"
-        #         )
-        #         topp = gr.components.Slider(minimum=0, maximum=1, value=1.0, label="Top p (do sample)")
-        #         topk = gr.components.Slider(minimum=-1, maximum=100, step=1, value=-1, label="Top k (do sample)")
-
-        #         presence_penalty = gr.components.Slider(
-        #             minimum=-2.0, maximum=2.0, step=0.1, value=0.0, label="Presence Penalty"
-        #         )
-        #         frequency_penalty = gr.components.Slider(
-        #             minimum=-2.0, maximum=2.0, step=0.1, value=0.0, label="Frequency Penalty"
-        #         )
 
         submit_btn.click(add_text, [chatbot, task_history, query], [chatbot, task_history]).then(
             predict, [chatbot, task_history], [chatbot], show_progress=True
