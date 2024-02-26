@@ -10,6 +10,7 @@ def main(
     *, 
     model_path: str = 'meta-llama/Llama-2-70b-hf',
     peft_paths: list[str] = None,
+    name: str = None,
     hub: str = None,
     local: str = None,
 ):
@@ -39,7 +40,8 @@ def main(
         )
         model = model.merge_and_unload(progressbar=True,safe_merge=True)
 
-        name = peft.split('/')[-1]
+        if name is None:
+            name = peft.split('/')[-1]
         if hub:
             model.push_to_hub(f'{hub}/{name}-merged',private=True)
             tokenizer.push_to_hub(f'{hub}/{name}-merged',private=True)

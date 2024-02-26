@@ -7,19 +7,24 @@ eval "$(conda shell.bash hook)"
 name=lu-vae/$model
 
 # ln -s /model/qwen-sharegpt4-merged lu-vae/qwen-sharegpt4-merged
+# ln -s /model/qwen-v1221-lora-merged lu-vae/qwen-v1221-lora-merged
+# ln -s /model/Qwen-14B Qwen/Qwen-14B
 
 source activate vllm # or vllm
 export PYTHONPATH=.
 
+# 1.
 LOG_FILE='./gpt.cciiplab.com.log' \
-CUDA_VISIBLE_DEVICES=0 \
+CUDA_VISIBLE_DEVICES=6,7 \
 python server/openai_server.py \
---model $name-merged \
---served-model-name $name-merged \
+--model /home/lzy/.cache/huggingface/hub/models--lu-vae--qwen-v1226/snapshots/bc21fc6f26496ac824f2aad4a98c15691f80db70 \
+--served-model-name lu-vae/qwen-v1226 \
 --trust-remote-code \
---tensor-parallel-size 1 \
-# --gpu-memory-utilization 0.4
+--tensor-parallel-size 2 \
+--gpu-memory-utilization 0.9
+
+# 实际占40%
 # default start at  http://0.0.0.0:8000
 
-# autossh 
+# 2. 
 # autossh -NR 8.134.19.195:8000:0.0.0.0:8000 -p22 root@8.134.19.195
