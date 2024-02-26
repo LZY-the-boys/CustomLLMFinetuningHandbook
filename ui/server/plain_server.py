@@ -5,7 +5,7 @@ from transformers import BitsAndBytesConfig
 from peft import PeftModel
 
 MODEL = 'Qwen/Qwen-14B'
-LORA='/data/outs/qwen-v1221'
+LORA='/data/outs/qwen-v1221-dpo-lora/checkpoint-200'
 DTYPE=torch.bfloat16
 MAXLEN = 8192
 model = transformers.AutoModelForCausalLM.from_pretrained(
@@ -33,7 +33,6 @@ tokenizer = transformers.AutoTokenizer.from_pretrained(
     padding='left',
 )
 tokenizer.pad_token_id=0
-import pdb; pdb.set_trace()
 while True:
     prompt=input('>> User: ')
     encoded = tokenizer(prompt, return_tensors="pt")

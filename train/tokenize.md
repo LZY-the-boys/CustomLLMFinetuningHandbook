@@ -1,4 +1,20 @@
 ```
+loss = dpo_loss(policy_chosen_logps,reference_chosen_logps,policy_rejected_logps,reference_rejected_logps)
+chosen_rewards = self.beta * (policy_chosen_logps - reference_chosen_logps)
+rejected_rewards = self.beta * (policy_rejected_logps - reference_rejected_logps)
+
+metrics[f"{prefix}rewards/chosen"] = chosen_rewards.cpu().mean()
+metrics[f"{prefix}rewards/rejected"] = rejected_rewards.cpu().mean()
+metrics[f"{prefix}rewards/accuracies"] = (chosen_rewards > rejected_rewards).float().cpu().mean()
+metrics[f"{prefix}rewards/margins"] = (chosen_rewards - rejected_rewards).cpu().mean()
+metrics[f"{prefix}logps/rejected"] = policy_rejected_logps.detach().cpu().mean()
+metrics[f"{prefix}logps/chosen"] = policy_chosen_logps.detach().cpu().mean()
+metrics[f"{prefix}logits/rejected"] = policy_rejected_logits.detach().cpu().mean()
+metrics[f"{prefix}logits/chosen"] = policy_chosen_logits.detach().cpu().mean()
+```
+
+
+```
 ['
 <|im_start|>system\nYou are a helpful assistant.
 <|im_end|>\n\n

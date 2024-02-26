@@ -182,7 +182,7 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
             return create_error_response(HTTPStatus.BAD_REQUEST, "logit_bias is not currently supported")
 
         prompt = await get_gen_prompt(request, conf['conv_conf'])
-        LOG.info({'request':request, 'prompt':prompt})
+        LOG.debug({'request':request})
 
         token_ids, error_check_ret = await check_length(request, prompt=prompt)
         if error_check_ret is not None:
@@ -329,7 +329,7 @@ async def create_chat_completion(request: ChatCompletionRequest, raw_request: Re
         choices=choices,
         usage=usage,
     )
-    print(response)
+    LOG.info({'prompt':prompt, 'response': response})
     if request.stream:
         # When user requests streaming but we don't stream, we still need to
         # return a streaming response with a single event.
@@ -661,8 +661,7 @@ if __name__ == "__main__":
         from transformers import AutoModelForCausalLM, AutoTokenizer
         peft_config = PeftConfig.from_pretrained(args.model)
         base_model = AutoModelForCausalLM.from_pretrained(
-            # peft_config.base_model_name_or_path,
-            '/model/Qwen-14B',
+            peft_config.base_model_name_or_path,
             device_map='auto',
             use_flash_attention_2=False,
             torch_dtype=torch.bfloat16,
@@ -677,15 +676,15 @@ if __name__ == "__main__":
         model = model.merge_and_unload(progressbar=True)
         model_kwargs = None
 
-        name=args.model.split('/')[-1]
-        model.save_pretrained(f'/model/{name}-merged')
+        name=args.model.split('/')[-2]
+        model.save_pretrained(f'/data/outs/{name}-merged')
 
         AutoTokenizer.from_pretrained(
             peft_config.base_model_name_or_path,
             trust_remote_code=True
-        ).save_pretrained(f'/model/{name}-merged')
+        ).save_pretrained(f'/data/outs/{name}-merged')
 
-        args.model=f'/model/{name}-merged'
+        args.model=f'/data/outs/{name}-merged'
         del model
 
     app.add_middleware(

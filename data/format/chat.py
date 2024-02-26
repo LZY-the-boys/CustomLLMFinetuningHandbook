@@ -16,6 +16,18 @@ def merge_input(x):
         if len(x['input']) else x['instruction']
     )
 
+def contains_chinese(text):
+    import pycld2 as cld2
+    try:
+        reliable, index, top_3_choices = cld2.detect(text, bestEffort=False) 
+        if not reliable:
+            reliable, index, top_3_choices = cld2.detect(text, bestEffort=True)
+        lang_codes = [ 'zh' if x[1]=='zh-Hant' else x[1] for x in top_3_choices if x[1] != 'un' ]
+        return 'zh' in lang_codes and 'en' not in lang_codes
+    except Exception as e:
+        return False
+    
+
 def contains_chatgpt_words(text):
     replace_keywords = {
         'ChatGPT': 'CCIIP-GPT',
@@ -752,10 +764,34 @@ def clean_sharegpt4():
     # print(chatgpt_data)
     return data
 
+def clean_ultrachat():
+
+    data =  datasets.load_dataset('HuggingFaceH4/ultrafeedback_binarized',split='train_prefs')
+    chinese_data = data.filter(
+        lambda x: all(
+            contains_chinese(resp['content']) for resp in x['chosen']
+        ),
+    )
+    print(chinese_data)
+    chinese_data.to_json('/data/dataset/tmp/chinese.jsonl')
+
+    return data
+
+def clean_intel_orca():
+
+    data =  datasets.load_dataset('Intel/orca_dpo_pairs',split='train')
+    chinese_data = data.filter(
+        lambda x: contains_chinese(x['chosen'])
+    )
+    print(chinese_data)
+    chinese_data.to_json('/data/dataset/tmp/chinese.jsonl')
+
+    return data
 
 if __name__ == "__main__":
     try:
-        clean_sharegpt4()
+        # clean_sharegpt4()
+        clean_intel_orca()
     except:
         import sys,pdb,bdb
         type, value, tb = sys.exc_info()

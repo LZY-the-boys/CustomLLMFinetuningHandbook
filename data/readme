@@ -55,7 +55,15 @@ Custom Dataset:
 - hust dataset
 
 
-v1216 (562677 items, sharegpt vicuna1.1)
-v1221 (559599 items, sharegpt chatml)
--------
-v1223 -> data mining version
+TIGER-Lab/MathInstruct
+argilla/distilabel-math-preference-dpo
+qwedsacf/grade-school-math-instructions
+ise-uiuc/Magicoder-Evol-Instruct-110K
+LDJnr/Capybara
+
+侧重点：
+
+**把mistral也训练一个版本**
+
+预训练： https://huggingface.co/datasets/wenge-research/yayi2_pretrain_data 处理方法
+

@@ -35,7 +35,7 @@
         "conv_conf": {
             "system_template": "<|im_start|>system\n{system_message}<|im_end|>\n",
             "utterance_template": "{role}\n{message}<|im_end|>\n",
-            "query_template": "{role}\n",
+            "query_template": "{role}",
             "system_message": "",
             "roles": {
                 "user": "<|im_start|>user",

@@ -87,12 +87,14 @@ def alpaca_eval(
         print(f'>>> skip {runed} instance')
     
     for example in tqdm.tqdm(eval_set):
-        LOG.info(example["instruction"])
         example["output"] = chat_compeletion_openai(
             model,
             messages = [{"role": "user", "content":example["instruction"]}],
         )
-        LOG.info(example["output"])
+        LOG.info({
+            'instruction': example["instruction"],
+            'output': example["output"]
+        })
         ans.append(example)
     utils.to_jsonl(ans, out_path)
 
