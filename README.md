@@ -3,6 +3,12 @@
 Welcome to the Custom LLM Finetuning Handbook, an example to fine-tuning a Language Learning Model (LLM) from data preparation to deployment. 
 This handbook covers various aspects including data preparation, supervised fine-tuning (SFT), direct preference optimization (DPO), evaluation on common benchmark, and deployment using vLLM with an intuitive user interface.
 
+We have uploaded the trained checkpoint: 
+- https://huggingface.co/lu-vae/qwen1.5-7b-fft
+- https://huggingface.co/lu-vae/llama-8b-fft
+- https://huggingface.co/lu-vae/llama-1.1B-fft
+- https://huggingface.co/lu-vae/qwen-v1231-merged
+
 ## Data Preparation
 
 Data preparation is the most crucial part. Here are the steps involved:
