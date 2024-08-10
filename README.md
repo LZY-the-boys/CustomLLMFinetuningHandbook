@@ -19,12 +19,16 @@ Data preparation is the most crucial part. Here are the steps involved:
 
 ## Training the Language Model
 
+
+
 ### SFT
 
 For SFT, you can use either LoRA (Low-Rank Adaptation) or full model fine-tuning. The primary repository for this process is https://github.com/LZY-the-boys/axolotl 
 clone it and customize the yaml configuration file. 
 
 Multi-modal Training you can visit this: https://github.com/OpenAccess-AI-Collective/axolotl/tree/llava-train
+
+LoRA-example you can vist: https://github.com/Facico/Chinese-Vicuna
 
 Dependency:  
 -  transformers 4.36
@@ -53,7 +57,12 @@ Leaderboard:
 
 Leaderboard: TODO
 
-## deploy UI
+## Merging the Experts
+
+Merging-Kit: https://github.com/arcee-ai/mergekit
+Twin-Merging: https://github.com/LZY-the-boys/Twin-Merging
+
+## Deploy UI
 
 The final step involves deploying your fine-tuned LLM using vLLM, ensuring it is accessible through a user-friendly interface. This section will guide you through the deployment process, ensuring your model is ready for use in real-world applications.
 
