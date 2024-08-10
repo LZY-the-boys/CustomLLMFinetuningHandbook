@@ -1,18 +1,24 @@
-# CCIIP-GPT
+# Custom LLM Finetuning Handbook
 
-LLM in cciiplab 
+Welcome to the Custom LLM Finetuning Handbook, an example to fine-tuning a Language Learning Model (LLM) from data preparation to deployment. 
+This handbook covers various aspects including data preparation, supervised fine-tuning (SFT), direct preference optimization (DPO), evaluation on common benchmark, and deployment using vLLM with an intuitive user interface.
 
-## data prepare
+## Data Preparation
 
-- instruct_mining 
-- openai api
-- hust clean
+Data preparation is the most crucial part. Here are the steps involved:
 
-## train language model (lora)(full) 
+- Instruct Mining: This involves extracting and refining instructions from various sources to create a structured dataset for training.
+- OpenAI API: Utilize the OpenAI API for additional data collection and preprocessing tasks.
+- Hust Clean: A process to clean and standardize custom domain data
+
+## Training the Language Model
 
 ### SFT
 
-git-submodule: https://github.com/LZY-the-boys/axolotl (dev) (rl-trainer)
+For SFT, you can use either LoRA (Low-Rank Adaptation) or full model fine-tuning. The primary repository for this process is https://github.com/LZY-the-boys/axolotl 
+clone it and customize the yaml configuration file. 
+
+Multi-modal Training you can visit this: https://github.com/OpenAccess-AI-Collective/axolotl/tree/llava-train
 
 Dependency:  
 -  transformers 4.36
@@ -22,17 +28,13 @@ Dependency:
 
 ### DPO
 
-- https://github.com/LZY-the-boys/dpo
-- https://github.com/LZY-the-boys/qwen-vl-dpo
+DPO is a method used to optimize the model's performance based on human preferences. The repositories involved are: 
+
+- https://github.com/LZY-the-boys/dpo (for text dpo with Qwen)
+- https://github.com/LZY-the-boys/qwen-vl-dpo (for multi-modal dpo with [Qwen-VL](https://github.com/QwenLM/Qwen-VL) )
 
 
-## train vision model 
-
-qwen-vl: https://github.com/QwenLM/Qwen-VL
-
-train: https://github.com/OpenAccess-AI-Collective/axolotl/tree/llava-train
-
-## eval language model 
+## Evaluation
 
 Leaderboard:
 - lm-eval-harness https://github.com/LZY-the-boys/lm-evaluation-harness-fast (dev)
@@ -47,17 +49,13 @@ Leaderboard: TODO
 
 ## deploy UI
 
-NOTE: currently need to change `sequence_len` in config.json to 8192 to support long conversation
-
-achitecture: ![ui/deploy](ui/deploy.png)
+The final step involves deploying your fine-tuned LLM using vLLM, ensuring it is accessible through a user-friendly interface. This section will guide you through the deployment process, ensuring your model is ready for use in real-world applications.
 
 vllm deploy: https://github.com/LZY-the-boys/vllm
 - support gptq and awq
 - unknown exllama2 https://github.com/turboderp/exllamav2
-- don't support bitsandbytes
+- don't support bitsandbytes currently
 
-language & vision  UI: https://github.com/enricoros/big-agi
-- ~~https://github.com/imoneoi/openchat-ui~~
+UI:  
+- https://github.com/imoneoi/openchat-ui
 - https://github.com/huggingface/chat-ui
-
-other: https://github.com/billmei/every-chatgpt-gui
