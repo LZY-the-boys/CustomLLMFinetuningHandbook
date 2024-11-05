@@ -17,6 +17,8 @@ Data preparation is the most crucial part. Here are the steps involved:
 - OpenAI API: Utilize the OpenAI API for additional data collection and preprocessing tasks.
 - Hust Clean: A process to clean and standardize custom domain data
 
+The collecting data is placed under https://huggingface.co/datasets/lu-vae/cciip-gpt-dataset
+
 ## Training the Language Model
 
 
